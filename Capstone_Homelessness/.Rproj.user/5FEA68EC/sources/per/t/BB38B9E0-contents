@@ -1,0 +1,19 @@
+---
+title: "Homelessness Dataset"
+output: html_notebook
+
+
+```{r}
+library(tidyverse)
+
+data1<- read.csv("MOCK_DATA_v1.csv")
+
+
+data2<- data.frame("Age" = sample(18:80, size= 1000, rep = T), "Date_of_Arrival"=sample(seq(as.Date("2000/1/1"), as.Date("2021/1/1"), by="years"), size= 1000, replace = T), "Total_Days_in_Shelter"= sample(1:100, size=1000, rep = T), "Total_Days_Homeless"=sample(1:100, size=1000, rep = T), "Recurrence"= sample(1:100, size=1000, rep = T), "Party_Size"=sample(1:5, size=1000, rep = T), "Reason" = sample(c( 'A','B','C', 'D'), size = 1000, rep = T), "Risk" = sample(c( 'High','Medium','Low'), size = 1000, rep = T))
+
+data<-bind_cols(data1,data2)
+
+write_csv(data, "homeless_data.csv")
+
+```
+
