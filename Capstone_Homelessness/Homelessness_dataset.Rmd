@@ -47,3 +47,14 @@ write_csv(data.risk, "homeless_data4.csv")
 
 ```
 
+```{r}
+id.data<- data.frame("ID" = 1:100000, "Age" = sample(18:80, size= 100000, rep = T), "Date_of_Arrival"=sample(seq(as.Date("2000/1/1"), as.Date("2021/1/1"), by="years"), size= 100000, replace = T), "Total_Days_in_Shelter"= sample(1:100, size=100000, rep = T), "Total_Days_Homeless"=sample(1:500, size=100000, rep = T), "Recurrence"= sample(1:100, size=100000, rep = T), "Party_Size"=sample(1:5, size=100000, rep = T), "Reason" = sample(c( 'Veteran','Domestic Abuse','Foster System', 'Disability'), size = 100000, rep = T))
+
+id.data.risk<- id.data %>%
+  mutate("P" = risk(Reason, Total_Days_Homeless, Recurrence))%>%
+  mutate("pRisk"= rescale2(P))%>%
+  mutate("Risk"= sample(c( 'High','Medium','Low'), size=100000, prob = data$pRisk, rep = T))
+
+write_csv(data.risk, "id_homeless_data.csv")
+```
+
