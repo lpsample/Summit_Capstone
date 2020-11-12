@@ -28,15 +28,22 @@ if (reas == "Foster System"){
 return (p)
 }
 
+risk.name<- function(pRisk){
+  cat<- sample_n(c( 'High','Medium','Low'), weight = pRisk, rep = T)
+  return(cat)
+}
+
 rescale <- function(x) (x-min(x))/(max(x) - min(x)) * 100
+rescale2<- function(x) (x/sum(x))
 
 data.risk<- data %>%
   mutate("P" = risk(Reason, Total_Days_Homeless, Recurrence))%>%
-  mutate("pRisk"= rescale(P))%>%
-  mutate("Risk"= sample(c( 'High','Medium','Low'), size = 1000, prob = pRisk, rep = T))
+  mutate("pRisk"= rescale2(P))%>%
+  mutate("Risk"= sample(c( 'High','Medium','Low'), size=1000, prob = data$pRisk, rep = T))
 
 
-write_csv(data, "homeless_data.csv")
+
+write_csv(data.risk, "homeless_data4.csv")
 
 ```
 
