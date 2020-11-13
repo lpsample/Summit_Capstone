@@ -6,13 +6,9 @@ output: html_notebook
 ```{r}
 library(tidyverse)
 library(dplyr)
+library(psych)
 
-data1<- read.csv("MOCK_DATA_v1.csv")
-
-
-data2<- data.frame("Age" = sample(18:80, size= 1000, rep = T), "Date_of_Arrival"=sample(seq(as.Date("2000/1/1"), as.Date("2021/1/1"), by="years"), size= 1000, replace = T), "Total_Days_in_Shelter"= sample(1:100, size=1000, rep = T), "Total_Days_Homeless"=sample(1:100, size=1000, rep = T), "Recurrence"= sample(1:100, size=1000, rep = T), "Party_Size"=sample(1:5, size=1000, rep = T), "Reason" = sample(c( 'Veteran','Domestic Abuse','Foster System', 'Disability'), size = 1000, rep = T))
-
-data<-bind_cols(data1,data2)
+data.fake<- read.csv("MOCK_DATA_v1.csv")
 
 risk <- function(reas, TDH, recur){
 p<-recur+ TDH
@@ -28,33 +24,35 @@ if (reas == "Foster System"){
 return (p)
 }
 
-risk.name<- function(pRisk){
-  cat<- sample_n(c( 'High','Medium','Low'), weight = pRisk, rep = T)
-  return(cat)
-}
-
-rescale <- function(x) (x-min(x))/(max(x) - min(x)) * 100
-rescale2<- function(x) (x/sum(x))
-
-data.risk<- data %>%
-  mutate("P" = risk(Reason, Total_Days_Homeless, Recurrence))%>%
-  mutate("pRisk"= rescale2(P))%>%
-  mutate("Risk"= sample(c( 'High','Medium','Low'), size=1000, prob = data$pRisk, rep = T))
-
-
-
-write_csv(data.risk, "homeless_data4.csv")
-
 ```
 
 ```{r}
+risk_group<- function(x,top,bottom){
+  if (x>= top) {
+    return("High")}
+  if (x >= bottom && x < top) {
+    return("Medium")}
+  if (x< bottom) {
+    return("Low")}
+  else {
+    return ("Error")
+  }
+}
+
 id.data<- data.frame("ID" = 1:100000, "Age" = sample(18:80, size= 100000, rep = T), "Date_of_Arrival"=sample(seq(as.Date("2000/1/1"), as.Date("2021/1/1"), by="years"), size= 100000, replace = T), "Total_Days_in_Shelter"= sample(1:100, size=100000, rep = T), "Total_Days_Homeless"=sample(1:500, size=100000, rep = T), "Recurrence"= sample(1:100, size=100000, rep = T), "Party_Size"=sample(1:5, size=100000, rep = T), "Reason" = sample(c( 'Veteran','Domestic Abuse','Foster System', 'Disability'), size = 100000, rep = T))
 
-id.data.risk<- id.data %>%
-  mutate("P" = risk(Reason, Total_Days_Homeless, Recurrence))%>%
-  mutate("pRisk"= rescale2(P))%>%
-  mutate("Risk"= sample(c( 'High','Medium','Low'), size=100000, prob = data$pRisk, rep = T))
 
-write_csv(data.risk, "id_homeless_data.csv")
+
+id.data.risk<- id.data %>%
+  mutate("risk.num" = risk(Reason, Total_Days_Homeless, Recurrence))
+
+bottom.third<- quantile(id.data.risk$risk.num, 0.33, type=7)
+top.third<- quantile(id.data.risk$risk.num, 0.66, type=7)
+
+id.data.risk.group <- id.data.risk %>%
+  dplyr::mutate("Risk"= risk_group(risk.num, top.third, bottom.third))
+
+
+write_csv(id.data.risk.group, "id_homeless_data.csv")
 ```
 

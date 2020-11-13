@@ -1799,47 +1799,106 @@ summary {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGF0YS5yaXNrPC0gZGF0YSAlPiVcbiAgbXV0YXRlKFwiUFwiID0gcmlzayhSZWFzb24sIFRvdGFsX0RheXNfSG9tZWxlc3MsIFJlY3VycmVuY2UpKSU+JVxuICBtdXRhdGUoXCJwUmlza1wiPSByZXNjYWxlMihQKSklPiVcbiAgbXV0YXRlKFwiUmlza1wiPSBzYW1wbGUoYyggJ0hpZ2gnLCdNZWRpdW0nLCdMb3cnKSwgc2l6ZT0xMDAwLCBwcm9iID0gZGF0YSRwUmlzaywgcmVwID0gVCkpXG5cbmBgYCJ9 -->
-<pre class="r"><code>data.risk&lt;- data %&gt;%
-  mutate(&quot;P&quot; = risk(Reason, Total_Days_Homeless, Recurrence))%&gt;%
-  mutate(&quot;pRisk&quot;= rescale2(P))%&gt;%
-  mutate(&quot;Risk&quot;= sample(c( &#39;High&#39;,&#39;Medium&#39;,&#39;Low&#39;), size=1000, prob = data$pRisk, rep = T))
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeSh0aWR5dmVyc2UpXG5gYGAifQ== -->
+<pre class="r"><code>library(tidyverse)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUmVnaXN0ZXJlZCBTMyBtZXRob2RzIG92ZXJ3cml0dGVuIGJ5ICdkYnBseXInOlxuICBtZXRob2QgICAgICAgICBmcm9tXG4gIHByaW50LnRibF9sYXp5ICAgICBcbiAgcHJpbnQudGJsX3NxbCAgICAgIFxu4pSA4pSAIEF0dGFjaGluZyBwYWNrYWdlcyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAgdGlkeXZlcnNlIDEuMy4wIOKUgOKUgFxu4pyTIGdncGxvdDIgMy4zLjIgICAgIOKckyBwdXJyciAgIDAuMy40XG7inJMgdGliYmxlICAzLjAuNCAgICAg4pyTIGRwbHlyICAgMS4wLjJcbuKckyB0aWR5ciAgIDEuMS4yICAgICDinJMgc3RyaW5nciAxLjQuMFxu4pyTIHJlYWRyICAgMS40LjAgICAgIOKckyBmb3JjYXRzIDAuNS4wXG7ilIDilIAgQ29uZmxpY3RzIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgCB0aWR5dmVyc2VfY29uZmxpY3RzKCkg4pSA4pSAXG54IGRwbHlyOjpmaWx0ZXIoKSBtYXNrcyBzdGF0czo6ZmlsdGVyKClcbnggZHBseXI6OmxhZygpICAgIG1hc2tzIHN0YXRzOjpsYWcoKVxuIn0= -->
+<pre><code>Registered S3 methods overwritten by &#39;dbplyr&#39;:
+  method         from
+  print.tbl_lazy     
+  print.tbl_sql      
+── Attaching packages ───────────────────────────────── tidyverse 1.3.0 ──
+✓ ggplot2 3.3.2     ✓ purrr   0.3.4
+✓ tibble  3.0.4     ✓ dplyr   1.0.2
+✓ tidyr   1.1.2     ✓ stringr 1.4.0
+✓ readr   1.4.0     ✓ forcats 0.5.0
+── Conflicts ──────────────────────────────────── tidyverse_conflicts() ──
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShkcGx5cilcbmxpYnJhcnkocHN5Y2gpXG5gYGAifQ== -->
+<pre class="r"><code>library(dplyr)
+library(psych)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5BdHRhY2hpbmcgcGFja2FnZTog4oCYcHN5Y2jigJlcblxuVGhlIGZvbGxvd2luZyBvYmplY3RzIGFyZSBtYXNrZWQgZnJvbSDigJhwYWNrYWdlOmdncGxvdDLigJk6XG5cbiAgICAlKyUsIGFscGhhXG4ifQ== -->
+<pre><code>
+Attaching package: ‘psych’
+
+The following objects are masked from ‘package:ggplot2’:
+
+    %+%, alpha</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGF0YS5mYWtlPC0gcmVhZC5jc3YoXCJNT0NLX0RBVEFfdjEuY3N2XCIpXG5cbnJpc2sgPC0gZnVuY3Rpb24ocmVhcywgVERILCByZWN1cil7XG5wPC1yZWN1cisgVERIXG5pZiAocmVhcz09XCJWZXRlcmFuXCIpe1xuICBwPC0gcCArIDEwMFxufVxuaWYgKHJlYXMgPT0gXCJEaXNhYmlsaXR5XCIpe1xuICBwPC0gcCArIDUwXG59XG5pZiAocmVhcyA9PSBcIkZvc3RlciBTeXN0ZW1cIil7XG4gIHA8LSBwICsgMjVcbn1cbnJldHVybiAocClcbn1cblxuYGBgIn0= -->
+<pre class="r"><code>data.fake&lt;- read.csv(&quot;MOCK_DATA_v1.csv&quot;)
+
+risk &lt;- function(reas, TDH, recur){
+p&lt;-recur+ TDH
+if (reas==&quot;Veteran&quot;){
+  p&lt;- p + 100
+}
+if (reas == &quot;Disability&quot;){
+  p&lt;- p + 50
+}
+if (reas == &quot;Foster System&quot;){
+  p&lt;- p + 25
+}
+return (p)
+}
 </code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiUHJvYmxlbSB3aXRoIGBtdXRhdGUoKWAgaW5wdXQgYFBgLlxu4oS5IHRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG7ihLkgSW5wdXQgYFBgIGlzIGByaXNrKFJlYXNvbiwgVG90YWxfRGF5c19Ib21lbGVzcywgUmVjdXJyZW5jZSlgLnRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkUHJvYmxlbSB3aXRoIGBtdXRhdGUoKWAgaW5wdXQgYFBgLlxu4oS5IHRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG7ihLkgSW5wdXQgYFBgIGlzIGByaXNrKFJlYXNvbiwgVG90YWxfRGF5c19Ib21lbGVzcywgUmVjdXJyZW5jZSlgLnRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkUHJvYmxlbSB3aXRoIGBtdXRhdGUoKWAgaW5wdXQgYFBgLlxu4oS5IHRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG7ihLkgSW5wdXQgYFBgIGlzIGByaXNrKFJlYXNvbiwgVG90YWxfRGF5c19Ib21lbGVzcywgUmVjdXJyZW5jZSlgLnRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG4ifQ== -->
-<pre><code>Problem with `mutate()` input `P`.
-ℹ the condition has length &gt; 1 and only the first element will be used
-ℹ Input `P` is `risk(Reason, Total_Days_Homeless, Recurrence)`.the condition has length &gt; 1 and only the first element will be usedProblem with `mutate()` input `P`.
-ℹ the condition has length &gt; 1 and only the first element will be used
-ℹ Input `P` is `risk(Reason, Total_Days_Homeless, Recurrence)`.the condition has length &gt; 1 and only the first element will be usedProblem with `mutate()` input `P`.
-ℹ the condition has length &gt; 1 and only the first element will be used
-ℹ Input `P` is `risk(Reason, Total_Days_Homeless, Recurrence)`.the condition has length &gt; 1 and only the first element will be used</code></pre>
-<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaWQuZGF0YS5yaXNrPC0gaWQuZGF0YSAlPiVcbiAgbXV0YXRlKFwiUFwiID0gcmlzayhSZWFzb24sIFRvdGFsX0RheXNfSG9tZWxlc3MsIFJlY3VycmVuY2UpKSU+JVxuICBtdXRhdGUoXCJwUmlza1wiPSByZXNjYWxlMihQKSklPiVcbiAgbXV0YXRlKFwiUmlza1wiPSBzYW1wbGUoYyggJ0hpZ2gnLCdNZWRpdW0nLCdMb3cnKSwgc2l6ZT0xMDAwMDAsIHByb2IgPSBkYXRhJHBSaXNrLCByZXAgPSBUKSlcblxuYGBgIn0= -->
-<pre class="r"><code>id.data.risk&lt;- id.data %&gt;%
-  mutate(&quot;P&quot; = risk(Reason, Total_Days_Homeless, Recurrence))%&gt;%
-  mutate(&quot;pRisk&quot;= rescale2(P))%&gt;%
-  mutate(&quot;Risk&quot;= sample(c( &#39;High&#39;,&#39;Medium&#39;,&#39;Low&#39;), size=100000, prob = data$pRisk, rep = T))
-</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmlza19ncm91cDwtIGZ1bmN0aW9uKHgsdG9wLGJvdHRvbSl7XG4gIGlmICh4Pj0gdG9wKSB7XG4gICAgcmV0dXJuKFwiSGlnaFwiKX1cbiAgaWYgKHggPj0gYm90dG9tICYmIHggPCB0b3ApIHtcbiAgICByZXR1cm4oXCJNZWRpdW1cIil9XG4gIGlmICh4PCBib3R0b20pIHtcbiAgICByZXR1cm4oXCJMb3dcIil9XG4gIGVsc2Uge1xuICAgIHJldHVybiAoXCJFcnJvclwiKVxuICB9XG59XG5cbmlkLmRhdGE8LSBkYXRhLmZyYW1lKFwiSURcIiA9IDE6MTAwMDAwLCBcIkFnZVwiID0gc2FtcGxlKDE4OjgwLCBzaXplPSAxMDAwMDAsIHJlcCA9IFQpLCBcIkRhdGVfb2ZfQXJyaXZhbFwiPXNhbXBsZShzZXEoYXMuRGF0ZShcIjIwMDAvMS8xXCIpLCBhcy5EYXRlKFwiMjAyMS8xLzFcIiksIGJ5PVwieWVhcnNcIiksIHNpemU9IDEwMDAwMCwgcmVwbGFjZSA9IFQpLCBcIlRvdGFsX0RheXNfaW5fU2hlbHRlclwiPSBzYW1wbGUoMToxMDAsIHNpemU9MTAwMDAwLCByZXAgPSBUKSwgXCJUb3RhbF9EYXlzX0hvbWVsZXNzXCI9c2FtcGxlKDE6NTAwLCBzaXplPTEwMDAwMCwgcmVwID0gVCksIFwiUmVjdXJyZW5jZVwiPSBzYW1wbGUoMToxMDAsIHNpemU9MTAwMDAwLCByZXAgPSBUKSwgXCJQYXJ0eV9TaXplXCI9c2FtcGxlKDE6NSwgc2l6ZT0xMDAwMDAsIHJlcCA9IFQpLCBcIlJlYXNvblwiID0gc2FtcGxlKGMoICdWZXRlcmFuJywnRG9tZXN0aWMgQWJ1c2UnLCdGb3N0ZXIgU3lzdGVtJywgJ0Rpc2FiaWxpdHknKSwgc2l6ZSA9IDEwMDAwMCwgcmVwID0gVCkpXG5cblxuXG5pZC5kYXRhLnJpc2s8LSBpZC5kYXRhICU+JVxuICBtdXRhdGUoXCJyaXNrLm51bVwiID0gcmlzayhSZWFzb24sIFRvdGFsX0RheXNfSG9tZWxlc3MsIFJlY3VycmVuY2UpKVxuYGBgIn0= -->
+<pre class="r"><code>risk_group&lt;- function(x,top,bottom){
+  if (x&gt;= top) {
+    return(&quot;High&quot;)}
+  if (x &gt;= bottom &amp;&amp; x &lt; top) {
+    return(&quot;Medium&quot;)}
+  if (x&lt; bottom) {
+    return(&quot;Low&quot;)}
+  else {
+    return (&quot;Error&quot;)
+  }
+}
+
+id.data&lt;- data.frame(&quot;ID&quot; = 1:100000, &quot;Age&quot; = sample(18:80, size= 100000, rep = T), &quot;Date_of_Arrival&quot;=sample(seq(as.Date(&quot;2000/1/1&quot;), as.Date(&quot;2021/1/1&quot;), by=&quot;years&quot;), size= 100000, replace = T), &quot;Total_Days_in_Shelter&quot;= sample(1:100, size=100000, rep = T), &quot;Total_Days_Homeless&quot;=sample(1:500, size=100000, rep = T), &quot;Recurrence&quot;= sample(1:100, size=100000, rep = T), &quot;Party_Size&quot;=sample(1:5, size=100000, rep = T), &quot;Reason&quot; = sample(c( &#39;Veteran&#39;,&#39;Domestic Abuse&#39;,&#39;Foster System&#39;, &#39;Disability&#39;), size = 100000, rep = T))
+
+
+
+id.data.risk&lt;- id.data %&gt;%
+  mutate(&quot;risk.num&quot; = risk(Reason, Total_Days_Homeless, Recurrence))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiUHJvYmxlbSB3aXRoIGBtdXRhdGUoKWAgaW5wdXQgYFBgLlxu4oS5IHRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG7ihLkgSW5wdXQgYFBgIGlzIGByaXNrKFJlYXNvbiwgVG90YWxfRGF5c19Ib21lbGVzcywgUmVjdXJyZW5jZSlgLnRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkUHJvYmxlbSB3aXRoIGBtdXRhdGUoKWAgaW5wdXQgYFBgLlxu4oS5IHRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG7ihLkgSW5wdXQgYFBgIGlzIGByaXNrKFJlYXNvbiwgVG90YWxfRGF5c19Ib21lbGVzcywgUmVjdXJyZW5jZSlgLnRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkUHJvYmxlbSB3aXRoIGBtdXRhdGUoKWAgaW5wdXQgYFBgLlxu4oS5IHRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG7ihLkgSW5wdXQgYFBgIGlzIGByaXNrKFJlYXNvbiwgVG90YWxfRGF5c19Ib21lbGVzcywgUmVjdXJyZW5jZSlgLnRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG4ifQ== -->
-<pre><code>Problem with `mutate()` input `P`.
+<!-- rnb-output-begin eyJkYXRhIjoiUHJvYmxlbSB3aXRoIGBtdXRhdGUoKWAgaW5wdXQgYHJpc2subnVtYC5cbuKEuSB0aGUgY29uZGl0aW9uIGhhcyBsZW5ndGggPiAxIGFuZCBvbmx5IHRoZSBmaXJzdCBlbGVtZW50IHdpbGwgYmUgdXNlZFxu4oS5IElucHV0IGByaXNrLm51bWAgaXMgYHJpc2soUmVhc29uLCBUb3RhbF9EYXlzX0hvbWVsZXNzLCBSZWN1cnJlbmNlKWAudGhlIGNvbmRpdGlvbiBoYXMgbGVuZ3RoID4gMSBhbmQgb25seSB0aGUgZmlyc3QgZWxlbWVudCB3aWxsIGJlIHVzZWRQcm9ibGVtIHdpdGggYG11dGF0ZSgpYCBpbnB1dCBgcmlzay5udW1gLlxu4oS5IHRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG7ihLkgSW5wdXQgYHJpc2subnVtYCBpcyBgcmlzayhSZWFzb24sIFRvdGFsX0RheXNfSG9tZWxlc3MsIFJlY3VycmVuY2UpYC50aGUgY29uZGl0aW9uIGhhcyBsZW5ndGggPiAxIGFuZCBvbmx5IHRoZSBmaXJzdCBlbGVtZW50IHdpbGwgYmUgdXNlZFByb2JsZW0gd2l0aCBgbXV0YXRlKClgIGlucHV0IGByaXNrLm51bWAuXG7ihLkgdGhlIGNvbmRpdGlvbiBoYXMgbGVuZ3RoID4gMSBhbmQgb25seSB0aGUgZmlyc3QgZWxlbWVudCB3aWxsIGJlIHVzZWRcbuKEuSBJbnB1dCBgcmlzay5udW1gIGlzIGByaXNrKFJlYXNvbiwgVG90YWxfRGF5c19Ib21lbGVzcywgUmVjdXJyZW5jZSlgLnRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG4ifQ== -->
+<pre><code>Problem with `mutate()` input `risk.num`.
 ℹ the condition has length &gt; 1 and only the first element will be used
-ℹ Input `P` is `risk(Reason, Total_Days_Homeless, Recurrence)`.the condition has length &gt; 1 and only the first element will be usedProblem with `mutate()` input `P`.
+ℹ Input `risk.num` is `risk(Reason, Total_Days_Homeless, Recurrence)`.the condition has length &gt; 1 and only the first element will be usedProblem with `mutate()` input `risk.num`.
 ℹ the condition has length &gt; 1 and only the first element will be used
-ℹ Input `P` is `risk(Reason, Total_Days_Homeless, Recurrence)`.the condition has length &gt; 1 and only the first element will be usedProblem with `mutate()` input `P`.
+ℹ Input `risk.num` is `risk(Reason, Total_Days_Homeless, Recurrence)`.the condition has length &gt; 1 and only the first element will be usedProblem with `mutate()` input `risk.num`.
 ℹ the condition has length &gt; 1 and only the first element will be used
-ℹ Input `P` is `risk(Reason, Total_Days_Homeless, Recurrence)`.the condition has length &gt; 1 and only the first element will be used</code></pre>
+ℹ Input `risk.num` is `risk(Reason, Total_Days_Homeless, Recurrence)`.the condition has length &gt; 1 and only the first element will be used</code></pre>
 <!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYm90dG9tLnRoaXJkPC0gcXVhbnRpbGUoaWQuZGF0YS5yaXNrJHJpc2subnVtLCAwLjMzLCB0eXBlPTcpXG50b3AudGhpcmQ8LSBxdWFudGlsZShpZC5kYXRhLnJpc2skcmlzay5udW0sIDAuNjYsIHR5cGU9NylcblxuaWQuZGF0YS5yaXNrLmdyb3VwIDwtIGlkLmRhdGEucmlzayAlPiVcbiAgZHBseXI6Om11dGF0ZShcIlJpc2tcIj0gcmlza19ncm91cChyaXNrLm51bSwgdG9wLnRoaXJkLCBib3R0b20udGhpcmQpKVxuYGBgIn0= -->
+<pre class="r"><code>bottom.third&lt;- quantile(id.data.risk$risk.num, 0.33, type=7)
+top.third&lt;- quantile(id.data.risk$risk.num, 0.66, type=7)
+
+id.data.risk.group &lt;- id.data.risk %&gt;%
+  dplyr::mutate(&quot;Risk&quot;= risk_group(risk.num, top.third, bottom.third))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUHJvYmxlbSB3aXRoIGBtdXRhdGUoKWAgaW5wdXQgYFJpc2tgLlxu4oS5IHRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG7ihLkgSW5wdXQgYFJpc2tgIGlzIGByaXNrX2dyb3VwKHJpc2subnVtLCB0b3AudGhpcmQsIGJvdHRvbS50aGlyZClgLnRoZSBjb25kaXRpb24gaGFzIGxlbmd0aCA+IDEgYW5kIG9ubHkgdGhlIGZpcnN0IGVsZW1lbnQgd2lsbCBiZSB1c2VkXG4ifQ== -->
+<pre><code>Problem with `mutate()` input `Risk`.
+ℹ the condition has length &gt; 1 and only the first element will be used
+ℹ Input `Risk` is `risk_group(risk.num, top.third, bottom.third)`.the condition has length &gt; 1 and only the first element will be used</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGVfY3N2KGlkLmRhdGEucmlzay5ncm91cCwgXCJpZF9ob21lbGVzc19kYXRhLmNzdlwiKVxuYGBgIn0= -->
+<pre class="r"><code>write_csv(id.data.risk.group, &quot;id_homeless_data.csv&quot;)</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiSG9tZWxlc3NuZXNzIERhdGFzZXQiCm91dHB1dDogaHRtbF9ub3RlYm9vawotLS0KCmBgYHtyfQpsaWJyYXJ5KHRpZHl2ZXJzZSkKbGlicmFyeShkcGx5cikKCmRhdGExPC0gcmVhZC5jc3YoIk1PQ0tfREFUQV92MS5jc3YiKQoKCmRhdGEyPC0gZGF0YS5mcmFtZSgiQWdlIiA9IHNhbXBsZSgxODo4MCwgc2l6ZT0gMTAwMCwgcmVwID0gVCksICJEYXRlX29mX0Fycml2YWwiPXNhbXBsZShzZXEoYXMuRGF0ZSgiMjAwMC8xLzEiKSwgYXMuRGF0ZSgiMjAyMS8xLzEiKSwgYnk9InllYXJzIiksIHNpemU9IDEwMDAsIHJlcGxhY2UgPSBUKSwgIlRvdGFsX0RheXNfaW5fU2hlbHRlciI9IHNhbXBsZSgxOjEwMCwgc2l6ZT0xMDAwLCByZXAgPSBUKSwgIlRvdGFsX0RheXNfSG9tZWxlc3MiPXNhbXBsZSgxOjEwMCwgc2l6ZT0xMDAwLCByZXAgPSBUKSwgIlJlY3VycmVuY2UiPSBzYW1wbGUoMToxMDAsIHNpemU9MTAwMCwgcmVwID0gVCksICJQYXJ0eV9TaXplIj1zYW1wbGUoMTo1LCBzaXplPTEwMDAsIHJlcCA9IFQpLCAiUmVhc29uIiA9IHNhbXBsZShjKCAnVmV0ZXJhbicsJ0RvbWVzdGljIEFidXNlJywnRm9zdGVyIFN5c3RlbScsICdEaXNhYmlsaXR5JyksIHNpemUgPSAxMDAwLCByZXAgPSBUKSkKCmRhdGE8LWJpbmRfY29scyhkYXRhMSxkYXRhMikKCnJpc2sgPC0gZnVuY3Rpb24ocmVhcywgVERILCByZWN1cil7CnA8LXJlY3VyKyBUREgKaWYgKHJlYXM9PSJWZXRlcmFuIil7CiAgcDwtIHAgKyAxMDAKfQppZiAocmVhcyA9PSAiRGlzYWJpbGl0eSIpewogIHA8LSBwICsgNTAKfQppZiAocmVhcyA9PSAiRm9zdGVyIFN5c3RlbSIpewogIHA8LSBwICsgMjUKfQpyZXR1cm4gKHApCn0KCnJpc2submFtZTwtIGZ1bmN0aW9uKHBSaXNrKXsKICBjYXQ8LSBzYW1wbGVfbihjKCAnSGlnaCcsJ01lZGl1bScsJ0xvdycpLCB3ZWlnaHQgPSBwUmlzaywgcmVwID0gVCkKICByZXR1cm4oY2F0KQp9CgpyZXNjYWxlIDwtIGZ1bmN0aW9uKHgpICh4LW1pbih4KSkvKG1heCh4KSAtIG1pbih4KSkgKiAxMDAKcmVzY2FsZTI8LSBmdW5jdGlvbih4KSAoeC9zdW0oeCkpCgpkYXRhLnJpc2s8LSBkYXRhICU+JQogIG11dGF0ZSgiUCIgPSByaXNrKFJlYXNvbiwgVG90YWxfRGF5c19Ib21lbGVzcywgUmVjdXJyZW5jZSkpJT4lCiAgbXV0YXRlKCJwUmlzayI9IHJlc2NhbGUyKFApKSU+JQogIG11dGF0ZSgiUmlzayI9IHNhbXBsZShjKCAnSGlnaCcsJ01lZGl1bScsJ0xvdycpLCBzaXplPTEwMDAsIHByb2IgPSBkYXRhJHBSaXNrLCByZXAgPSBUKSkKCgoKd3JpdGVfY3N2KGRhdGEucmlzaywgImhvbWVsZXNzX2RhdGE0LmNzdiIpCgpgYGAKCmBgYHtyfQppZC5kYXRhPC0gZGF0YS5mcmFtZSgiSUQiID0gMToxMDAwMDAsICJBZ2UiID0gc2FtcGxlKDE4OjgwLCBzaXplPSAxMDAwMDAsIHJlcCA9IFQpLCAiRGF0ZV9vZl9BcnJpdmFsIj1zYW1wbGUoc2VxKGFzLkRhdGUoIjIwMDAvMS8xIiksIGFzLkRhdGUoIjIwMjEvMS8xIiksIGJ5PSJ5ZWFycyIpLCBzaXplPSAxMDAwMDAsIHJlcGxhY2UgPSBUKSwgIlRvdGFsX0RheXNfaW5fU2hlbHRlciI9IHNhbXBsZSgxOjEwMCwgc2l6ZT0xMDAwMDAsIHJlcCA9IFQpLCAiVG90YWxfRGF5c19Ib21lbGVzcyI9c2FtcGxlKDE6NTAwLCBzaXplPTEwMDAwMCwgcmVwID0gVCksICJSZWN1cnJlbmNlIj0gc2FtcGxlKDE6MTAwLCBzaXplPTEwMDAwMCwgcmVwID0gVCksICJQYXJ0eV9TaXplIj1zYW1wbGUoMTo1LCBzaXplPTEwMDAwMCwgcmVwID0gVCksICJSZWFzb24iID0gc2FtcGxlKGMoICdWZXRlcmFuJywnRG9tZXN0aWMgQWJ1c2UnLCdGb3N0ZXIgU3lzdGVtJywgJ0Rpc2FiaWxpdHknKSwgc2l6ZSA9IDEwMDAwMCwgcmVwID0gVCkpCgppZC5kYXRhLnJpc2s8LSBpZC5kYXRhICU+JQogIG11dGF0ZSgiUCIgPSByaXNrKFJlYXNvbiwgVG90YWxfRGF5c19Ib21lbGVzcywgUmVjdXJyZW5jZSkpJT4lCiAgbXV0YXRlKCJwUmlzayI9IHJlc2NhbGUyKFApKSU+JQogIG11dGF0ZSgiUmlzayI9IHNhbXBsZShjKCAnSGlnaCcsJ01lZGl1bScsJ0xvdycpLCBzaXplPTEwMDAwMCwgcHJvYiA9IGRhdGEkcFJpc2ssIHJlcCA9IFQpKQoKd3JpdGVfY3N2KGRhdGEucmlzaywgImlkX2hvbWVsZXNzX2RhdGEuY3N2IikKYGBgCgo=</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiSG9tZWxlc3NuZXNzIERhdGFzZXQiCm91dHB1dDogaHRtbF9ub3RlYm9vawotLS0KCmBgYHtyfQpsaWJyYXJ5KHRpZHl2ZXJzZSkKbGlicmFyeShkcGx5cikKbGlicmFyeShwc3ljaCkKCmRhdGEuZmFrZTwtIHJlYWQuY3N2KCJNT0NLX0RBVEFfdjEuY3N2IikKCnJpc2sgPC0gZnVuY3Rpb24ocmVhcywgVERILCByZWN1cil7CnA8LXJlY3VyKyBUREgKaWYgKHJlYXM9PSJWZXRlcmFuIil7CiAgcDwtIHAgKyAxMDAKfQppZiAocmVhcyA9PSAiRGlzYWJpbGl0eSIpewogIHA8LSBwICsgNTAKfQppZiAocmVhcyA9PSAiRm9zdGVyIFN5c3RlbSIpewogIHA8LSBwICsgMjUKfQpyZXR1cm4gKHApCn0KCmBgYAoKYGBge3J9CnJpc2tfZ3JvdXA8LSBmdW5jdGlvbih4LHRvcCxib3R0b20pewogIGlmICh4Pj0gdG9wKSB7CiAgICByZXR1cm4oIkhpZ2giKX0KICBpZiAoeCA+PSBib3R0b20gJiYgeCA8IHRvcCkgewogICAgcmV0dXJuKCJNZWRpdW0iKX0KICBpZiAoeDwgYm90dG9tKSB7CiAgICByZXR1cm4oIkxvdyIpfQogIGVsc2UgewogICAgcmV0dXJuICgiRXJyb3IiKQogIH0KfQoKaWQuZGF0YTwtIGRhdGEuZnJhbWUoIklEIiA9IDE6MTAwMDAwLCAiQWdlIiA9IHNhbXBsZSgxODo4MCwgc2l6ZT0gMTAwMDAwLCByZXAgPSBUKSwgIkRhdGVfb2ZfQXJyaXZhbCI9c2FtcGxlKHNlcShhcy5EYXRlKCIyMDAwLzEvMSIpLCBhcy5EYXRlKCIyMDIxLzEvMSIpLCBieT0ieWVhcnMiKSwgc2l6ZT0gMTAwMDAwLCByZXBsYWNlID0gVCksICJUb3RhbF9EYXlzX2luX1NoZWx0ZXIiPSBzYW1wbGUoMToxMDAsIHNpemU9MTAwMDAwLCByZXAgPSBUKSwgIlRvdGFsX0RheXNfSG9tZWxlc3MiPXNhbXBsZSgxOjUwMCwgc2l6ZT0xMDAwMDAsIHJlcCA9IFQpLCAiUmVjdXJyZW5jZSI9IHNhbXBsZSgxOjEwMCwgc2l6ZT0xMDAwMDAsIHJlcCA9IFQpLCAiUGFydHlfU2l6ZSI9c2FtcGxlKDE6NSwgc2l6ZT0xMDAwMDAsIHJlcCA9IFQpLCAiUmVhc29uIiA9IHNhbXBsZShjKCAnVmV0ZXJhbicsJ0RvbWVzdGljIEFidXNlJywnRm9zdGVyIFN5c3RlbScsICdEaXNhYmlsaXR5JyksIHNpemUgPSAxMDAwMDAsIHJlcCA9IFQpKQoKCgppZC5kYXRhLnJpc2s8LSBpZC5kYXRhICU+JQogIG11dGF0ZSgicmlzay5udW0iID0gcmlzayhSZWFzb24sIFRvdGFsX0RheXNfSG9tZWxlc3MsIFJlY3VycmVuY2UpKQoKYm90dG9tLnRoaXJkPC0gcXVhbnRpbGUoaWQuZGF0YS5yaXNrJHJpc2subnVtLCAwLjMzLCB0eXBlPTcpCnRvcC50aGlyZDwtIHF1YW50aWxlKGlkLmRhdGEucmlzayRyaXNrLm51bSwgMC42NiwgdHlwZT03KQoKaWQuZGF0YS5yaXNrLmdyb3VwIDwtIGlkLmRhdGEucmlzayAlPiUKICBkcGx5cjo6bXV0YXRlKCJSaXNrIj0gcmlza19ncm91cChyaXNrLm51bSwgdG9wLnRoaXJkLCBib3R0b20udGhpcmQpKQoKCndyaXRlX2NzdihpZC5kYXRhLnJpc2suZ3JvdXAsICJpZF9ob21lbGVzc19kYXRhLmNzdiIpCmBgYAoK</div>
 
 
 
