@@ -10,16 +10,34 @@ library(psych)
 
 data.fake<- read.csv("MOCK_DATA_v1.csv")
 
-risk <- function(reas, TDH, recur){
+risk <- function(reas, TDH, recur, trans, crim, mental, edu, gend){
 p<-recur+ TDH
 if (reas=="Veteran"){
-  p<- p + 100
+  p<- p + 2000
 }
 if (reas == "Disability"){
-  p<- p + 50
+  p<- p + 1500
 }
 if (reas == "Foster System"){
-  p<- p + 25
+  p<- p + 1000
+}
+if (trans){
+  p<- p + 2000
+}
+if (crim){
+  p<- p + 1000
+}
+if (edu == "Incomplete Highschool"){
+  p<- p + 2000
+}
+if (edu %in% c('Completed Highschool','Some College', 'Completed College')){
+  p<- p - 1000
+}
+if (mental){
+  p<- p + 2000
+}
+if (gend == "Nonbinary"){
+  p<- p + 2000
 }
 return (p)
 }
@@ -40,19 +58,33 @@ risk_group<- function(x,top,bottom){
 }
 
 risk_odds<- function(risk.group.name){
-  if (risk.group.name== "High") return(list(c(.90, .05, .05)))
-  if (risk.group.name== "Medium") return(list(c(.05, .9, .05)))
-  else return (list(c(.05, .05, .90)))
+  if (risk.group.name== "High") return(list(c(.95, .025, .025)))
+  if (risk.group.name== "Medium") return(list(c(.025, .95, .025)))
+  else return (list(c(.025, .025, .95)))
 }
 
 N<- 50000
-id.data<- data.frame("ID" = 1:N, "Age" = sample(18:80, size= N, rep = T), "Date_of_Arrival"=sample(seq(as.Date("2000/1/1"), as.Date("2021/1/1"), by="years"), size= N, replace = T), "Total_Days_in_Shelter"= sample(1:100, size=N, rep = T), "Total_Days_Homeless"=sample(1:500, size=N, rep = T), "Recurrence"= sample(1:100, size=N, rep = T), "Party_Size"=sample(1:5, size=N, rep = T), "Reason" = sample(c( 'Veteran','Domestic Abuse','Foster System', 'Disability'), size = N, rep = T))
+
+id.data<- data.frame("ID" = 1:N, "Age" = sample(18:80, size= N, rep = T),
+                     "Gender"= sample(c('Male','Female','Nonbinary'), prob = c(.45,.45,.1), size = N, rep = T),
+                     "Transgender" = sample(c(TRUE, FALSE), prob= c(.1,.9), size = N, rep = T),
+                     "Mental_Illness" = sample(c(TRUE, FALSE), size = N, rep = T),
+                     "Physical_Illness" = sample(c(TRUE, FALSE), size = N, rep = T),
+                     "Date_of_Arrival"=sample(seq(as.Date("2000/1/1"), as.Date("2021/1/1"), by="years"), size= N, replace = T), 
+                     "Total_Days_in_Shelter"= sample(1:100, size=N, rep = T), 
+                     "Total_Days_Homeless"=sample(1:500, size=N, rep = T), 
+                     "Criminal_Record"= sample(c(TRUE,FALSE), prob= c(0.25, 0.75), size = N, rep = T),
+                     "Employed" = sample(c(TRUE,FALSE), size = N, rep = T),
+                     "Recurrence"= sample(1:100, size=N, rep = T), "Party_Size"=sample(1:5, size=N, rep = T),
+                     "Reason" = sample(c('Veteran','Domestic Abuse','Foster System', 'Disability'), size = N, rep = T),
+                      "Education_Level" = sample(c('Incomplete Highschool','Completed Highschool','Some College', 'Completed College'), prob=c(.80, .1, .05, .05), size = N, rep = T))
 
 
 
 id.data.risk<- id.data %>%
   rowwise() %>% 
-  mutate("risk.num" = risk(Reason, Total_Days_Homeless, Recurrence))
+  #risk <- function(reas, TDH, recur, trans, crim, mental)
+  mutate("risk.num" = risk(Reason, Total_Days_Homeless, Recurrence, Transgender, Criminal_Record, Mental_Illness, Education_Level, Gender))
 
 bottom.third<- quantile(id.data.risk$risk.num, 0.33, type=7)
 top.third<- quantile(id.data.risk$risk.num, 0.66, type=7)
@@ -62,13 +94,16 @@ id.data.risk.group <- id.data.risk %>%
   mutate("risk.group"= risk_group(risk.num, top.third, bottom.third))%>%
   mutate("odds" = risk_odds(risk.group))%>%
   rowwise() %>% 
-  mutate("pRisk" = sample(c('High','Medium','Low'), size = 1, prob=odds, rep= T))
+  mutate("Risk_Level" = sample(c('High','Medium','Low'), size = 1, prob=odds, rep= T))%>%
+  mutate("Return_Prediction" = if(Risk_Level == "High") T else F)
   
 final.dataset<- id.data.risk.group%>%  
   select(-risk.group, -odds, -risk.num)
+  #select(-risk.group, -odds, -risk.num, -Risk_Level)
+  #select(-risk.group, -odds, -risk.num, -Return_Prediction)
 
 
 
-write_csv(final.dataset, "homeless_data_final_50k.csv")
+write_csv(final.dataset, "homeless_data_50k_all_v2.csv")
 ```
 
