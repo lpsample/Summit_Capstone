@@ -39,20 +39,36 @@ risk_group<- function(x,top,bottom){
   }
 }
 
-id.data<- data.frame("ID" = 1:100000, "Age" = sample(18:80, size= 100000, rep = T), "Date_of_Arrival"=sample(seq(as.Date("2000/1/1"), as.Date("2021/1/1"), by="years"), size= 100000, replace = T), "Total_Days_in_Shelter"= sample(1:100, size=100000, rep = T), "Total_Days_Homeless"=sample(1:500, size=100000, rep = T), "Recurrence"= sample(1:100, size=100000, rep = T), "Party_Size"=sample(1:5, size=100000, rep = T), "Reason" = sample(c( 'Veteran','Domestic Abuse','Foster System', 'Disability'), size = 100000, rep = T))
+risk_odds<- function(risk.group.name){
+  if (risk.group.name== "High") return(list(c(.90, .05, .05)))
+  if (risk.group.name== "Medium") return(list(c(.05, .9, .05)))
+  else return (list(c(.05, .05, .90)))
+}
+
+N<- 50000
+id.data<- data.frame("ID" = 1:N, "Age" = sample(18:80, size= N, rep = T), "Date_of_Arrival"=sample(seq(as.Date("2000/1/1"), as.Date("2021/1/1"), by="years"), size= N, replace = T), "Total_Days_in_Shelter"= sample(1:100, size=N, rep = T), "Total_Days_Homeless"=sample(1:500, size=N, rep = T), "Recurrence"= sample(1:100, size=N, rep = T), "Party_Size"=sample(1:5, size=N, rep = T), "Reason" = sample(c( 'Veteran','Domestic Abuse','Foster System', 'Disability'), size = N, rep = T))
 
 
 
 id.data.risk<- id.data %>%
+  rowwise() %>% 
   mutate("risk.num" = risk(Reason, Total_Days_Homeless, Recurrence))
 
 bottom.third<- quantile(id.data.risk$risk.num, 0.33, type=7)
 top.third<- quantile(id.data.risk$risk.num, 0.66, type=7)
 
 id.data.risk.group <- id.data.risk %>%
-  dplyr::mutate("Risk"= risk_group(risk.num, top.third, bottom.third))
+  rowwise() %>% 
+  mutate("risk.group"= risk_group(risk.num, top.third, bottom.third))%>%
+  mutate("odds" = risk_odds(risk.group))%>%
+  rowwise() %>% 
+  mutate("pRisk" = sample(c('High','Medium','Low'), size = 1, prob=odds, rep= T))
+  
+final.dataset<- id.data.risk.group%>%  
+  select(-risk.group, -odds, -risk.num)
 
 
-write_csv(id.data.risk.group, "id_homeless_data.csv")
+
+write_csv(final.dataset, "homeless_data_final_50k.csv")
 ```
 
