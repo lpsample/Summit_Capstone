@@ -63,7 +63,7 @@ risk_odds<- function(risk.group.name){
   else return (list(c(.025, .025, .95)))
 }
 
-N<- 50000
+N<- 1000
 
 id.data<- data.frame("ID" = 1:N, "Age" = sample(18:80, size= N, rep = T),
                      "Gender"= sample(c('Male','Female','Nonbinary'), prob = c(.45,.45,.1), size = N, rep = T),
@@ -104,6 +104,6 @@ final.dataset<- id.data.risk.group%>%
 
 
 
-write_csv(final.dataset, "homeless_data_50k_all_v2.csv")
+write_csv(final.dataset, "homeless_data_1k_group.csv")
 ```
 

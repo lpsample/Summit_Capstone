@@ -1,0 +1,1001 @@
+ID,Age,Gender,Transgender,Mental_Illness,Physical_Illness,Date_of_Arrival,Total_Days_in_Shelter,Total_Days_Homeless,Criminal_Record,Employed,Recurrence,Party_Size,Reason,Education_Level,Risk_Level,Return_Prediction
+1,73,Female,FALSE,FALSE,TRUE,2010-01-01,28,187,FALSE,TRUE,50,4,Veteran,Incomplete Highschool,Medium,FALSE
+2,37,Male,FALSE,FALSE,FALSE,2019-01-01,55,287,TRUE,TRUE,85,5,Foster System,Some College,Low,FALSE
+3,41,Male,FALSE,TRUE,TRUE,2009-01-01,20,229,FALSE,TRUE,1,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+4,28,Male,FALSE,TRUE,FALSE,2001-01-01,20,27,FALSE,TRUE,58,3,Disability,Incomplete Highschool,High,TRUE
+5,60,Male,FALSE,TRUE,TRUE,2002-01-01,82,173,TRUE,FALSE,14,4,Veteran,Completed College,Medium,FALSE
+6,48,Nonbinary,FALSE,FALSE,TRUE,2017-01-01,8,499,FALSE,TRUE,96,4,Veteran,Completed Highschool,Low,FALSE
+7,31,Female,FALSE,FALSE,FALSE,2014-01-01,95,478,FALSE,TRUE,89,3,Disability,Some College,Low,FALSE
+8,34,Female,FALSE,FALSE,TRUE,2002-01-01,37,84,FALSE,FALSE,85,2,Foster System,Incomplete Highschool,Low,FALSE
+9,59,Male,FALSE,FALSE,TRUE,2017-01-01,62,93,TRUE,FALSE,37,5,Veteran,Some College,Low,FALSE
+10,23,Female,FALSE,TRUE,TRUE,2006-01-01,56,262,TRUE,FALSE,80,4,Foster System,Some College,Low,FALSE
+11,36,Male,FALSE,FALSE,TRUE,2019-01-01,35,50,FALSE,FALSE,95,2,Disability,Incomplete Highschool,Low,FALSE
+12,73,Male,FALSE,FALSE,FALSE,2002-01-01,88,487,FALSE,FALSE,86,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+13,35,Male,FALSE,TRUE,FALSE,2018-01-01,68,167,FALSE,TRUE,46,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+14,44,Male,FALSE,TRUE,TRUE,2011-01-01,5,380,TRUE,TRUE,32,4,Foster System,Completed College,Low,FALSE
+15,55,Male,FALSE,FALSE,TRUE,2010-01-01,15,32,FALSE,FALSE,82,3,Disability,Some College,Low,FALSE
+16,78,Female,FALSE,TRUE,TRUE,2000-01-01,65,138,FALSE,TRUE,29,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+17,68,Male,FALSE,TRUE,TRUE,2009-01-01,5,395,FALSE,FALSE,74,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+18,50,Female,FALSE,TRUE,FALSE,2020-01-01,2,128,FALSE,TRUE,39,4,Disability,Completed College,Low,FALSE
+19,54,Female,FALSE,TRUE,FALSE,2003-01-01,95,427,FALSE,FALSE,38,3,Foster System,Incomplete Highschool,Low,FALSE
+20,43,Male,TRUE,FALSE,TRUE,2007-01-01,72,261,FALSE,FALSE,79,2,Veteran,Completed Highschool,Low,FALSE
+21,65,Nonbinary,FALSE,FALSE,TRUE,2005-01-01,76,3,TRUE,FALSE,60,2,Veteran,Incomplete Highschool,High,TRUE
+22,37,Female,FALSE,TRUE,TRUE,2017-01-01,46,121,TRUE,FALSE,62,2,Veteran,Incomplete Highschool,High,TRUE
+23,70,Male,FALSE,FALSE,FALSE,2000-01-01,28,374,FALSE,FALSE,32,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+24,53,Male,FALSE,FALSE,FALSE,2004-01-01,35,175,FALSE,FALSE,94,3,Domestic Abuse,Completed College,Low,FALSE
+25,64,Male,FALSE,FALSE,FALSE,2010-01-01,3,48,FALSE,TRUE,71,4,Veteran,Incomplete Highschool,Medium,FALSE
+26,31,Male,FALSE,FALSE,FALSE,2012-01-01,8,195,FALSE,FALSE,21,5,Veteran,Incomplete Highschool,Medium,FALSE
+27,38,Male,FALSE,TRUE,FALSE,2001-01-01,85,110,FALSE,TRUE,84,5,Veteran,Incomplete Highschool,High,TRUE
+28,22,Female,FALSE,TRUE,FALSE,2015-01-01,26,239,FALSE,FALSE,96,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+29,25,Female,TRUE,TRUE,TRUE,2009-01-01,6,455,TRUE,FALSE,65,2,Foster System,Incomplete Highschool,High,TRUE
+30,41,Female,FALSE,FALSE,TRUE,2013-01-01,8,463,FALSE,FALSE,4,4,Foster System,Completed Highschool,Low,FALSE
+31,40,Male,FALSE,TRUE,FALSE,2009-01-01,6,314,TRUE,FALSE,41,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+32,24,Nonbinary,FALSE,FALSE,TRUE,2005-01-01,82,249,TRUE,TRUE,86,1,Foster System,Incomplete Highschool,High,TRUE
+33,19,Female,FALSE,FALSE,FALSE,2014-01-01,84,325,FALSE,TRUE,6,2,Veteran,Incomplete Highschool,Medium,FALSE
+34,30,Female,TRUE,FALSE,FALSE,2009-01-01,63,70,TRUE,TRUE,84,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+35,74,Female,FALSE,FALSE,TRUE,2017-01-01,72,133,FALSE,TRUE,5,2,Veteran,Incomplete Highschool,Medium,FALSE
+36,43,Male,FALSE,FALSE,TRUE,2009-01-01,88,471,TRUE,FALSE,93,3,Veteran,Incomplete Highschool,High,TRUE
+37,57,Female,FALSE,FALSE,TRUE,2006-01-01,2,299,FALSE,FALSE,91,1,Disability,Incomplete Highschool,Medium,FALSE
+38,46,Male,FALSE,TRUE,FALSE,2015-01-01,83,97,FALSE,TRUE,44,1,Disability,Incomplete Highschool,High,TRUE
+39,30,Female,FALSE,TRUE,TRUE,2021-01-01,49,266,TRUE,FALSE,78,2,Foster System,Some College,Low,FALSE
+40,45,Nonbinary,FALSE,TRUE,TRUE,2011-01-01,54,70,FALSE,TRUE,24,5,Domestic Abuse,Incomplete Highschool,High,TRUE
+41,36,Female,FALSE,TRUE,TRUE,2017-01-01,13,471,FALSE,TRUE,100,4,Veteran,Incomplete Highschool,High,TRUE
+42,79,Nonbinary,FALSE,TRUE,FALSE,2014-01-01,1,322,FALSE,FALSE,76,5,Foster System,Completed College,Medium,FALSE
+43,55,Male,FALSE,TRUE,FALSE,2003-01-01,9,485,FALSE,FALSE,34,5,Disability,Completed Highschool,Low,FALSE
+44,59,Male,FALSE,TRUE,FALSE,2017-01-01,63,314,FALSE,FALSE,56,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+45,55,Female,FALSE,FALSE,FALSE,2018-01-01,12,87,FALSE,TRUE,31,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+46,30,Female,FALSE,FALSE,TRUE,2005-01-01,89,470,FALSE,FALSE,84,5,Veteran,Incomplete Highschool,Medium,FALSE
+47,72,Male,FALSE,FALSE,TRUE,2018-01-01,37,129,FALSE,FALSE,16,3,Disability,Incomplete Highschool,Low,FALSE
+48,61,Female,FALSE,FALSE,TRUE,2003-01-01,88,396,TRUE,FALSE,28,4,Foster System,Incomplete Highschool,Medium,FALSE
+49,57,Male,FALSE,TRUE,TRUE,2015-01-01,64,394,FALSE,TRUE,15,2,Veteran,Completed Highschool,Low,FALSE
+50,68,Male,FALSE,FALSE,FALSE,2017-01-01,46,150,FALSE,FALSE,95,3,Disability,Incomplete Highschool,Medium,FALSE
+51,77,Female,FALSE,FALSE,FALSE,2005-01-01,71,248,FALSE,TRUE,19,3,Disability,Incomplete Highschool,Medium,FALSE
+52,28,Female,FALSE,FALSE,FALSE,2015-01-01,58,400,TRUE,TRUE,48,1,Foster System,Incomplete Highschool,Medium,FALSE
+53,26,Male,FALSE,FALSE,TRUE,2011-01-01,1,17,FALSE,TRUE,89,5,Veteran,Incomplete Highschool,Low,FALSE
+54,36,Female,FALSE,TRUE,FALSE,2005-01-01,53,140,FALSE,FALSE,2,2,Disability,Incomplete Highschool,High,TRUE
+55,73,Nonbinary,TRUE,FALSE,TRUE,2016-01-01,56,154,FALSE,TRUE,48,2,Domestic Abuse,Incomplete Highschool,High,TRUE
+56,41,Male,FALSE,TRUE,FALSE,2019-01-01,67,77,FALSE,TRUE,85,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+57,78,Female,FALSE,TRUE,FALSE,2012-01-01,35,461,FALSE,TRUE,15,1,Foster System,Incomplete Highschool,Low,FALSE
+58,48,Male,FALSE,TRUE,FALSE,2003-01-01,93,225,TRUE,TRUE,88,3,Domestic Abuse,Completed Highschool,Low,FALSE
+59,66,Female,FALSE,TRUE,FALSE,2001-01-01,25,357,FALSE,FALSE,13,5,Veteran,Completed Highschool,Low,FALSE
+60,27,Female,FALSE,FALSE,TRUE,2009-01-01,39,3,FALSE,TRUE,88,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+61,49,Male,FALSE,FALSE,FALSE,2005-01-01,70,53,FALSE,FALSE,66,2,Veteran,Incomplete Highschool,Low,FALSE
+62,30,Female,FALSE,FALSE,TRUE,2013-01-01,19,450,FALSE,FALSE,45,5,Disability,Incomplete Highschool,Medium,FALSE
+63,22,Nonbinary,FALSE,FALSE,FALSE,2005-01-01,65,370,FALSE,FALSE,77,5,Disability,Completed Highschool,Low,FALSE
+64,42,Female,FALSE,TRUE,FALSE,2013-01-01,99,401,TRUE,TRUE,96,4,Domestic Abuse,Incomplete Highschool,High,TRUE
+65,62,Male,FALSE,TRUE,FALSE,2013-01-01,85,357,TRUE,FALSE,44,5,Foster System,Incomplete Highschool,High,TRUE
+66,80,Female,FALSE,TRUE,FALSE,2010-01-01,87,423,TRUE,TRUE,97,5,Foster System,Incomplete Highschool,High,TRUE
+67,73,Female,TRUE,TRUE,TRUE,2003-01-01,31,185,FALSE,TRUE,64,1,Foster System,Completed Highschool,Medium,FALSE
+68,73,Nonbinary,FALSE,FALSE,FALSE,2020-01-01,97,313,FALSE,TRUE,72,1,Disability,Incomplete Highschool,High,TRUE
+69,69,Female,FALSE,TRUE,FALSE,2001-01-01,64,445,TRUE,FALSE,7,5,Foster System,Incomplete Highschool,High,TRUE
+70,18,Male,FALSE,TRUE,TRUE,2002-01-01,61,188,FALSE,TRUE,37,1,Domestic Abuse,Completed College,Low,FALSE
+71,50,Female,FALSE,FALSE,FALSE,2005-01-01,15,263,TRUE,FALSE,34,3,Domestic Abuse,Completed College,Low,FALSE
+72,19,Male,FALSE,FALSE,FALSE,2005-01-01,89,331,FALSE,TRUE,77,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+73,47,Female,FALSE,TRUE,TRUE,2017-01-01,43,477,FALSE,TRUE,4,4,Foster System,Incomplete Highschool,High,TRUE
+74,66,Female,TRUE,FALSE,FALSE,2010-01-01,24,101,FALSE,TRUE,36,4,Disability,Completed Highschool,Low,FALSE
+75,75,Male,FALSE,FALSE,TRUE,2013-01-01,5,406,FALSE,FALSE,49,3,Foster System,Incomplete Highschool,Low,FALSE
+76,53,Nonbinary,FALSE,FALSE,TRUE,2021-01-01,76,447,TRUE,TRUE,76,3,Veteran,Some College,Medium,FALSE
+77,20,Nonbinary,TRUE,FALSE,TRUE,2000-01-01,30,317,FALSE,TRUE,97,4,Disability,Incomplete Highschool,High,TRUE
+78,71,Female,FALSE,TRUE,FALSE,2003-01-01,64,29,FALSE,FALSE,91,5,Veteran,Incomplete Highschool,High,TRUE
+79,40,Female,FALSE,TRUE,TRUE,2006-01-01,14,104,FALSE,TRUE,84,4,Disability,Incomplete Highschool,High,TRUE
+80,40,Female,FALSE,FALSE,FALSE,2015-01-01,52,377,FALSE,TRUE,68,4,Foster System,Incomplete Highschool,Low,FALSE
+81,42,Nonbinary,FALSE,FALSE,TRUE,2004-01-01,88,99,FALSE,FALSE,1,1,Veteran,Incomplete Highschool,High,TRUE
+82,28,Nonbinary,FALSE,FALSE,FALSE,2011-01-01,80,407,FALSE,TRUE,18,3,Veteran,Incomplete Highschool,High,TRUE
+83,29,Female,FALSE,FALSE,TRUE,2003-01-01,2,57,FALSE,FALSE,27,5,Veteran,Incomplete Highschool,Medium,FALSE
+84,52,Male,FALSE,FALSE,FALSE,2003-01-01,3,255,TRUE,FALSE,81,2,Foster System,Completed College,Low,FALSE
+85,65,Nonbinary,FALSE,FALSE,TRUE,2001-01-01,65,298,TRUE,TRUE,11,2,Veteran,Incomplete Highschool,High,TRUE
+86,50,Male,FALSE,FALSE,TRUE,2000-01-01,40,22,FALSE,FALSE,32,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+87,45,Male,FALSE,FALSE,FALSE,2018-01-01,9,286,FALSE,TRUE,83,5,Veteran,Incomplete Highschool,Medium,FALSE
+88,60,Female,TRUE,TRUE,TRUE,2005-01-01,20,369,FALSE,FALSE,46,3,Foster System,Incomplete Highschool,High,TRUE
+89,45,Male,FALSE,FALSE,TRUE,2006-01-01,41,298,TRUE,FALSE,41,2,Foster System,Incomplete Highschool,Medium,FALSE
+90,66,Female,FALSE,FALSE,FALSE,2002-01-01,76,472,TRUE,TRUE,1,4,Disability,Completed Highschool,Low,FALSE
+91,42,Male,FALSE,TRUE,FALSE,2013-01-01,9,477,FALSE,FALSE,29,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+92,33,Nonbinary,FALSE,FALSE,TRUE,2018-01-01,37,278,TRUE,FALSE,32,5,Veteran,Incomplete Highschool,High,TRUE
+93,45,Female,FALSE,TRUE,FALSE,2019-01-01,64,60,FALSE,TRUE,67,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+94,74,Nonbinary,FALSE,FALSE,TRUE,2016-01-01,16,93,TRUE,TRUE,88,2,Veteran,Incomplete Highschool,High,TRUE
+95,26,Male,FALSE,TRUE,TRUE,2017-01-01,51,367,FALSE,TRUE,71,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+96,47,Male,FALSE,TRUE,TRUE,2008-01-01,33,289,FALSE,FALSE,51,1,Disability,Completed Highschool,Low,FALSE
+97,55,Female,FALSE,FALSE,FALSE,2006-01-01,67,58,FALSE,FALSE,72,1,Veteran,Incomplete Highschool,High,TRUE
+98,70,Female,FALSE,TRUE,TRUE,2000-01-01,72,1,FALSE,TRUE,61,5,Disability,Completed Highschool,Low,FALSE
+99,28,Female,FALSE,TRUE,FALSE,2018-01-01,61,454,FALSE,TRUE,60,4,Veteran,Incomplete Highschool,Low,FALSE
+100,75,Male,FALSE,FALSE,TRUE,2020-01-01,45,71,FALSE,FALSE,72,5,Veteran,Some College,Low,FALSE
+101,31,Male,FALSE,TRUE,FALSE,2011-01-01,31,476,FALSE,TRUE,5,1,Disability,Incomplete Highschool,High,TRUE
+102,39,Nonbinary,FALSE,TRUE,FALSE,2003-01-01,70,82,FALSE,TRUE,2,4,Veteran,Incomplete Highschool,High,TRUE
+103,55,Female,FALSE,FALSE,TRUE,2003-01-01,38,421,FALSE,FALSE,82,4,Foster System,Incomplete Highschool,Medium,FALSE
+104,39,Female,TRUE,FALSE,TRUE,2016-01-01,16,478,FALSE,FALSE,50,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+105,39,Female,FALSE,FALSE,TRUE,2016-01-01,25,215,TRUE,FALSE,47,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+106,56,Female,FALSE,TRUE,FALSE,2005-01-01,25,246,FALSE,TRUE,55,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+107,27,Male,FALSE,TRUE,FALSE,2014-01-01,60,187,FALSE,FALSE,27,3,Disability,Completed College,Low,FALSE
+108,59,Female,TRUE,FALSE,FALSE,2003-01-01,39,328,FALSE,FALSE,1,2,Veteran,Incomplete Highschool,High,TRUE
+109,42,Female,FALSE,FALSE,TRUE,2008-01-01,2,218,TRUE,FALSE,30,5,Disability,Incomplete Highschool,Medium,FALSE
+110,42,Male,FALSE,FALSE,TRUE,2015-01-01,47,197,TRUE,FALSE,37,1,Domestic Abuse,Completed Highschool,Low,FALSE
+111,55,Male,FALSE,TRUE,TRUE,2006-01-01,24,344,FALSE,TRUE,7,1,Veteran,Incomplete Highschool,High,TRUE
+112,44,Female,FALSE,TRUE,FALSE,2020-01-01,95,344,TRUE,TRUE,31,2,Veteran,Incomplete Highschool,High,TRUE
+113,56,Male,FALSE,TRUE,FALSE,2018-01-01,41,30,TRUE,TRUE,44,4,Foster System,Incomplete Highschool,High,TRUE
+114,55,Male,FALSE,TRUE,TRUE,2016-01-01,40,484,FALSE,FALSE,44,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+115,26,Female,FALSE,TRUE,TRUE,2000-01-01,67,301,FALSE,TRUE,13,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+116,23,Female,FALSE,FALSE,FALSE,2020-01-01,20,225,TRUE,FALSE,36,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+117,67,Male,FALSE,TRUE,TRUE,2002-01-01,12,15,TRUE,TRUE,84,5,Foster System,Incomplete Highschool,High,TRUE
+118,26,Nonbinary,FALSE,TRUE,FALSE,2007-01-01,87,423,TRUE,FALSE,1,3,Domestic Abuse,Incomplete Highschool,High,TRUE
+119,77,Male,FALSE,FALSE,TRUE,2021-01-01,31,268,FALSE,FALSE,7,3,Veteran,Incomplete Highschool,Medium,FALSE
+120,45,Male,FALSE,FALSE,FALSE,2014-01-01,99,486,FALSE,FALSE,67,3,Disability,Incomplete Highschool,Medium,FALSE
+121,65,Female,FALSE,TRUE,FALSE,2001-01-01,56,247,FALSE,FALSE,75,3,Veteran,Incomplete Highschool,High,TRUE
+122,75,Female,FALSE,TRUE,FALSE,2017-01-01,52,196,TRUE,FALSE,93,2,Veteran,Incomplete Highschool,High,TRUE
+123,63,Male,FALSE,TRUE,FALSE,2004-01-01,27,381,TRUE,TRUE,3,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+124,29,Male,FALSE,TRUE,TRUE,2012-01-01,34,104,FALSE,TRUE,2,5,Foster System,Incomplete Highschool,Medium,FALSE
+125,32,Nonbinary,TRUE,TRUE,FALSE,2009-01-01,98,255,FALSE,FALSE,85,4,Domestic Abuse,Incomplete Highschool,High,TRUE
+126,60,Female,FALSE,TRUE,FALSE,2021-01-01,79,466,FALSE,FALSE,56,4,Veteran,Incomplete Highschool,High,TRUE
+127,25,Male,FALSE,TRUE,FALSE,2005-01-01,28,197,TRUE,FALSE,69,4,Domestic Abuse,Some College,Low,FALSE
+128,70,Male,FALSE,FALSE,FALSE,2014-01-01,35,23,FALSE,TRUE,21,3,Veteran,Incomplete Highschool,Medium,FALSE
+129,58,Male,FALSE,TRUE,TRUE,2016-01-01,39,334,FALSE,FALSE,42,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+130,70,Female,FALSE,FALSE,TRUE,2007-01-01,58,25,FALSE,TRUE,21,1,Disability,Incomplete Highschool,Low,FALSE
+131,23,Male,FALSE,TRUE,TRUE,2000-01-01,65,109,FALSE,FALSE,62,1,Veteran,Incomplete Highschool,High,TRUE
+132,55,Male,FALSE,TRUE,TRUE,2011-01-01,29,94,TRUE,TRUE,69,3,Foster System,Some College,Low,FALSE
+133,32,Nonbinary,FALSE,TRUE,TRUE,2009-01-01,54,319,TRUE,TRUE,98,3,Veteran,Some College,Medium,FALSE
+134,64,Female,FALSE,FALSE,FALSE,2010-01-01,60,363,FALSE,TRUE,57,1,Veteran,Incomplete Highschool,Medium,FALSE
+135,59,Male,TRUE,FALSE,FALSE,2020-01-01,5,408,FALSE,TRUE,93,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+136,50,Male,FALSE,TRUE,TRUE,2002-01-01,30,39,TRUE,TRUE,15,4,Veteran,Completed College,Medium,FALSE
+137,63,Nonbinary,FALSE,FALSE,FALSE,2008-01-01,12,134,TRUE,TRUE,60,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+138,27,Female,FALSE,FALSE,FALSE,2002-01-01,11,35,FALSE,TRUE,4,4,Foster System,Completed Highschool,Low,FALSE
+139,25,Female,FALSE,FALSE,TRUE,2014-01-01,23,493,FALSE,FALSE,32,3,Disability,Incomplete Highschool,Medium,FALSE
+140,79,Male,FALSE,TRUE,FALSE,2003-01-01,25,473,FALSE,FALSE,15,2,Foster System,Incomplete Highschool,High,TRUE
+141,80,Female,FALSE,FALSE,TRUE,2009-01-01,42,356,FALSE,TRUE,68,4,Foster System,Incomplete Highschool,Low,FALSE
+142,77,Male,FALSE,TRUE,TRUE,2005-01-01,56,326,FALSE,FALSE,85,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+143,65,Male,FALSE,FALSE,FALSE,2009-01-01,14,177,FALSE,TRUE,38,3,Veteran,Incomplete Highschool,Medium,FALSE
+144,70,Female,FALSE,TRUE,FALSE,2012-01-01,69,104,FALSE,TRUE,55,4,Disability,Incomplete Highschool,High,TRUE
+145,56,Male,FALSE,FALSE,TRUE,2016-01-01,85,133,FALSE,FALSE,16,5,Disability,Completed Highschool,Low,FALSE
+146,40,Female,FALSE,FALSE,FALSE,2017-01-01,57,288,FALSE,FALSE,87,5,Disability,Incomplete Highschool,Medium,FALSE
+147,29,Male,TRUE,TRUE,FALSE,2001-01-01,46,189,FALSE,FALSE,55,1,Veteran,Incomplete Highschool,High,TRUE
+148,36,Female,FALSE,FALSE,FALSE,2019-01-01,6,150,TRUE,FALSE,100,1,Domestic Abuse,Completed College,Low,FALSE
+149,62,Male,TRUE,FALSE,FALSE,2012-01-01,69,52,FALSE,FALSE,84,2,Disability,Incomplete Highschool,High,TRUE
+150,47,Female,FALSE,TRUE,TRUE,2018-01-01,76,8,FALSE,TRUE,53,2,Disability,Incomplete Highschool,High,TRUE
+151,79,Male,FALSE,TRUE,FALSE,2020-01-01,21,114,TRUE,FALSE,58,5,Veteran,Incomplete Highschool,High,TRUE
+152,49,Female,TRUE,FALSE,FALSE,2020-01-01,80,362,FALSE,FALSE,37,1,Disability,Incomplete Highschool,High,TRUE
+153,72,Male,FALSE,TRUE,FALSE,2017-01-01,6,102,TRUE,TRUE,99,2,Disability,Incomplete Highschool,High,TRUE
+154,33,Male,FALSE,FALSE,TRUE,2013-01-01,87,185,FALSE,FALSE,8,1,Foster System,Incomplete Highschool,Low,FALSE
+155,68,Male,FALSE,FALSE,FALSE,2020-01-01,85,418,FALSE,TRUE,69,5,Disability,Completed Highschool,Low,FALSE
+156,39,Female,FALSE,FALSE,FALSE,2020-01-01,52,273,FALSE,TRUE,66,1,Disability,Incomplete Highschool,Medium,FALSE
+157,65,Female,FALSE,FALSE,FALSE,2010-01-01,47,268,FALSE,TRUE,3,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+158,64,Female,FALSE,TRUE,TRUE,2018-01-01,73,195,FALSE,FALSE,52,4,Veteran,Completed Highschool,Low,FALSE
+159,44,Female,FALSE,FALSE,TRUE,2003-01-01,58,151,FALSE,TRUE,14,2,Veteran,Completed Highschool,Medium,FALSE
+160,48,Male,FALSE,FALSE,FALSE,2007-01-01,39,55,TRUE,TRUE,67,3,Domestic Abuse,Some College,Low,FALSE
+161,53,Female,FALSE,FALSE,TRUE,2014-01-01,19,406,FALSE,TRUE,4,5,Veteran,Incomplete Highschool,Medium,FALSE
+162,56,Male,FALSE,TRUE,TRUE,2015-01-01,48,144,FALSE,FALSE,88,1,Foster System,Completed College,Low,FALSE
+163,30,Female,FALSE,TRUE,FALSE,2021-01-01,27,489,FALSE,FALSE,48,3,Veteran,Incomplete Highschool,High,TRUE
+164,67,Male,FALSE,FALSE,FALSE,2005-01-01,77,263,TRUE,TRUE,20,1,Veteran,Incomplete Highschool,Medium,FALSE
+165,75,Female,FALSE,FALSE,TRUE,2006-01-01,39,424,TRUE,TRUE,78,4,Disability,Incomplete Highschool,Medium,FALSE
+166,65,Female,FALSE,TRUE,FALSE,2016-01-01,14,229,FALSE,FALSE,40,4,Veteran,Incomplete Highschool,Medium,FALSE
+167,39,Male,FALSE,FALSE,FALSE,2016-01-01,26,39,TRUE,TRUE,81,1,Foster System,Incomplete Highschool,Medium,FALSE
+168,56,Male,FALSE,TRUE,TRUE,2000-01-01,37,304,FALSE,TRUE,92,3,Foster System,Incomplete Highschool,Medium,FALSE
+169,57,Male,FALSE,TRUE,TRUE,2012-01-01,75,243,FALSE,FALSE,23,2,Veteran,Incomplete Highschool,High,TRUE
+170,55,Female,FALSE,FALSE,TRUE,2020-01-01,90,348,FALSE,FALSE,38,3,Veteran,Incomplete Highschool,Medium,FALSE
+171,49,Male,FALSE,TRUE,FALSE,2016-01-01,5,398,TRUE,FALSE,38,1,Veteran,Incomplete Highschool,High,TRUE
+172,79,Nonbinary,FALSE,TRUE,TRUE,2010-01-01,30,338,TRUE,FALSE,62,1,Veteran,Completed Highschool,High,TRUE
+173,72,Female,FALSE,TRUE,TRUE,2015-01-01,61,431,FALSE,TRUE,16,3,Disability,Incomplete Highschool,High,TRUE
+174,40,Female,FALSE,TRUE,FALSE,2017-01-01,86,32,FALSE,FALSE,37,3,Domestic Abuse,Incomplete Highschool,High,TRUE
+175,76,Female,FALSE,TRUE,TRUE,2014-01-01,9,286,TRUE,TRUE,11,5,Domestic Abuse,Completed College,Low,FALSE
+176,22,Nonbinary,FALSE,TRUE,FALSE,2003-01-01,15,232,TRUE,FALSE,79,5,Veteran,Incomplete Highschool,High,TRUE
+177,60,Male,FALSE,FALSE,TRUE,2012-01-01,79,53,FALSE,TRUE,3,3,Disability,Incomplete Highschool,Low,FALSE
+178,57,Female,FALSE,FALSE,FALSE,2012-01-01,85,161,FALSE,FALSE,7,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+179,40,Male,TRUE,TRUE,FALSE,2019-01-01,21,199,TRUE,FALSE,43,4,Foster System,Incomplete Highschool,High,TRUE
+180,49,Male,FALSE,TRUE,TRUE,2006-01-01,9,207,FALSE,TRUE,80,2,Disability,Incomplete Highschool,High,TRUE
+181,40,Female,FALSE,FALSE,TRUE,2014-01-01,31,10,FALSE,TRUE,76,1,Veteran,Completed Highschool,Low,FALSE
+182,67,Female,FALSE,FALSE,FALSE,2018-01-01,57,35,FALSE,TRUE,29,2,Veteran,Incomplete Highschool,Medium,FALSE
+183,37,Female,FALSE,FALSE,FALSE,2021-01-01,27,146,TRUE,FALSE,34,2,Foster System,Incomplete Highschool,Medium,FALSE
+184,78,Male,FALSE,TRUE,TRUE,2019-01-01,33,229,FALSE,FALSE,20,2,Veteran,Incomplete Highschool,High,TRUE
+185,36,Female,FALSE,FALSE,FALSE,2012-01-01,26,210,FALSE,FALSE,66,2,Disability,Incomplete Highschool,Medium,FALSE
+186,27,Male,FALSE,TRUE,FALSE,2010-01-01,40,442,FALSE,FALSE,4,3,Disability,Incomplete Highschool,High,TRUE
+187,73,Male,FALSE,TRUE,TRUE,2018-01-01,45,127,FALSE,TRUE,55,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+188,36,Male,FALSE,FALSE,TRUE,2012-01-01,92,50,FALSE,TRUE,22,4,Foster System,Some College,Low,FALSE
+189,47,Male,FALSE,FALSE,TRUE,2021-01-01,47,219,FALSE,TRUE,74,4,Disability,Incomplete Highschool,Medium,FALSE
+190,26,Male,FALSE,FALSE,TRUE,2014-01-01,98,272,FALSE,FALSE,85,1,Disability,Incomplete Highschool,Medium,FALSE
+191,60,Female,FALSE,TRUE,FALSE,2005-01-01,20,5,FALSE,TRUE,51,2,Disability,Incomplete Highschool,High,TRUE
+192,71,Nonbinary,TRUE,TRUE,FALSE,2005-01-01,24,465,FALSE,FALSE,32,5,Domestic Abuse,Incomplete Highschool,High,TRUE
+193,78,Male,FALSE,FALSE,TRUE,2017-01-01,39,433,FALSE,FALSE,22,5,Foster System,Completed Highschool,Low,FALSE
+194,32,Female,FALSE,FALSE,TRUE,2020-01-01,98,57,FALSE,FALSE,22,2,Disability,Completed College,Low,FALSE
+195,76,Female,FALSE,TRUE,FALSE,2021-01-01,89,100,FALSE,TRUE,41,1,Veteran,Incomplete Highschool,High,TRUE
+196,37,Female,FALSE,TRUE,TRUE,2020-01-01,20,212,TRUE,FALSE,45,3,Disability,Incomplete Highschool,High,TRUE
+197,51,Female,FALSE,FALSE,FALSE,2010-01-01,66,48,TRUE,FALSE,89,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+198,26,Male,FALSE,FALSE,TRUE,2011-01-01,96,187,TRUE,FALSE,23,1,Veteran,Incomplete Highschool,Medium,FALSE
+199,32,Female,FALSE,FALSE,TRUE,2012-01-01,74,381,FALSE,FALSE,13,3,Domestic Abuse,Completed Highschool,Low,FALSE
+200,71,Nonbinary,FALSE,TRUE,TRUE,2011-01-01,24,96,FALSE,FALSE,94,1,Veteran,Incomplete Highschool,High,TRUE
+201,27,Female,FALSE,TRUE,FALSE,2019-01-01,84,237,FALSE,TRUE,11,4,Disability,Incomplete Highschool,High,TRUE
+202,67,Male,FALSE,FALSE,TRUE,2003-01-01,50,477,FALSE,FALSE,55,5,Foster System,Incomplete Highschool,Low,FALSE
+203,43,Male,FALSE,TRUE,TRUE,2009-01-01,8,174,TRUE,FALSE,51,5,Foster System,Completed Highschool,Low,FALSE
+204,71,Female,FALSE,FALSE,FALSE,2004-01-01,52,58,FALSE,TRUE,64,2,Veteran,Incomplete Highschool,Medium,FALSE
+205,79,Nonbinary,FALSE,TRUE,TRUE,2010-01-01,11,82,FALSE,FALSE,93,4,Foster System,Completed Highschool,Medium,FALSE
+206,47,Male,FALSE,TRUE,TRUE,2004-01-01,11,350,TRUE,FALSE,43,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+207,68,Female,FALSE,FALSE,TRUE,2000-01-01,20,341,FALSE,FALSE,16,1,Disability,Incomplete Highschool,Medium,FALSE
+208,79,Female,FALSE,TRUE,TRUE,2011-01-01,5,116,FALSE,FALSE,77,5,Veteran,Completed Highschool,Low,FALSE
+209,50,Female,FALSE,FALSE,FALSE,2019-01-01,13,476,TRUE,TRUE,51,1,Foster System,Incomplete Highschool,Medium,FALSE
+210,78,Nonbinary,FALSE,FALSE,FALSE,2006-01-01,75,285,FALSE,FALSE,76,4,Veteran,Incomplete Highschool,High,TRUE
+211,38,Male,FALSE,TRUE,TRUE,2010-01-01,47,494,FALSE,FALSE,17,3,Domestic Abuse,Completed Highschool,Low,FALSE
+212,56,Female,FALSE,FALSE,TRUE,2019-01-01,44,346,FALSE,FALSE,66,3,Foster System,Incomplete Highschool,Low,FALSE
+213,25,Female,FALSE,FALSE,TRUE,2007-01-01,54,334,FALSE,FALSE,84,5,Disability,Incomplete Highschool,Medium,FALSE
+214,54,Male,FALSE,TRUE,FALSE,2019-01-01,47,187,FALSE,FALSE,9,4,Disability,Completed Highschool,Low,FALSE
+215,57,Male,FALSE,FALSE,FALSE,2018-01-01,70,288,FALSE,FALSE,29,1,Veteran,Incomplete Highschool,Medium,FALSE
+216,61,Male,FALSE,TRUE,TRUE,2014-01-01,15,204,FALSE,TRUE,19,1,Veteran,Incomplete Highschool,High,TRUE
+217,68,Female,TRUE,FALSE,TRUE,2008-01-01,49,225,FALSE,TRUE,100,2,Disability,Incomplete Highschool,High,TRUE
+218,67,Male,FALSE,FALSE,TRUE,2008-01-01,44,352,FALSE,TRUE,22,2,Foster System,Incomplete Highschool,Low,FALSE
+219,31,Female,FALSE,TRUE,TRUE,2006-01-01,96,432,FALSE,FALSE,85,1,Foster System,Incomplete Highschool,High,TRUE
+220,54,Male,FALSE,FALSE,FALSE,2006-01-01,17,267,FALSE,TRUE,34,2,Foster System,Incomplete Highschool,Low,FALSE
+221,26,Female,TRUE,FALSE,FALSE,2009-01-01,99,96,TRUE,FALSE,32,1,Foster System,Incomplete Highschool,High,TRUE
+222,54,Female,FALSE,TRUE,TRUE,2016-01-01,4,25,TRUE,FALSE,29,2,Veteran,Incomplete Highschool,High,TRUE
+223,18,Male,FALSE,TRUE,FALSE,2007-01-01,91,272,TRUE,FALSE,14,5,Foster System,Incomplete Highschool,High,TRUE
+224,31,Female,FALSE,TRUE,FALSE,2010-01-01,52,54,FALSE,FALSE,49,4,Veteran,Some College,Low,FALSE
+225,43,Female,FALSE,FALSE,FALSE,2004-01-01,75,468,TRUE,FALSE,44,4,Foster System,Completed Highschool,Low,FALSE
+226,33,Male,TRUE,FALSE,TRUE,2000-01-01,46,73,FALSE,TRUE,28,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+227,47,Female,FALSE,FALSE,FALSE,2014-01-01,21,260,TRUE,FALSE,77,5,Veteran,Incomplete Highschool,Medium,FALSE
+228,64,Female,FALSE,TRUE,TRUE,2002-01-01,82,336,FALSE,TRUE,71,1,Domestic Abuse,Some College,Low,FALSE
+229,77,Female,TRUE,TRUE,TRUE,2005-01-01,96,369,TRUE,TRUE,57,2,Foster System,Incomplete Highschool,High,TRUE
+230,70,Female,TRUE,TRUE,FALSE,2004-01-01,17,276,FALSE,TRUE,6,4,Disability,Incomplete Highschool,High,TRUE
+231,38,Nonbinary,FALSE,TRUE,TRUE,2003-01-01,26,452,TRUE,TRUE,66,1,Veteran,Incomplete Highschool,Medium,FALSE
+232,74,Male,FALSE,TRUE,TRUE,2003-01-01,33,157,TRUE,TRUE,55,1,Disability,Incomplete Highschool,High,TRUE
+233,29,Female,FALSE,TRUE,TRUE,2012-01-01,95,219,FALSE,FALSE,32,2,Veteran,Incomplete Highschool,High,TRUE
+234,21,Female,FALSE,FALSE,FALSE,2008-01-01,95,325,TRUE,FALSE,4,3,Domestic Abuse,Some College,Low,FALSE
+235,44,Female,TRUE,FALSE,FALSE,2017-01-01,29,115,FALSE,FALSE,6,3,Foster System,Incomplete Highschool,Medium,FALSE
+236,65,Male,TRUE,FALSE,FALSE,2021-01-01,49,394,FALSE,FALSE,91,5,Disability,Incomplete Highschool,High,TRUE
+237,28,Male,FALSE,FALSE,TRUE,2019-01-01,95,330,FALSE,FALSE,63,4,Foster System,Incomplete Highschool,Medium,FALSE
+238,66,Female,FALSE,FALSE,FALSE,2011-01-01,96,254,FALSE,FALSE,52,5,Disability,Completed Highschool,Low,FALSE
+239,66,Male,FALSE,TRUE,FALSE,2016-01-01,42,388,FALSE,TRUE,11,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+240,18,Male,FALSE,TRUE,TRUE,2015-01-01,98,461,TRUE,FALSE,57,3,Domestic Abuse,Some College,Low,FALSE
+241,38,Female,FALSE,FALSE,TRUE,2000-01-01,56,357,FALSE,TRUE,28,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+242,69,Female,FALSE,FALSE,FALSE,2020-01-01,30,437,FALSE,FALSE,42,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+243,42,Female,FALSE,FALSE,TRUE,2009-01-01,66,257,TRUE,FALSE,29,4,Foster System,Incomplete Highschool,Medium,FALSE
+244,63,Male,FALSE,FALSE,FALSE,2010-01-01,63,183,FALSE,FALSE,100,1,Disability,Incomplete Highschool,Medium,FALSE
+245,49,Female,TRUE,FALSE,FALSE,2002-01-01,51,18,FALSE,TRUE,63,2,Foster System,Incomplete Highschool,High,TRUE
+246,54,Male,FALSE,FALSE,FALSE,2006-01-01,37,269,FALSE,FALSE,52,2,Veteran,Completed Highschool,Low,FALSE
+247,33,Male,FALSE,TRUE,TRUE,2010-01-01,25,333,TRUE,FALSE,68,4,Foster System,Incomplete Highschool,High,TRUE
+248,31,Male,FALSE,FALSE,TRUE,2021-01-01,72,367,TRUE,FALSE,60,5,Veteran,Incomplete Highschool,Medium,FALSE
+249,43,Male,FALSE,TRUE,TRUE,2004-01-01,19,343,FALSE,FALSE,9,5,Disability,Incomplete Highschool,High,TRUE
+250,63,Male,FALSE,TRUE,FALSE,2005-01-01,33,383,FALSE,TRUE,39,2,Disability,Incomplete Highschool,High,TRUE
+251,66,Male,FALSE,TRUE,FALSE,2020-01-01,61,468,FALSE,FALSE,81,1,Foster System,Incomplete Highschool,High,TRUE
+252,50,Female,FALSE,FALSE,TRUE,2013-01-01,76,489,FALSE,FALSE,51,4,Foster System,Incomplete Highschool,Low,FALSE
+253,47,Male,FALSE,TRUE,FALSE,2002-01-01,75,63,TRUE,TRUE,52,2,Veteran,Incomplete Highschool,High,TRUE
+254,62,Nonbinary,FALSE,FALSE,FALSE,2006-01-01,79,299,TRUE,TRUE,8,3,Veteran,Incomplete Highschool,High,TRUE
+255,24,Male,FALSE,FALSE,FALSE,2009-01-01,46,334,FALSE,TRUE,64,3,Veteran,Incomplete Highschool,Medium,FALSE
+256,74,Female,FALSE,TRUE,TRUE,2005-01-01,54,324,FALSE,FALSE,28,3,Disability,Incomplete Highschool,High,TRUE
+257,43,Male,FALSE,TRUE,TRUE,2016-01-01,21,353,FALSE,FALSE,38,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+258,28,Female,FALSE,FALSE,FALSE,2007-01-01,79,308,TRUE,FALSE,11,5,Foster System,Incomplete Highschool,Medium,FALSE
+259,65,Female,FALSE,TRUE,FALSE,2008-01-01,4,207,FALSE,TRUE,88,1,Foster System,Incomplete Highschool,Medium,FALSE
+260,63,Male,FALSE,TRUE,FALSE,2014-01-01,47,213,TRUE,TRUE,98,3,Foster System,Completed Highschool,Medium,FALSE
+261,22,Male,FALSE,FALSE,TRUE,2016-01-01,96,89,FALSE,FALSE,58,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+262,29,Female,TRUE,FALSE,TRUE,2006-01-01,14,250,FALSE,TRUE,6,2,Disability,Incomplete Highschool,High,TRUE
+263,55,Female,FALSE,FALSE,TRUE,2015-01-01,44,207,FALSE,FALSE,37,2,Foster System,Completed Highschool,Low,FALSE
+264,73,Nonbinary,FALSE,TRUE,TRUE,2004-01-01,36,293,TRUE,TRUE,38,1,Disability,Incomplete Highschool,High,TRUE
+265,77,Female,FALSE,FALSE,TRUE,2020-01-01,70,274,FALSE,FALSE,76,4,Foster System,Completed Highschool,Low,FALSE
+266,32,Female,FALSE,FALSE,TRUE,2013-01-01,91,34,FALSE,TRUE,83,5,Foster System,Completed Highschool,Low,FALSE
+267,58,Female,FALSE,FALSE,TRUE,2001-01-01,3,388,FALSE,FALSE,1,5,Foster System,Incomplete Highschool,Low,FALSE
+268,32,Female,FALSE,TRUE,FALSE,2007-01-01,8,232,FALSE,FALSE,25,4,Foster System,Incomplete Highschool,Medium,FALSE
+269,77,Female,FALSE,FALSE,FALSE,2020-01-01,100,336,TRUE,FALSE,69,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+270,48,Male,FALSE,FALSE,TRUE,2007-01-01,37,12,FALSE,TRUE,62,1,Veteran,Incomplete Highschool,Medium,FALSE
+271,22,Female,FALSE,FALSE,FALSE,2007-01-01,46,494,TRUE,TRUE,56,4,Veteran,Incomplete Highschool,High,TRUE
+272,32,Male,FALSE,FALSE,TRUE,2003-01-01,41,30,TRUE,TRUE,75,5,Disability,Incomplete Highschool,Low,FALSE
+273,57,Male,FALSE,TRUE,TRUE,2013-01-01,14,289,FALSE,FALSE,47,5,Veteran,Incomplete Highschool,High,TRUE
+274,32,Female,FALSE,FALSE,TRUE,2006-01-01,22,176,FALSE,FALSE,41,1,Disability,Completed Highschool,Low,FALSE
+275,19,Male,FALSE,FALSE,FALSE,2021-01-01,30,305,FALSE,TRUE,71,2,Veteran,Incomplete Highschool,Medium,FALSE
+276,25,Male,FALSE,TRUE,FALSE,2017-01-01,42,443,FALSE,FALSE,51,3,Foster System,Incomplete Highschool,High,TRUE
+277,63,Male,FALSE,TRUE,FALSE,2003-01-01,28,324,FALSE,TRUE,84,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+278,77,Female,FALSE,FALSE,TRUE,2008-01-01,9,261,TRUE,TRUE,72,1,Disability,Incomplete Highschool,Medium,FALSE
+279,22,Female,FALSE,TRUE,TRUE,2000-01-01,65,250,FALSE,TRUE,32,3,Disability,Incomplete Highschool,High,TRUE
+280,37,Female,TRUE,FALSE,TRUE,2021-01-01,89,435,FALSE,TRUE,66,1,Foster System,Incomplete Highschool,High,TRUE
+281,48,Nonbinary,FALSE,TRUE,FALSE,2008-01-01,13,260,FALSE,TRUE,21,2,Disability,Incomplete Highschool,Medium,FALSE
+282,59,Male,FALSE,TRUE,FALSE,2000-01-01,62,189,FALSE,TRUE,37,2,Foster System,Completed Highschool,Low,FALSE
+283,38,Female,FALSE,FALSE,FALSE,2011-01-01,75,239,FALSE,TRUE,50,4,Veteran,Incomplete Highschool,Medium,FALSE
+284,19,Female,FALSE,FALSE,FALSE,2002-01-01,43,359,FALSE,FALSE,79,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+285,42,Male,FALSE,FALSE,TRUE,2019-01-01,2,261,TRUE,TRUE,19,2,Veteran,Incomplete Highschool,Medium,FALSE
+286,23,Male,FALSE,TRUE,TRUE,2005-01-01,99,391,TRUE,TRUE,50,1,Disability,Incomplete Highschool,High,TRUE
+287,61,Male,FALSE,TRUE,TRUE,2007-01-01,8,233,FALSE,FALSE,74,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+288,62,Male,FALSE,FALSE,TRUE,2020-01-01,79,351,TRUE,FALSE,42,2,Disability,Some College,Medium,FALSE
+289,27,Nonbinary,FALSE,TRUE,TRUE,2002-01-01,57,217,TRUE,TRUE,87,4,Disability,Incomplete Highschool,High,TRUE
+290,72,Male,FALSE,FALSE,TRUE,2004-01-01,21,138,FALSE,TRUE,24,4,Disability,Incomplete Highschool,Low,FALSE
+291,64,Male,FALSE,TRUE,TRUE,2017-01-01,94,393,FALSE,TRUE,20,5,Disability,Incomplete Highschool,High,TRUE
+292,23,Male,TRUE,TRUE,FALSE,2004-01-01,24,88,FALSE,TRUE,72,1,Domestic Abuse,Incomplete Highschool,High,TRUE
+293,39,Male,FALSE,FALSE,FALSE,2013-01-01,40,203,FALSE,FALSE,39,5,Veteran,Incomplete Highschool,Medium,FALSE
+294,51,Male,FALSE,TRUE,TRUE,2020-01-01,29,247,TRUE,TRUE,79,1,Foster System,Incomplete Highschool,High,TRUE
+295,55,Male,FALSE,FALSE,FALSE,2007-01-01,32,246,FALSE,TRUE,2,5,Veteran,Incomplete Highschool,Medium,FALSE
+296,48,Male,FALSE,TRUE,FALSE,2016-01-01,61,178,FALSE,FALSE,90,1,Foster System,Incomplete Highschool,Medium,FALSE
+297,72,Male,FALSE,TRUE,FALSE,2012-01-01,88,265,FALSE,FALSE,77,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+298,49,Nonbinary,FALSE,FALSE,TRUE,2016-01-01,55,438,TRUE,FALSE,85,3,Domestic Abuse,Incomplete Highschool,High,TRUE
+299,73,Male,FALSE,FALSE,FALSE,2010-01-01,5,140,FALSE,FALSE,95,1,Domestic Abuse,Some College,Low,FALSE
+300,76,Male,FALSE,TRUE,TRUE,2009-01-01,70,214,FALSE,TRUE,39,3,Foster System,Completed College,Low,FALSE
+301,29,Female,FALSE,FALSE,FALSE,2005-01-01,85,384,FALSE,TRUE,100,1,Veteran,Incomplete Highschool,Medium,FALSE
+302,70,Female,FALSE,FALSE,FALSE,2012-01-01,5,94,FALSE,TRUE,90,4,Disability,Incomplete Highschool,Low,FALSE
+303,41,Female,FALSE,FALSE,TRUE,2017-01-01,9,431,FALSE,FALSE,41,5,Foster System,Incomplete Highschool,Low,FALSE
+304,68,Male,FALSE,FALSE,TRUE,2021-01-01,68,389,FALSE,TRUE,2,4,Foster System,Completed College,Low,FALSE
+305,37,Male,FALSE,FALSE,FALSE,2006-01-01,59,253,FALSE,FALSE,34,3,Veteran,Incomplete Highschool,Medium,FALSE
+306,20,Nonbinary,FALSE,TRUE,TRUE,2013-01-01,29,18,FALSE,FALSE,100,4,Domestic Abuse,Incomplete Highschool,High,TRUE
+307,56,Female,TRUE,TRUE,TRUE,2009-01-01,73,290,FALSE,FALSE,95,2,Domestic Abuse,Incomplete Highschool,High,TRUE
+308,38,Female,FALSE,TRUE,TRUE,2015-01-01,48,450,FALSE,FALSE,47,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+309,78,Female,FALSE,FALSE,FALSE,2010-01-01,25,500,TRUE,TRUE,28,3,Domestic Abuse,Completed Highschool,Low,FALSE
+310,31,Male,FALSE,FALSE,FALSE,2018-01-01,72,119,FALSE,TRUE,86,4,Disability,Completed Highschool,Low,FALSE
+311,33,Female,TRUE,FALSE,TRUE,2012-01-01,72,414,TRUE,TRUE,95,5,Veteran,Incomplete Highschool,High,TRUE
+312,72,Female,FALSE,TRUE,TRUE,2001-01-01,57,278,TRUE,TRUE,16,1,Veteran,Incomplete Highschool,High,TRUE
+313,31,Female,FALSE,TRUE,TRUE,2002-01-01,38,419,TRUE,FALSE,39,4,Disability,Incomplete Highschool,High,TRUE
+314,44,Male,FALSE,FALSE,TRUE,2001-01-01,25,468,TRUE,TRUE,74,1,Disability,Incomplete Highschool,Medium,FALSE
+315,38,Female,FALSE,TRUE,TRUE,2017-01-01,83,249,FALSE,TRUE,50,3,Disability,Incomplete Highschool,High,TRUE
+316,65,Male,FALSE,TRUE,TRUE,2021-01-01,38,170,FALSE,TRUE,5,1,Disability,Incomplete Highschool,High,TRUE
+317,61,Female,FALSE,TRUE,TRUE,2001-01-01,70,454,TRUE,FALSE,87,4,Domestic Abuse,Completed Highschool,High,TRUE
+318,62,Female,FALSE,FALSE,TRUE,2015-01-01,46,233,FALSE,TRUE,61,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+319,36,Male,FALSE,FALSE,FALSE,2005-01-01,60,426,TRUE,TRUE,49,1,Domestic Abuse,Incomplete Highschool,Low,FALSE
+320,28,Male,FALSE,TRUE,FALSE,2009-01-01,27,253,TRUE,FALSE,56,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+321,61,Female,FALSE,TRUE,FALSE,2004-01-01,81,131,FALSE,TRUE,67,4,Disability,Incomplete Highschool,High,TRUE
+322,39,Male,FALSE,TRUE,TRUE,2005-01-01,9,111,FALSE,FALSE,84,3,Veteran,Incomplete Highschool,High,TRUE
+323,28,Female,FALSE,FALSE,TRUE,2019-01-01,59,230,FALSE,FALSE,67,2,Domestic Abuse,Incomplete Highschool,High,TRUE
+324,40,Female,FALSE,FALSE,FALSE,2001-01-01,10,239,TRUE,TRUE,73,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+325,37,Female,FALSE,TRUE,FALSE,2004-01-01,10,413,TRUE,FALSE,1,4,Domestic Abuse,Completed Highschool,Low,FALSE
+326,71,Female,FALSE,FALSE,TRUE,2000-01-01,53,291,TRUE,TRUE,73,2,Veteran,Incomplete Highschool,Medium,FALSE
+327,51,Male,FALSE,FALSE,FALSE,2005-01-01,12,179,TRUE,FALSE,30,1,Disability,Incomplete Highschool,Medium,FALSE
+328,67,Female,TRUE,TRUE,FALSE,2000-01-01,94,77,FALSE,FALSE,41,3,Foster System,Completed Highschool,Low,FALSE
+329,33,Male,FALSE,TRUE,TRUE,2009-01-01,33,110,FALSE,TRUE,100,4,Veteran,Incomplete Highschool,High,TRUE
+330,51,Male,FALSE,TRUE,FALSE,2013-01-01,52,395,TRUE,FALSE,11,3,Foster System,Incomplete Highschool,High,TRUE
+331,74,Male,FALSE,FALSE,TRUE,2004-01-01,66,493,FALSE,FALSE,46,5,Disability,Incomplete Highschool,Medium,FALSE
+332,45,Male,TRUE,FALSE,FALSE,2008-01-01,56,351,FALSE,TRUE,64,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+333,71,Male,FALSE,FALSE,FALSE,2017-01-01,96,196,FALSE,TRUE,80,3,Disability,Incomplete Highschool,Medium,FALSE
+334,28,Female,FALSE,FALSE,FALSE,2006-01-01,21,288,FALSE,FALSE,70,4,Domestic Abuse,Completed Highschool,Low,FALSE
+335,31,Male,FALSE,TRUE,TRUE,2007-01-01,24,40,FALSE,FALSE,20,3,Foster System,Incomplete Highschool,Medium,FALSE
+336,21,Male,FALSE,TRUE,FALSE,2007-01-01,56,164,TRUE,TRUE,69,4,Foster System,Incomplete Highschool,High,TRUE
+337,50,Nonbinary,FALSE,FALSE,FALSE,2006-01-01,19,108,FALSE,FALSE,59,5,Domestic Abuse,Completed Highschool,Low,FALSE
+338,24,Nonbinary,FALSE,FALSE,TRUE,2007-01-01,55,80,TRUE,TRUE,21,5,Foster System,Completed Highschool,Low,FALSE
+339,38,Male,FALSE,TRUE,FALSE,2020-01-01,76,331,TRUE,TRUE,39,3,Domestic Abuse,Completed Highschool,Low,FALSE
+340,47,Male,FALSE,TRUE,FALSE,2017-01-01,55,301,TRUE,FALSE,25,5,Disability,Incomplete Highschool,High,TRUE
+341,71,Male,FALSE,FALSE,TRUE,2011-01-01,24,213,FALSE,FALSE,76,3,Disability,Incomplete Highschool,Medium,FALSE
+342,72,Male,TRUE,FALSE,FALSE,2018-01-01,69,277,FALSE,TRUE,66,1,Domestic Abuse,Completed College,Low,FALSE
+343,30,Female,FALSE,TRUE,FALSE,2021-01-01,83,237,FALSE,FALSE,68,4,Disability,Incomplete Highschool,High,TRUE
+344,58,Male,TRUE,TRUE,TRUE,2003-01-01,28,454,FALSE,FALSE,50,5,Veteran,Incomplete Highschool,High,TRUE
+345,43,Female,TRUE,TRUE,TRUE,2001-01-01,98,33,FALSE,FALSE,89,3,Veteran,Incomplete Highschool,High,TRUE
+346,42,Male,TRUE,TRUE,TRUE,2011-01-01,44,232,FALSE,FALSE,92,1,Foster System,Incomplete Highschool,High,TRUE
+347,40,Female,FALSE,FALSE,TRUE,2000-01-01,34,366,FALSE,FALSE,91,5,Foster System,Incomplete Highschool,Low,FALSE
+348,38,Female,FALSE,FALSE,FALSE,2008-01-01,93,368,FALSE,TRUE,75,1,Disability,Incomplete Highschool,Medium,FALSE
+349,34,Nonbinary,TRUE,TRUE,TRUE,2007-01-01,17,24,TRUE,FALSE,7,4,Domestic Abuse,Incomplete Highschool,High,TRUE
+350,45,Female,TRUE,FALSE,FALSE,2011-01-01,73,334,FALSE,FALSE,98,3,Foster System,Completed Highschool,High,TRUE
+351,24,Female,FALSE,FALSE,TRUE,2014-01-01,21,311,FALSE,FALSE,51,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+352,32,Nonbinary,TRUE,TRUE,TRUE,2013-01-01,10,283,TRUE,TRUE,20,3,Disability,Incomplete Highschool,High,TRUE
+353,41,Male,FALSE,FALSE,TRUE,2016-01-01,8,486,FALSE,TRUE,98,4,Veteran,Completed Highschool,Low,FALSE
+354,73,Female,TRUE,FALSE,FALSE,2017-01-01,46,295,FALSE,TRUE,67,2,Disability,Incomplete Highschool,High,TRUE
+355,63,Female,FALSE,FALSE,TRUE,2011-01-01,67,97,FALSE,FALSE,38,2,Veteran,Incomplete Highschool,High,TRUE
+356,67,Nonbinary,FALSE,TRUE,TRUE,2012-01-01,46,161,FALSE,TRUE,61,2,Disability,Incomplete Highschool,High,TRUE
+357,42,Female,FALSE,TRUE,FALSE,2005-01-01,83,348,TRUE,FALSE,88,3,Foster System,Completed Highschool,Low,FALSE
+358,71,Female,FALSE,TRUE,TRUE,2015-01-01,74,257,FALSE,TRUE,13,4,Disability,Incomplete Highschool,High,TRUE
+359,76,Male,FALSE,TRUE,TRUE,2004-01-01,9,468,TRUE,TRUE,84,5,Disability,Completed Highschool,Medium,FALSE
+360,78,Female,FALSE,TRUE,TRUE,2010-01-01,44,46,TRUE,TRUE,2,3,Foster System,Incomplete Highschool,High,TRUE
+361,75,Female,FALSE,FALSE,FALSE,2011-01-01,21,390,FALSE,TRUE,87,1,Domestic Abuse,Completed Highschool,Low,FALSE
+362,63,Female,FALSE,TRUE,TRUE,2013-01-01,8,473,TRUE,TRUE,79,4,Disability,Incomplete Highschool,High,TRUE
+363,80,Male,FALSE,FALSE,FALSE,2007-01-01,45,82,FALSE,TRUE,53,4,Foster System,Incomplete Highschool,Low,FALSE
+364,69,Female,FALSE,FALSE,FALSE,2015-01-01,20,265,FALSE,FALSE,19,3,Disability,Incomplete Highschool,Medium,FALSE
+365,53,Male,FALSE,FALSE,TRUE,2017-01-01,12,154,FALSE,FALSE,58,1,Disability,Incomplete Highschool,Low,FALSE
+366,62,Female,FALSE,TRUE,FALSE,2018-01-01,92,278,FALSE,TRUE,78,3,Disability,Incomplete Highschool,High,TRUE
+367,45,Male,FALSE,TRUE,FALSE,2003-01-01,41,220,FALSE,TRUE,20,5,Domestic Abuse,Completed Highschool,Low,FALSE
+368,30,Nonbinary,FALSE,FALSE,TRUE,2002-01-01,77,358,TRUE,TRUE,10,1,Foster System,Incomplete Highschool,High,TRUE
+369,72,Female,FALSE,FALSE,TRUE,2012-01-01,15,492,FALSE,FALSE,83,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+370,48,Female,FALSE,TRUE,TRUE,2018-01-01,64,130,FALSE,FALSE,22,4,Foster System,Incomplete Highschool,Medium,FALSE
+371,30,Female,FALSE,TRUE,FALSE,2018-01-01,22,217,FALSE,TRUE,40,4,Foster System,Incomplete Highschool,Medium,FALSE
+372,50,Female,FALSE,FALSE,FALSE,2002-01-01,43,420,FALSE,FALSE,23,5,Foster System,Incomplete Highschool,Low,FALSE
+373,18,Male,FALSE,FALSE,TRUE,2010-01-01,58,244,TRUE,FALSE,49,3,Veteran,Some College,Low,FALSE
+374,76,Nonbinary,FALSE,TRUE,TRUE,2009-01-01,47,136,TRUE,FALSE,97,2,Disability,Incomplete Highschool,High,TRUE
+375,18,Male,FALSE,TRUE,TRUE,2008-01-01,2,219,FALSE,TRUE,12,2,Veteran,Incomplete Highschool,High,TRUE
+376,75,Male,FALSE,TRUE,TRUE,2004-01-01,22,405,FALSE,FALSE,86,4,Foster System,Incomplete Highschool,High,TRUE
+377,34,Male,FALSE,TRUE,FALSE,2001-01-01,71,492,FALSE,TRUE,66,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+378,57,Male,FALSE,FALSE,FALSE,2020-01-01,22,282,FALSE,TRUE,18,5,Veteran,Incomplete Highschool,Medium,FALSE
+379,49,Male,FALSE,FALSE,TRUE,2003-01-01,9,136,FALSE,TRUE,80,4,Disability,Incomplete Highschool,Medium,FALSE
+380,61,Female,FALSE,FALSE,FALSE,2002-01-01,84,82,FALSE,FALSE,23,4,Domestic Abuse,Completed Highschool,High,TRUE
+381,60,Female,TRUE,TRUE,TRUE,2004-01-01,95,3,FALSE,TRUE,70,3,Domestic Abuse,Incomplete Highschool,High,TRUE
+382,53,Female,FALSE,FALSE,FALSE,2019-01-01,26,299,FALSE,TRUE,16,3,Disability,Incomplete Highschool,Medium,FALSE
+383,32,Female,FALSE,FALSE,FALSE,2018-01-01,88,297,FALSE,FALSE,92,2,Disability,Completed Highschool,Low,FALSE
+384,78,Female,TRUE,TRUE,FALSE,2013-01-01,18,400,FALSE,FALSE,47,4,Veteran,Completed Highschool,Medium,FALSE
+385,20,Male,FALSE,FALSE,TRUE,2018-01-01,92,10,TRUE,TRUE,40,1,Disability,Incomplete Highschool,Medium,FALSE
+386,55,Male,FALSE,FALSE,FALSE,2013-01-01,41,432,FALSE,TRUE,20,2,Domestic Abuse,Completed Highschool,Low,FALSE
+387,23,Female,FALSE,TRUE,TRUE,2007-01-01,59,348,FALSE,FALSE,58,5,Disability,Incomplete Highschool,High,TRUE
+388,31,Male,FALSE,FALSE,TRUE,2001-01-01,26,80,FALSE,FALSE,80,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+389,78,Female,FALSE,TRUE,TRUE,2004-01-01,15,301,FALSE,FALSE,61,5,Disability,Incomplete Highschool,High,TRUE
+390,49,Female,FALSE,TRUE,FALSE,2006-01-01,51,81,FALSE,TRUE,99,1,Veteran,Incomplete Highschool,High,TRUE
+391,50,Nonbinary,FALSE,TRUE,TRUE,2002-01-01,44,396,FALSE,TRUE,22,3,Foster System,Incomplete Highschool,High,TRUE
+392,45,Male,FALSE,TRUE,TRUE,2000-01-01,85,312,FALSE,TRUE,16,3,Disability,Incomplete Highschool,High,TRUE
+393,19,Male,FALSE,TRUE,FALSE,2009-01-01,45,171,TRUE,TRUE,58,3,Veteran,Incomplete Highschool,High,TRUE
+394,69,Female,FALSE,FALSE,TRUE,2012-01-01,47,399,TRUE,FALSE,29,1,Foster System,Completed Highschool,Low,FALSE
+395,28,Male,FALSE,TRUE,TRUE,2007-01-01,92,251,TRUE,TRUE,64,2,Veteran,Incomplete Highschool,Low,FALSE
+396,67,Male,FALSE,FALSE,FALSE,2000-01-01,51,370,FALSE,FALSE,30,5,Veteran,Incomplete Highschool,Low,FALSE
+397,51,Male,FALSE,FALSE,TRUE,2007-01-01,18,346,FALSE,TRUE,60,4,Domestic Abuse,Completed College,Low,FALSE
+398,49,Female,FALSE,TRUE,FALSE,2019-01-01,44,332,FALSE,TRUE,40,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+399,23,Female,FALSE,FALSE,TRUE,2012-01-01,56,275,FALSE,FALSE,6,2,Foster System,Incomplete Highschool,Low,FALSE
+400,22,Male,FALSE,FALSE,TRUE,2018-01-01,31,52,FALSE,FALSE,25,1,Domestic Abuse,Incomplete Highschool,Low,FALSE
+401,54,Female,FALSE,FALSE,TRUE,2006-01-01,68,448,FALSE,FALSE,52,3,Foster System,Completed Highschool,Low,FALSE
+402,70,Male,FALSE,FALSE,FALSE,2001-01-01,54,304,FALSE,FALSE,53,5,Veteran,Incomplete Highschool,Medium,FALSE
+403,27,Male,FALSE,TRUE,TRUE,2012-01-01,56,328,TRUE,FALSE,71,5,Veteran,Incomplete Highschool,High,TRUE
+404,26,Male,FALSE,FALSE,TRUE,2004-01-01,75,304,FALSE,FALSE,55,2,Foster System,Incomplete Highschool,Low,FALSE
+405,52,Male,FALSE,TRUE,FALSE,2001-01-01,71,416,FALSE,TRUE,33,2,Veteran,Incomplete Highschool,High,TRUE
+406,72,Female,FALSE,TRUE,FALSE,2017-01-01,24,260,TRUE,FALSE,30,1,Disability,Incomplete Highschool,High,TRUE
+407,24,Male,FALSE,TRUE,FALSE,2015-01-01,73,387,FALSE,FALSE,93,3,Foster System,Incomplete Highschool,High,TRUE
+408,36,Female,FALSE,FALSE,FALSE,2013-01-01,23,181,FALSE,FALSE,56,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+409,25,Male,FALSE,TRUE,FALSE,2005-01-01,100,388,TRUE,TRUE,11,2,Foster System,Incomplete Highschool,High,TRUE
+410,21,Male,FALSE,TRUE,TRUE,2008-01-01,98,135,FALSE,FALSE,98,2,Domestic Abuse,Completed College,Low,FALSE
+411,22,Male,FALSE,FALSE,TRUE,2015-01-01,47,490,FALSE,FALSE,7,4,Veteran,Completed Highschool,Low,FALSE
+412,24,Female,FALSE,TRUE,FALSE,2010-01-01,63,199,TRUE,FALSE,79,5,Foster System,Completed College,Low,FALSE
+413,58,Female,TRUE,TRUE,FALSE,2008-01-01,90,113,FALSE,FALSE,74,5,Domestic Abuse,Incomplete Highschool,High,TRUE
+414,37,Male,FALSE,TRUE,TRUE,2011-01-01,98,96,FALSE,TRUE,8,3,Disability,Incomplete Highschool,High,TRUE
+415,53,Male,FALSE,FALSE,TRUE,2019-01-01,85,85,FALSE,FALSE,72,3,Disability,Incomplete Highschool,Low,FALSE
+416,59,Female,FALSE,FALSE,FALSE,2021-01-01,91,292,TRUE,TRUE,14,3,Disability,Completed Highschool,Low,FALSE
+417,46,Male,FALSE,TRUE,TRUE,2001-01-01,84,146,FALSE,TRUE,67,1,Foster System,Incomplete Highschool,Medium,FALSE
+418,27,Male,FALSE,FALSE,FALSE,2014-01-01,78,45,TRUE,FALSE,24,3,Veteran,Completed Highschool,Low,FALSE
+419,57,Nonbinary,TRUE,TRUE,FALSE,2002-01-01,97,42,FALSE,FALSE,37,4,Veteran,Incomplete Highschool,High,TRUE
+420,34,Nonbinary,FALSE,FALSE,FALSE,2006-01-01,85,491,FALSE,TRUE,59,1,Foster System,Incomplete Highschool,High,TRUE
+421,40,Female,FALSE,FALSE,TRUE,2016-01-01,13,157,FALSE,TRUE,76,4,Domestic Abuse,Completed Highschool,Low,FALSE
+422,78,Nonbinary,FALSE,TRUE,FALSE,2003-01-01,29,155,FALSE,FALSE,55,2,Foster System,Incomplete Highschool,High,TRUE
+423,42,Female,FALSE,FALSE,FALSE,2000-01-01,88,20,FALSE,TRUE,57,2,Veteran,Completed Highschool,Low,FALSE
+424,74,Male,FALSE,FALSE,TRUE,2019-01-01,25,414,FALSE,FALSE,93,4,Domestic Abuse,Completed Highschool,Low,FALSE
+425,23,Female,FALSE,TRUE,TRUE,2016-01-01,80,329,FALSE,FALSE,14,3,Veteran,Incomplete Highschool,High,TRUE
+426,28,Female,TRUE,TRUE,TRUE,2002-01-01,23,441,FALSE,FALSE,37,1,Veteran,Incomplete Highschool,High,TRUE
+427,38,Male,FALSE,FALSE,FALSE,2002-01-01,82,154,FALSE,TRUE,96,5,Veteran,Incomplete Highschool,Medium,FALSE
+428,77,Female,FALSE,FALSE,FALSE,2018-01-01,32,169,FALSE,FALSE,58,4,Veteran,Incomplete Highschool,Medium,FALSE
+429,23,Female,FALSE,FALSE,FALSE,2001-01-01,63,328,FALSE,FALSE,43,3,Foster System,Incomplete Highschool,Low,FALSE
+430,64,Female,FALSE,FALSE,FALSE,2020-01-01,73,333,FALSE,TRUE,47,3,Disability,Incomplete Highschool,Medium,FALSE
+431,25,Female,TRUE,FALSE,FALSE,2011-01-01,71,16,FALSE,TRUE,3,4,Veteran,Incomplete Highschool,High,TRUE
+432,68,Male,FALSE,FALSE,TRUE,2005-01-01,22,54,FALSE,TRUE,87,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+433,65,Female,FALSE,FALSE,FALSE,2011-01-01,6,126,FALSE,FALSE,4,1,Foster System,Incomplete Highschool,Low,FALSE
+434,50,Male,FALSE,FALSE,FALSE,2007-01-01,90,14,FALSE,TRUE,6,1,Foster System,Incomplete Highschool,Low,FALSE
+435,51,Male,FALSE,TRUE,TRUE,2021-01-01,39,202,TRUE,FALSE,57,1,Disability,Incomplete Highschool,High,TRUE
+436,68,Male,TRUE,FALSE,TRUE,2009-01-01,32,370,FALSE,TRUE,76,3,Disability,Some College,Low,FALSE
+437,66,Female,FALSE,TRUE,FALSE,2021-01-01,99,130,FALSE,FALSE,23,5,Foster System,Incomplete Highschool,Medium,FALSE
+438,69,Female,FALSE,TRUE,TRUE,2021-01-01,15,418,FALSE,FALSE,72,3,Disability,Incomplete Highschool,High,TRUE
+439,52,Male,FALSE,FALSE,FALSE,2019-01-01,96,426,FALSE,TRUE,48,4,Veteran,Incomplete Highschool,Medium,FALSE
+440,64,Male,FALSE,FALSE,TRUE,2018-01-01,19,70,FALSE,FALSE,65,4,Disability,Completed Highschool,Low,FALSE
+441,36,Nonbinary,FALSE,TRUE,TRUE,2020-01-01,31,100,FALSE,TRUE,73,1,Foster System,Incomplete Highschool,High,TRUE
+442,41,Male,FALSE,TRUE,TRUE,2007-01-01,51,145,FALSE,TRUE,51,1,Disability,Incomplete Highschool,High,TRUE
+443,75,Male,FALSE,TRUE,TRUE,2014-01-01,58,246,FALSE,TRUE,94,4,Veteran,Incomplete Highschool,High,TRUE
+444,66,Male,FALSE,TRUE,FALSE,2021-01-01,87,62,FALSE,FALSE,54,1,Veteran,Incomplete Highschool,High,TRUE
+445,21,Male,TRUE,FALSE,TRUE,2020-01-01,39,85,TRUE,FALSE,18,4,Disability,Incomplete Highschool,High,TRUE
+446,36,Female,TRUE,FALSE,FALSE,2014-01-01,96,7,FALSE,TRUE,98,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+447,23,Female,TRUE,FALSE,TRUE,2018-01-01,95,7,FALSE,TRUE,68,4,Foster System,Completed Highschool,Low,FALSE
+448,42,Male,FALSE,FALSE,FALSE,2016-01-01,72,428,TRUE,FALSE,13,4,Veteran,Completed College,Low,FALSE
+449,49,Female,FALSE,FALSE,FALSE,2007-01-01,13,199,TRUE,FALSE,76,1,Veteran,Incomplete Highschool,Medium,FALSE
+450,75,Male,FALSE,FALSE,TRUE,2016-01-01,14,311,FALSE,TRUE,14,4,Disability,Incomplete Highschool,Medium,FALSE
+451,42,Male,FALSE,TRUE,TRUE,2005-01-01,48,75,FALSE,FALSE,2,4,Disability,Some College,Low,FALSE
+452,27,Female,FALSE,TRUE,FALSE,2013-01-01,72,50,TRUE,FALSE,12,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+453,51,Female,FALSE,FALSE,TRUE,2014-01-01,39,223,FALSE,FALSE,58,3,Foster System,Incomplete Highschool,Low,FALSE
+454,60,Female,FALSE,FALSE,TRUE,2002-01-01,54,478,FALSE,TRUE,64,1,Disability,Completed College,Low,FALSE
+455,45,Female,FALSE,TRUE,TRUE,2015-01-01,77,77,FALSE,FALSE,76,2,Veteran,Incomplete Highschool,High,TRUE
+456,74,Female,FALSE,TRUE,FALSE,2001-01-01,15,342,FALSE,FALSE,58,4,Disability,Incomplete Highschool,Low,FALSE
+457,70,Female,FALSE,TRUE,TRUE,2017-01-01,54,316,FALSE,FALSE,68,4,Foster System,Incomplete Highschool,Medium,FALSE
+458,28,Male,FALSE,FALSE,FALSE,2018-01-01,72,450,FALSE,TRUE,67,3,Disability,Incomplete Highschool,Medium,FALSE
+459,55,Male,TRUE,TRUE,FALSE,2020-01-01,69,82,FALSE,FALSE,100,2,Disability,Incomplete Highschool,High,TRUE
+460,24,Female,FALSE,FALSE,FALSE,2010-01-01,60,26,FALSE,TRUE,15,1,Disability,Completed Highschool,Low,FALSE
+461,51,Nonbinary,FALSE,TRUE,TRUE,2002-01-01,38,396,FALSE,FALSE,1,4,Domestic Abuse,Incomplete Highschool,High,TRUE
+462,62,Male,FALSE,FALSE,TRUE,2018-01-01,43,451,FALSE,FALSE,81,2,Domestic Abuse,Completed College,Low,FALSE
+463,59,Male,FALSE,FALSE,TRUE,2006-01-01,59,429,FALSE,TRUE,50,5,Foster System,Incomplete Highschool,Low,FALSE
+464,32,Male,FALSE,FALSE,TRUE,2008-01-01,89,256,TRUE,TRUE,36,1,Domestic Abuse,Completed College,Low,FALSE
+465,27,Nonbinary,FALSE,TRUE,FALSE,2021-01-01,25,95,FALSE,FALSE,29,4,Domestic Abuse,Completed Highschool,Low,FALSE
+466,25,Male,FALSE,FALSE,FALSE,2008-01-01,41,368,TRUE,TRUE,51,5,Foster System,Incomplete Highschool,Medium,FALSE
+467,73,Nonbinary,FALSE,FALSE,FALSE,2017-01-01,90,386,FALSE,FALSE,38,1,Domestic Abuse,Some College,Low,FALSE
+468,41,Female,FALSE,FALSE,TRUE,2014-01-01,86,159,FALSE,FALSE,99,5,Disability,Incomplete Highschool,Medium,FALSE
+469,33,Male,FALSE,FALSE,FALSE,2021-01-01,81,207,FALSE,FALSE,36,3,Disability,Incomplete Highschool,Medium,FALSE
+470,33,Female,FALSE,FALSE,FALSE,2021-01-01,23,465,FALSE,FALSE,91,3,Disability,Incomplete Highschool,Medium,FALSE
+471,53,Male,FALSE,FALSE,TRUE,2015-01-01,87,235,TRUE,FALSE,52,4,Veteran,Incomplete Highschool,Medium,FALSE
+472,76,Female,FALSE,FALSE,FALSE,2005-01-01,23,124,FALSE,FALSE,81,1,Domestic Abuse,Incomplete Highschool,Low,FALSE
+473,59,Male,FALSE,TRUE,FALSE,2008-01-01,48,442,FALSE,FALSE,56,5,Veteran,Incomplete Highschool,High,TRUE
+474,47,Female,FALSE,FALSE,FALSE,2006-01-01,49,170,TRUE,FALSE,70,5,Foster System,Some College,High,TRUE
+475,46,Female,FALSE,FALSE,FALSE,2015-01-01,38,19,FALSE,TRUE,98,2,Disability,Incomplete Highschool,Low,FALSE
+476,32,Female,FALSE,TRUE,TRUE,2021-01-01,76,260,FALSE,FALSE,34,4,Disability,Incomplete Highschool,High,TRUE
+477,29,Nonbinary,FALSE,FALSE,TRUE,2008-01-01,46,282,FALSE,FALSE,26,2,Foster System,Incomplete Highschool,Medium,FALSE
+478,42,Male,FALSE,TRUE,FALSE,2020-01-01,22,313,FALSE,FALSE,26,4,Veteran,Completed College,Low,FALSE
+479,41,Female,FALSE,FALSE,FALSE,2020-01-01,86,291,FALSE,TRUE,33,4,Disability,Some College,Low,FALSE
+480,58,Male,FALSE,FALSE,TRUE,2016-01-01,87,371,FALSE,FALSE,35,4,Foster System,Incomplete Highschool,Low,FALSE
+481,19,Nonbinary,TRUE,FALSE,TRUE,2001-01-01,17,418,FALSE,TRUE,19,5,Domestic Abuse,Completed College,Low,FALSE
+482,28,Male,FALSE,TRUE,FALSE,2019-01-01,59,156,TRUE,FALSE,56,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+483,64,Female,FALSE,TRUE,FALSE,2011-01-01,49,239,FALSE,TRUE,63,5,Foster System,Incomplete Highschool,Medium,FALSE
+484,41,Nonbinary,FALSE,FALSE,TRUE,2016-01-01,24,127,TRUE,TRUE,92,4,Veteran,Some College,Medium,FALSE
+485,32,Male,FALSE,FALSE,TRUE,2001-01-01,98,77,FALSE,TRUE,83,2,Veteran,Incomplete Highschool,Medium,FALSE
+486,25,Nonbinary,FALSE,FALSE,FALSE,2011-01-01,35,439,FALSE,FALSE,34,5,Disability,Some College,Low,FALSE
+487,78,Female,TRUE,TRUE,FALSE,2003-01-01,26,388,FALSE,TRUE,82,3,Domestic Abuse,Incomplete Highschool,High,TRUE
+488,21,Female,FALSE,TRUE,FALSE,2017-01-01,95,237,FALSE,TRUE,26,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+489,67,Female,FALSE,FALSE,FALSE,2021-01-01,90,110,FALSE,FALSE,56,2,Disability,Incomplete Highschool,Low,FALSE
+490,67,Female,FALSE,FALSE,TRUE,2001-01-01,94,330,FALSE,FALSE,21,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+491,77,Male,FALSE,TRUE,FALSE,2007-01-01,42,228,TRUE,FALSE,41,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+492,47,Female,FALSE,FALSE,FALSE,2010-01-01,28,453,FALSE,FALSE,27,5,Foster System,Incomplete Highschool,Low,FALSE
+493,28,Female,FALSE,TRUE,FALSE,2021-01-01,10,349,FALSE,TRUE,53,4,Disability,Incomplete Highschool,Medium,FALSE
+494,21,Nonbinary,FALSE,TRUE,TRUE,2001-01-01,9,465,FALSE,FALSE,66,2,Disability,Some College,Medium,FALSE
+495,45,Female,FALSE,FALSE,FALSE,2013-01-01,86,318,TRUE,FALSE,27,4,Veteran,Incomplete Highschool,Medium,FALSE
+496,19,Male,FALSE,FALSE,FALSE,2016-01-01,22,192,TRUE,FALSE,6,1,Disability,Incomplete Highschool,Medium,FALSE
+497,54,Female,FALSE,TRUE,FALSE,2007-01-01,40,19,FALSE,TRUE,99,4,Foster System,Incomplete Highschool,Medium,FALSE
+498,25,Female,FALSE,TRUE,TRUE,2020-01-01,72,298,FALSE,FALSE,79,5,Domestic Abuse,Some College,Low,FALSE
+499,80,Male,FALSE,TRUE,FALSE,2016-01-01,88,33,FALSE,FALSE,2,1,Disability,Completed College,Low,FALSE
+500,39,Female,FALSE,FALSE,TRUE,2021-01-01,92,76,TRUE,FALSE,50,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+501,47,Male,TRUE,FALSE,FALSE,2012-01-01,10,285,FALSE,FALSE,95,5,Veteran,Completed Highschool,Low,FALSE
+502,31,Male,FALSE,TRUE,TRUE,2009-01-01,3,12,TRUE,FALSE,10,4,Veteran,Incomplete Highschool,High,TRUE
+503,34,Female,FALSE,TRUE,TRUE,2017-01-01,82,40,TRUE,TRUE,87,1,Foster System,Some College,Low,FALSE
+504,25,Nonbinary,FALSE,TRUE,FALSE,2009-01-01,99,164,FALSE,FALSE,81,3,Veteran,Incomplete Highschool,High,TRUE
+505,32,Female,FALSE,TRUE,TRUE,2010-01-01,52,425,FALSE,TRUE,42,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+506,72,Nonbinary,FALSE,TRUE,FALSE,2012-01-01,89,82,FALSE,TRUE,95,4,Disability,Completed Highschool,Medium,FALSE
+507,63,Male,FALSE,FALSE,FALSE,2008-01-01,28,110,FALSE,TRUE,6,1,Foster System,Completed College,Low,FALSE
+508,60,Male,FALSE,TRUE,TRUE,2021-01-01,56,74,FALSE,FALSE,81,3,Foster System,Incomplete Highschool,High,TRUE
+509,70,Male,FALSE,FALSE,TRUE,2012-01-01,43,382,TRUE,FALSE,96,2,Disability,Completed Highschool,Low,FALSE
+510,28,Female,TRUE,FALSE,TRUE,2010-01-01,21,194,TRUE,FALSE,54,5,Foster System,Incomplete Highschool,High,TRUE
+511,70,Nonbinary,FALSE,FALSE,FALSE,2006-01-01,65,166,FALSE,TRUE,69,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+512,30,Female,FALSE,FALSE,FALSE,2020-01-01,78,196,TRUE,TRUE,7,3,Disability,Incomplete Highschool,Medium,FALSE
+513,27,Female,FALSE,TRUE,FALSE,2001-01-01,82,84,FALSE,FALSE,78,2,Disability,Incomplete Highschool,High,TRUE
+514,29,Nonbinary,FALSE,TRUE,TRUE,2003-01-01,100,257,FALSE,TRUE,48,4,Disability,Incomplete Highschool,High,TRUE
+515,29,Female,FALSE,FALSE,FALSE,2010-01-01,25,310,FALSE,TRUE,68,1,Disability,Incomplete Highschool,Medium,FALSE
+516,24,Female,FALSE,TRUE,FALSE,2003-01-01,67,41,FALSE,FALSE,95,5,Disability,Incomplete Highschool,High,TRUE
+517,57,Female,FALSE,FALSE,TRUE,2019-01-01,90,466,FALSE,TRUE,22,4,Foster System,Incomplete Highschool,Low,FALSE
+518,67,Male,FALSE,FALSE,TRUE,2008-01-01,100,51,FALSE,FALSE,51,4,Disability,Incomplete Highschool,Low,FALSE
+519,37,Female,TRUE,TRUE,TRUE,2002-01-01,80,207,TRUE,FALSE,49,4,Veteran,Incomplete Highschool,High,TRUE
+520,19,Male,FALSE,TRUE,FALSE,2000-01-01,69,421,FALSE,FALSE,99,3,Disability,Incomplete Highschool,High,TRUE
+521,65,Female,FALSE,TRUE,TRUE,2019-01-01,42,414,FALSE,FALSE,78,2,Disability,Incomplete Highschool,High,TRUE
+522,18,Male,FALSE,TRUE,FALSE,2001-01-01,34,147,FALSE,FALSE,45,1,Foster System,Incomplete Highschool,Medium,FALSE
+523,54,Female,FALSE,TRUE,FALSE,2001-01-01,50,105,FALSE,TRUE,26,2,Disability,Incomplete Highschool,High,TRUE
+524,70,Female,FALSE,TRUE,TRUE,2007-01-01,46,408,FALSE,TRUE,62,5,Veteran,Incomplete Highschool,High,TRUE
+525,37,Female,FALSE,TRUE,TRUE,2002-01-01,77,181,TRUE,FALSE,49,2,Veteran,Incomplete Highschool,High,TRUE
+526,47,Male,FALSE,TRUE,FALSE,2005-01-01,46,62,FALSE,FALSE,9,1,Disability,Incomplete Highschool,High,TRUE
+527,51,Male,TRUE,TRUE,FALSE,2000-01-01,31,218,TRUE,TRUE,40,1,Foster System,Incomplete Highschool,High,TRUE
+528,76,Female,TRUE,TRUE,TRUE,2021-01-01,6,422,FALSE,FALSE,58,1,Foster System,Completed Highschool,Medium,FALSE
+529,61,Male,FALSE,FALSE,TRUE,2015-01-01,57,481,TRUE,TRUE,42,1,Disability,Incomplete Highschool,Medium,FALSE
+530,18,Male,TRUE,FALSE,TRUE,2016-01-01,98,222,FALSE,TRUE,46,4,Domestic Abuse,Completed Highschool,Low,FALSE
+531,18,Male,FALSE,FALSE,TRUE,2011-01-01,88,315,TRUE,TRUE,88,2,Foster System,Incomplete Highschool,Medium,FALSE
+532,67,Female,FALSE,TRUE,FALSE,2006-01-01,95,385,FALSE,FALSE,41,1,Foster System,Incomplete Highschool,Medium,FALSE
+533,75,Female,FALSE,FALSE,FALSE,2003-01-01,58,195,FALSE,TRUE,23,3,Foster System,Incomplete Highschool,Low,FALSE
+534,51,Male,FALSE,TRUE,FALSE,2015-01-01,47,393,FALSE,FALSE,30,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+535,41,Nonbinary,FALSE,FALSE,FALSE,2015-01-01,93,463,FALSE,FALSE,4,1,Foster System,Incomplete Highschool,Medium,FALSE
+536,53,Male,FALSE,TRUE,FALSE,2016-01-01,22,344,FALSE,FALSE,91,2,Disability,Incomplete Highschool,High,TRUE
+537,19,Male,FALSE,TRUE,TRUE,2002-01-01,100,227,FALSE,FALSE,69,2,Disability,Incomplete Highschool,High,TRUE
+538,54,Male,FALSE,FALSE,TRUE,2020-01-01,44,423,FALSE,FALSE,20,2,Veteran,Incomplete Highschool,Medium,FALSE
+539,50,Male,FALSE,FALSE,TRUE,2013-01-01,64,493,FALSE,TRUE,21,4,Veteran,Incomplete Highschool,Medium,FALSE
+540,49,Female,FALSE,TRUE,TRUE,2005-01-01,62,279,FALSE,TRUE,20,1,Foster System,Incomplete Highschool,Medium,FALSE
+541,42,Female,FALSE,FALSE,FALSE,2004-01-01,80,341,FALSE,TRUE,13,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+542,70,Female,FALSE,FALSE,TRUE,2020-01-01,70,352,FALSE,TRUE,60,1,Foster System,Completed Highschool,Low,FALSE
+543,39,Male,FALSE,FALSE,FALSE,2013-01-01,87,403,TRUE,TRUE,61,2,Veteran,Completed College,Medium,FALSE
+544,21,Male,FALSE,TRUE,FALSE,2002-01-01,43,385,FALSE,FALSE,36,2,Domestic Abuse,Completed Highschool,Low,FALSE
+545,27,Male,FALSE,TRUE,FALSE,2007-01-01,58,482,TRUE,FALSE,5,1,Foster System,Incomplete Highschool,Medium,FALSE
+546,46,Female,FALSE,FALSE,FALSE,2008-01-01,44,443,TRUE,TRUE,37,4,Domestic Abuse,Completed College,Low,FALSE
+547,57,Female,FALSE,FALSE,FALSE,2001-01-01,31,12,FALSE,TRUE,41,5,Veteran,Incomplete Highschool,High,TRUE
+548,19,Male,TRUE,FALSE,FALSE,2005-01-01,41,471,FALSE,TRUE,36,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+549,74,Female,FALSE,FALSE,TRUE,2018-01-01,90,385,FALSE,FALSE,45,5,Disability,Incomplete Highschool,Medium,FALSE
+550,71,Female,FALSE,TRUE,FALSE,2005-01-01,65,177,FALSE,TRUE,94,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+551,38,Male,FALSE,FALSE,TRUE,2000-01-01,40,25,FALSE,TRUE,56,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+552,73,Nonbinary,FALSE,TRUE,TRUE,2010-01-01,77,107,FALSE,FALSE,98,5,Veteran,Incomplete Highschool,High,TRUE
+553,41,Female,FALSE,TRUE,TRUE,2011-01-01,39,407,FALSE,FALSE,5,1,Foster System,Incomplete Highschool,Medium,FALSE
+554,51,Female,FALSE,TRUE,TRUE,2021-01-01,34,129,TRUE,TRUE,86,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+555,74,Female,FALSE,FALSE,FALSE,2013-01-01,65,483,FALSE,TRUE,64,4,Domestic Abuse,Completed College,Low,FALSE
+556,64,Male,FALSE,TRUE,FALSE,2004-01-01,87,206,FALSE,FALSE,80,3,Disability,Incomplete Highschool,High,TRUE
+557,33,Female,FALSE,TRUE,FALSE,2018-01-01,68,52,FALSE,TRUE,1,5,Foster System,Incomplete Highschool,Medium,FALSE
+558,32,Female,FALSE,TRUE,TRUE,2019-01-01,1,190,FALSE,FALSE,70,2,Disability,Incomplete Highschool,High,TRUE
+559,55,Female,FALSE,FALSE,FALSE,2013-01-01,4,448,FALSE,FALSE,90,1,Veteran,Incomplete Highschool,Medium,FALSE
+560,70,Female,FALSE,FALSE,FALSE,2011-01-01,65,227,FALSE,FALSE,83,5,Veteran,Completed Highschool,Low,FALSE
+561,39,Male,TRUE,FALSE,FALSE,2005-01-01,69,13,TRUE,TRUE,89,4,Foster System,Completed Highschool,Low,FALSE
+562,31,Male,FALSE,TRUE,FALSE,2014-01-01,95,436,FALSE,TRUE,94,2,Veteran,Incomplete Highschool,High,TRUE
+563,78,Male,FALSE,FALSE,TRUE,2010-01-01,48,66,TRUE,FALSE,97,1,Disability,Incomplete Highschool,Medium,FALSE
+564,38,Male,FALSE,TRUE,FALSE,2012-01-01,100,457,FALSE,TRUE,61,4,Disability,Completed Highschool,Low,FALSE
+565,38,Female,FALSE,TRUE,FALSE,2019-01-01,19,9,FALSE,FALSE,79,3,Disability,Incomplete Highschool,High,TRUE
+566,30,Female,FALSE,TRUE,FALSE,2010-01-01,71,270,TRUE,TRUE,11,2,Foster System,Incomplete Highschool,High,TRUE
+567,74,Male,FALSE,TRUE,FALSE,2009-01-01,96,316,FALSE,FALSE,41,4,Disability,Some College,Low,FALSE
+568,64,Male,FALSE,TRUE,FALSE,2015-01-01,40,387,TRUE,TRUE,22,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+569,19,Male,FALSE,FALSE,TRUE,2018-01-01,94,284,TRUE,TRUE,49,1,Veteran,Some College,Low,FALSE
+570,37,Female,FALSE,FALSE,TRUE,2003-01-01,91,246,FALSE,TRUE,14,5,Foster System,Incomplete Highschool,Low,FALSE
+571,50,Male,FALSE,FALSE,FALSE,2019-01-01,77,331,FALSE,TRUE,6,1,Domestic Abuse,Incomplete Highschool,Low,FALSE
+572,68,Female,FALSE,FALSE,FALSE,2015-01-01,14,324,FALSE,TRUE,85,1,Disability,Incomplete Highschool,Medium,FALSE
+573,72,Male,FALSE,TRUE,TRUE,2003-01-01,33,473,TRUE,TRUE,43,3,Disability,Incomplete Highschool,High,TRUE
+574,64,Female,FALSE,TRUE,FALSE,2011-01-01,95,199,FALSE,FALSE,46,1,Veteran,Incomplete Highschool,High,TRUE
+575,70,Male,FALSE,TRUE,FALSE,2017-01-01,46,335,FALSE,TRUE,33,3,Foster System,Incomplete Highschool,Medium,FALSE
+576,18,Female,FALSE,FALSE,FALSE,2007-01-01,9,463,FALSE,TRUE,48,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+577,78,Female,FALSE,FALSE,FALSE,2002-01-01,100,211,FALSE,TRUE,64,3,Disability,Incomplete Highschool,Medium,FALSE
+578,36,Male,FALSE,FALSE,TRUE,2003-01-01,14,275,FALSE,FALSE,54,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+579,79,Female,FALSE,FALSE,FALSE,2019-01-01,49,266,TRUE,TRUE,22,2,Foster System,Incomplete Highschool,Medium,FALSE
+580,51,Male,FALSE,FALSE,TRUE,2007-01-01,87,24,FALSE,TRUE,31,1,Foster System,Incomplete Highschool,Low,FALSE
+581,65,Nonbinary,FALSE,FALSE,FALSE,2001-01-01,2,107,FALSE,FALSE,37,4,Veteran,Incomplete Highschool,High,TRUE
+582,26,Male,TRUE,FALSE,FALSE,2009-01-01,49,243,FALSE,TRUE,97,3,Disability,Incomplete Highschool,High,TRUE
+583,71,Female,TRUE,FALSE,FALSE,2016-01-01,29,409,FALSE,TRUE,22,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+584,66,Nonbinary,FALSE,TRUE,FALSE,2018-01-01,13,197,FALSE,FALSE,86,3,Disability,Incomplete Highschool,Low,FALSE
+585,67,Female,FALSE,TRUE,FALSE,2000-01-01,52,54,FALSE,TRUE,93,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+586,60,Female,TRUE,FALSE,TRUE,2015-01-01,65,68,FALSE,FALSE,91,4,Veteran,Incomplete Highschool,High,TRUE
+587,59,Female,FALSE,TRUE,TRUE,2014-01-01,85,388,FALSE,TRUE,95,4,Domestic Abuse,Completed College,Low,FALSE
+588,74,Male,FALSE,TRUE,FALSE,2014-01-01,85,225,FALSE,TRUE,87,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+589,74,Female,FALSE,TRUE,FALSE,2014-01-01,62,406,FALSE,TRUE,42,2,Domestic Abuse,Completed Highschool,Low,FALSE
+590,71,Nonbinary,TRUE,FALSE,FALSE,2005-01-01,87,405,FALSE,TRUE,59,4,Disability,Some College,Medium,FALSE
+591,58,Female,FALSE,TRUE,FALSE,2010-01-01,69,72,FALSE,FALSE,49,3,Foster System,Incomplete Highschool,Medium,FALSE
+592,42,Male,FALSE,FALSE,TRUE,2005-01-01,79,373,FALSE,TRUE,33,2,Disability,Incomplete Highschool,Medium,FALSE
+593,63,Nonbinary,FALSE,TRUE,FALSE,2009-01-01,24,204,FALSE,TRUE,83,3,Disability,Incomplete Highschool,High,TRUE
+594,59,Nonbinary,FALSE,TRUE,FALSE,2005-01-01,90,23,FALSE,TRUE,15,1,Veteran,Incomplete Highschool,High,TRUE
+595,58,Male,FALSE,TRUE,TRUE,2009-01-01,78,198,TRUE,TRUE,96,2,Foster System,Incomplete Highschool,High,TRUE
+596,44,Female,FALSE,TRUE,TRUE,2005-01-01,7,172,FALSE,TRUE,49,2,Disability,Incomplete Highschool,High,TRUE
+597,63,Female,FALSE,FALSE,TRUE,2016-01-01,32,250,FALSE,TRUE,19,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+598,74,Female,FALSE,FALSE,FALSE,2012-01-01,67,422,FALSE,TRUE,5,5,Disability,Incomplete Highschool,Medium,FALSE
+599,25,Female,FALSE,TRUE,TRUE,2011-01-01,50,486,FALSE,FALSE,47,1,Foster System,Incomplete Highschool,High,TRUE
+600,41,Female,FALSE,TRUE,TRUE,2007-01-01,48,363,FALSE,TRUE,97,3,Disability,Incomplete Highschool,High,TRUE
+601,73,Male,FALSE,TRUE,TRUE,2012-01-01,20,435,FALSE,TRUE,68,5,Disability,Incomplete Highschool,High,TRUE
+602,61,Female,FALSE,FALSE,FALSE,2001-01-01,17,212,FALSE,TRUE,23,2,Disability,Incomplete Highschool,Medium,FALSE
+603,23,Female,FALSE,FALSE,FALSE,2009-01-01,91,432,TRUE,TRUE,91,3,Veteran,Some College,Low,FALSE
+604,32,Male,FALSE,TRUE,TRUE,2019-01-01,2,72,FALSE,TRUE,48,5,Disability,Incomplete Highschool,High,TRUE
+605,62,Male,FALSE,FALSE,FALSE,2010-01-01,46,461,FALSE,FALSE,26,1,Domestic Abuse,Incomplete Highschool,Low,FALSE
+606,30,Female,FALSE,FALSE,TRUE,2001-01-01,47,471,FALSE,FALSE,3,5,Foster System,Incomplete Highschool,Low,FALSE
+607,46,Male,TRUE,FALSE,TRUE,2002-01-01,6,105,FALSE,TRUE,69,3,Disability,Incomplete Highschool,High,TRUE
+608,47,Female,FALSE,TRUE,TRUE,2003-01-01,5,182,TRUE,TRUE,29,3,Domestic Abuse,Some College,Low,FALSE
+609,52,Nonbinary,FALSE,FALSE,FALSE,2002-01-01,71,410,TRUE,FALSE,43,4,Disability,Incomplete Highschool,High,TRUE
+610,67,Female,FALSE,TRUE,TRUE,2019-01-01,42,278,FALSE,FALSE,82,5,Veteran,Incomplete Highschool,High,TRUE
+611,50,Male,FALSE,FALSE,FALSE,2001-01-01,1,460,FALSE,TRUE,77,4,Disability,Completed Highschool,Low,FALSE
+612,48,Female,FALSE,FALSE,TRUE,2006-01-01,97,66,TRUE,TRUE,55,2,Veteran,Incomplete Highschool,Medium,FALSE
+613,67,Male,FALSE,FALSE,FALSE,2003-01-01,19,169,FALSE,TRUE,96,1,Domestic Abuse,Incomplete Highschool,Low,FALSE
+614,23,Male,FALSE,TRUE,TRUE,2001-01-01,28,374,FALSE,FALSE,21,3,Veteran,Incomplete Highschool,High,TRUE
+615,72,Nonbinary,FALSE,FALSE,FALSE,2021-01-01,12,344,TRUE,TRUE,95,2,Veteran,Incomplete Highschool,High,TRUE
+616,38,Male,FALSE,TRUE,TRUE,2004-01-01,30,30,FALSE,FALSE,96,4,Foster System,Some College,Low,FALSE
+617,22,Male,FALSE,TRUE,FALSE,2015-01-01,57,305,TRUE,FALSE,91,1,Foster System,Incomplete Highschool,High,TRUE
+618,46,Female,FALSE,TRUE,TRUE,2000-01-01,91,397,FALSE,TRUE,46,2,Disability,Completed Highschool,Low,FALSE
+619,20,Male,FALSE,TRUE,FALSE,2012-01-01,23,232,FALSE,TRUE,6,1,Domestic Abuse,Completed Highschool,Low,FALSE
+620,33,Male,FALSE,TRUE,FALSE,2008-01-01,38,105,FALSE,FALSE,74,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+621,76,Male,FALSE,FALSE,TRUE,2005-01-01,88,477,TRUE,FALSE,81,3,Foster System,Some College,Low,FALSE
+622,38,Female,FALSE,TRUE,TRUE,2010-01-01,85,269,TRUE,FALSE,30,3,Disability,Incomplete Highschool,High,TRUE
+623,54,Female,FALSE,FALSE,FALSE,2006-01-01,34,239,FALSE,FALSE,10,2,Foster System,Incomplete Highschool,Medium,FALSE
+624,18,Male,FALSE,FALSE,FALSE,2018-01-01,30,429,TRUE,TRUE,25,4,Disability,Incomplete Highschool,Medium,FALSE
+625,48,Male,FALSE,FALSE,FALSE,2009-01-01,27,473,FALSE,FALSE,37,1,Disability,Incomplete Highschool,Medium,FALSE
+626,52,Male,FALSE,FALSE,FALSE,2008-01-01,21,379,FALSE,TRUE,74,5,Veteran,Incomplete Highschool,Medium,FALSE
+627,30,Male,FALSE,FALSE,FALSE,2000-01-01,44,265,TRUE,TRUE,22,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+628,71,Female,FALSE,TRUE,FALSE,2015-01-01,60,6,TRUE,TRUE,14,4,Disability,Completed Highschool,Low,FALSE
+629,68,Female,FALSE,TRUE,TRUE,2011-01-01,49,274,FALSE,FALSE,2,2,Foster System,Incomplete Highschool,High,TRUE
+630,55,Male,FALSE,TRUE,FALSE,2000-01-01,27,354,FALSE,FALSE,80,5,Disability,Incomplete Highschool,High,TRUE
+631,78,Male,FALSE,FALSE,TRUE,2013-01-01,4,239,TRUE,FALSE,29,2,Disability,Incomplete Highschool,Medium,FALSE
+632,67,Female,FALSE,FALSE,TRUE,2015-01-01,36,400,FALSE,TRUE,45,3,Disability,Incomplete Highschool,Medium,FALSE
+633,44,Male,FALSE,TRUE,TRUE,2013-01-01,67,264,FALSE,TRUE,93,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+634,61,Nonbinary,FALSE,FALSE,FALSE,2010-01-01,83,78,TRUE,FALSE,20,3,Foster System,Incomplete Highschool,High,TRUE
+635,80,Male,FALSE,FALSE,FALSE,2015-01-01,94,229,FALSE,FALSE,56,4,Veteran,Incomplete Highschool,Medium,FALSE
+636,50,Female,FALSE,FALSE,TRUE,2009-01-01,65,195,FALSE,FALSE,65,5,Veteran,Completed College,Low,FALSE
+637,59,Male,FALSE,TRUE,TRUE,2020-01-01,90,7,FALSE,FALSE,26,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+638,42,Male,TRUE,FALSE,FALSE,2004-01-01,44,110,TRUE,FALSE,13,4,Foster System,Completed Highschool,Low,FALSE
+639,62,Male,TRUE,TRUE,TRUE,2010-01-01,5,213,FALSE,FALSE,40,3,Domestic Abuse,Some College,Low,FALSE
+640,77,Male,FALSE,TRUE,FALSE,2002-01-01,32,200,FALSE,FALSE,38,1,Foster System,Incomplete Highschool,Medium,FALSE
+641,54,Female,FALSE,TRUE,TRUE,2020-01-01,87,159,TRUE,TRUE,34,4,Disability,Incomplete Highschool,High,TRUE
+642,62,Male,FALSE,FALSE,TRUE,2021-01-01,99,263,FALSE,TRUE,26,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+643,66,Female,FALSE,FALSE,TRUE,2016-01-01,37,286,TRUE,TRUE,94,4,Disability,Incomplete Highschool,Medium,FALSE
+644,74,Nonbinary,FALSE,FALSE,TRUE,2021-01-01,36,235,FALSE,FALSE,45,5,Veteran,Completed College,Low,FALSE
+645,18,Male,FALSE,TRUE,FALSE,2005-01-01,73,235,FALSE,TRUE,47,2,Domestic Abuse,Completed Highschool,Low,FALSE
+646,27,Female,FALSE,FALSE,FALSE,2010-01-01,22,278,FALSE,TRUE,86,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+647,60,Female,FALSE,TRUE,FALSE,2001-01-01,94,500,FALSE,FALSE,15,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+648,18,Female,FALSE,FALSE,TRUE,2000-01-01,37,41,FALSE,FALSE,82,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+649,48,Male,FALSE,TRUE,TRUE,2015-01-01,24,301,FALSE,FALSE,37,4,Veteran,Incomplete Highschool,High,TRUE
+650,31,Female,FALSE,TRUE,TRUE,2014-01-01,37,88,FALSE,TRUE,63,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+651,79,Female,FALSE,FALSE,FALSE,2015-01-01,44,487,FALSE,TRUE,17,1,Disability,Incomplete Highschool,Medium,FALSE
+652,54,Male,FALSE,FALSE,FALSE,2021-01-01,93,165,FALSE,FALSE,87,4,Foster System,Incomplete Highschool,Low,FALSE
+653,40,Male,FALSE,TRUE,FALSE,2019-01-01,82,220,TRUE,FALSE,92,5,Disability,Incomplete Highschool,High,TRUE
+654,26,Female,FALSE,TRUE,TRUE,2014-01-01,46,267,FALSE,TRUE,55,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+655,52,Male,FALSE,FALSE,FALSE,2001-01-01,75,457,FALSE,TRUE,96,4,Foster System,Completed Highschool,Low,FALSE
+656,68,Male,FALSE,FALSE,FALSE,2003-01-01,67,417,FALSE,TRUE,76,5,Foster System,Incomplete Highschool,Low,FALSE
+657,31,Male,FALSE,TRUE,FALSE,2018-01-01,49,455,TRUE,TRUE,75,1,Disability,Some College,Medium,FALSE
+658,80,Female,TRUE,FALSE,FALSE,2019-01-01,18,281,FALSE,TRUE,72,3,Veteran,Incomplete Highschool,High,TRUE
+659,37,Female,FALSE,TRUE,FALSE,2014-01-01,23,455,TRUE,TRUE,25,5,Veteran,Incomplete Highschool,High,TRUE
+660,44,Female,FALSE,TRUE,FALSE,2016-01-01,41,150,FALSE,TRUE,16,3,Veteran,Some College,Low,FALSE
+661,61,Male,FALSE,FALSE,TRUE,2015-01-01,22,114,TRUE,TRUE,40,3,Veteran,Incomplete Highschool,Medium,FALSE
+662,73,Male,FALSE,FALSE,FALSE,2015-01-01,31,63,FALSE,TRUE,50,4,Foster System,Incomplete Highschool,Low,FALSE
+663,66,Male,FALSE,TRUE,FALSE,2018-01-01,44,264,TRUE,TRUE,62,4,Veteran,Incomplete Highschool,High,TRUE
+664,70,Female,FALSE,FALSE,TRUE,2018-01-01,94,250,FALSE,TRUE,25,3,Disability,Incomplete Highschool,Medium,FALSE
+665,52,Male,FALSE,TRUE,TRUE,2005-01-01,78,441,FALSE,FALSE,78,3,Foster System,Incomplete Highschool,High,TRUE
+666,62,Female,FALSE,FALSE,TRUE,2008-01-01,91,390,TRUE,FALSE,93,2,Disability,Incomplete Highschool,Medium,FALSE
+667,20,Male,FALSE,FALSE,TRUE,2002-01-01,28,315,FALSE,FALSE,27,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+668,60,Female,FALSE,TRUE,FALSE,2014-01-01,27,290,FALSE,TRUE,6,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+669,20,Nonbinary,TRUE,TRUE,TRUE,2009-01-01,80,96,FALSE,TRUE,19,5,Foster System,Completed Highschool,High,TRUE
+670,76,Male,FALSE,TRUE,FALSE,2015-01-01,84,339,FALSE,TRUE,45,1,Domestic Abuse,Completed Highschool,Low,FALSE
+671,57,Male,FALSE,TRUE,TRUE,2013-01-01,14,376,TRUE,TRUE,53,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+672,28,Male,FALSE,TRUE,TRUE,2012-01-01,60,316,TRUE,FALSE,67,3,Disability,Incomplete Highschool,High,TRUE
+673,38,Male,FALSE,TRUE,TRUE,2019-01-01,79,16,FALSE,TRUE,18,4,Disability,Incomplete Highschool,High,TRUE
+674,43,Female,FALSE,TRUE,FALSE,2021-01-01,26,108,FALSE,FALSE,26,4,Veteran,Incomplete Highschool,High,TRUE
+675,29,Male,FALSE,FALSE,TRUE,2019-01-01,97,441,TRUE,FALSE,72,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+676,53,Female,FALSE,TRUE,TRUE,2002-01-01,8,15,FALSE,TRUE,50,5,Disability,Incomplete Highschool,High,TRUE
+677,37,Male,FALSE,TRUE,TRUE,2013-01-01,64,135,FALSE,FALSE,74,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+678,61,Male,FALSE,TRUE,FALSE,2010-01-01,54,478,TRUE,TRUE,6,2,Veteran,Incomplete Highschool,High,TRUE
+679,80,Male,FALSE,FALSE,TRUE,2013-01-01,39,24,FALSE,TRUE,99,4,Veteran,Incomplete Highschool,Medium,FALSE
+680,33,Male,TRUE,TRUE,FALSE,2010-01-01,68,345,FALSE,FALSE,66,5,Disability,Incomplete Highschool,High,TRUE
+681,78,Female,FALSE,FALSE,TRUE,2019-01-01,55,410,TRUE,TRUE,77,5,Foster System,Incomplete Highschool,Medium,FALSE
+682,61,Female,FALSE,FALSE,TRUE,2011-01-01,35,94,FALSE,FALSE,37,1,Veteran,Incomplete Highschool,Medium,FALSE
+683,26,Nonbinary,TRUE,TRUE,TRUE,2015-01-01,33,228,TRUE,TRUE,16,3,Disability,Incomplete Highschool,High,TRUE
+684,77,Male,FALSE,TRUE,FALSE,2009-01-01,80,120,FALSE,TRUE,41,1,Disability,Incomplete Highschool,High,TRUE
+685,45,Male,FALSE,TRUE,FALSE,2002-01-01,29,111,FALSE,TRUE,64,5,Disability,Completed Highschool,Low,FALSE
+686,39,Male,FALSE,TRUE,TRUE,2007-01-01,42,419,FALSE,TRUE,34,4,Veteran,Incomplete Highschool,High,TRUE
+687,61,Female,FALSE,FALSE,FALSE,2005-01-01,41,285,TRUE,TRUE,99,3,Veteran,Incomplete Highschool,Medium,FALSE
+688,75,Female,FALSE,FALSE,TRUE,2012-01-01,68,351,TRUE,TRUE,26,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+689,67,Male,FALSE,FALSE,TRUE,2000-01-01,8,178,TRUE,FALSE,73,4,Foster System,Some College,Low,FALSE
+690,66,Female,FALSE,TRUE,TRUE,2011-01-01,91,304,FALSE,TRUE,8,1,Veteran,Incomplete Highschool,High,TRUE
+691,63,Male,FALSE,FALSE,FALSE,2007-01-01,54,309,TRUE,FALSE,33,3,Domestic Abuse,Some College,Low,FALSE
+692,68,Female,FALSE,TRUE,TRUE,2006-01-01,69,303,FALSE,TRUE,95,5,Foster System,Incomplete Highschool,Medium,FALSE
+693,63,Nonbinary,FALSE,FALSE,TRUE,2002-01-01,44,475,TRUE,FALSE,93,1,Veteran,Incomplete Highschool,High,TRUE
+694,36,Male,FALSE,TRUE,FALSE,2008-01-01,74,77,FALSE,FALSE,16,3,Foster System,Incomplete Highschool,Medium,FALSE
+695,56,Female,FALSE,TRUE,TRUE,2001-01-01,58,257,TRUE,TRUE,45,1,Disability,Incomplete Highschool,High,TRUE
+696,60,Female,FALSE,FALSE,FALSE,2015-01-01,89,316,TRUE,TRUE,85,3,Foster System,Incomplete Highschool,Medium,FALSE
+697,47,Male,TRUE,TRUE,FALSE,2012-01-01,35,254,FALSE,TRUE,54,1,Domestic Abuse,Incomplete Highschool,High,TRUE
+698,54,Female,FALSE,TRUE,TRUE,2012-01-01,51,149,FALSE,FALSE,100,2,Foster System,Incomplete Highschool,Medium,FALSE
+699,75,Male,TRUE,FALSE,FALSE,2008-01-01,97,476,FALSE,TRUE,83,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+700,20,Female,FALSE,TRUE,TRUE,2006-01-01,72,393,TRUE,TRUE,77,3,Veteran,Incomplete Highschool,High,TRUE
+701,41,Male,FALSE,FALSE,FALSE,2007-01-01,50,117,TRUE,TRUE,96,3,Disability,Incomplete Highschool,Medium,FALSE
+702,35,Female,FALSE,TRUE,TRUE,2011-01-01,11,363,FALSE,TRUE,60,2,Disability,Incomplete Highschool,Low,FALSE
+703,59,Male,FALSE,TRUE,FALSE,2014-01-01,100,193,FALSE,FALSE,92,2,Foster System,Incomplete Highschool,Medium,FALSE
+704,49,Male,TRUE,TRUE,TRUE,2000-01-01,60,491,FALSE,TRUE,95,2,Veteran,Incomplete Highschool,High,TRUE
+705,63,Female,FALSE,FALSE,FALSE,2007-01-01,8,241,FALSE,TRUE,97,4,Foster System,Incomplete Highschool,Low,FALSE
+706,58,Male,FALSE,TRUE,FALSE,2020-01-01,2,184,TRUE,TRUE,68,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+707,27,Male,FALSE,TRUE,FALSE,2002-01-01,10,62,FALSE,TRUE,91,5,Foster System,Incomplete Highschool,Medium,FALSE
+708,37,Male,FALSE,TRUE,TRUE,2012-01-01,9,206,TRUE,TRUE,76,2,Foster System,Incomplete Highschool,High,TRUE
+709,71,Female,TRUE,TRUE,FALSE,2006-01-01,91,361,FALSE,TRUE,99,4,Foster System,Incomplete Highschool,High,TRUE
+710,33,Male,FALSE,TRUE,FALSE,2016-01-01,90,484,FALSE,TRUE,53,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+711,76,Male,FALSE,FALSE,TRUE,2013-01-01,72,407,TRUE,FALSE,19,2,Foster System,Incomplete Highschool,Medium,FALSE
+712,68,Female,FALSE,FALSE,TRUE,2000-01-01,67,404,FALSE,FALSE,14,5,Foster System,Incomplete Highschool,Low,FALSE
+713,34,Female,FALSE,TRUE,TRUE,2008-01-01,16,315,FALSE,TRUE,58,2,Veteran,Incomplete Highschool,High,TRUE
+714,31,Female,FALSE,TRUE,FALSE,2017-01-01,22,433,TRUE,FALSE,36,3,Foster System,Incomplete Highschool,High,TRUE
+715,69,Nonbinary,FALSE,TRUE,TRUE,2020-01-01,48,33,FALSE,FALSE,14,3,Veteran,Incomplete Highschool,High,TRUE
+716,60,Female,FALSE,FALSE,FALSE,2008-01-01,90,202,FALSE,TRUE,18,4,Disability,Incomplete Highschool,Medium,FALSE
+717,28,Female,FALSE,TRUE,FALSE,2013-01-01,90,44,FALSE,TRUE,32,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+718,50,Male,FALSE,TRUE,FALSE,2007-01-01,79,246,FALSE,TRUE,55,4,Foster System,Incomplete Highschool,Medium,FALSE
+719,52,Male,FALSE,FALSE,TRUE,2009-01-01,52,356,FALSE,TRUE,40,1,Foster System,Incomplete Highschool,Low,FALSE
+720,45,Female,FALSE,TRUE,TRUE,2021-01-01,72,303,TRUE,TRUE,87,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+721,52,Male,FALSE,FALSE,TRUE,2018-01-01,100,252,FALSE,TRUE,38,5,Foster System,Incomplete Highschool,Low,FALSE
+722,37,Female,FALSE,FALSE,TRUE,2013-01-01,79,194,FALSE,FALSE,72,4,Disability,Incomplete Highschool,Medium,FALSE
+723,22,Nonbinary,FALSE,TRUE,FALSE,2013-01-01,27,279,FALSE,FALSE,21,4,Foster System,Incomplete Highschool,High,TRUE
+724,23,Male,FALSE,FALSE,FALSE,2006-01-01,98,412,TRUE,FALSE,76,1,Foster System,Incomplete Highschool,Medium,FALSE
+725,64,Female,FALSE,TRUE,TRUE,2007-01-01,72,21,TRUE,FALSE,39,1,Disability,Incomplete Highschool,High,TRUE
+726,77,Female,TRUE,TRUE,FALSE,2019-01-01,14,177,FALSE,FALSE,21,3,Disability,Incomplete Highschool,High,TRUE
+727,30,Male,FALSE,TRUE,TRUE,2002-01-01,50,126,FALSE,FALSE,43,5,Foster System,Incomplete Highschool,Medium,FALSE
+728,77,Male,FALSE,TRUE,FALSE,2004-01-01,22,197,FALSE,FALSE,38,1,Disability,Incomplete Highschool,High,TRUE
+729,56,Male,FALSE,TRUE,FALSE,2009-01-01,62,393,FALSE,TRUE,100,3,Veteran,Incomplete Highschool,High,TRUE
+730,36,Nonbinary,TRUE,FALSE,FALSE,2006-01-01,31,442,FALSE,FALSE,68,2,Domestic Abuse,Completed Highschool,Low,FALSE
+731,64,Female,FALSE,TRUE,TRUE,2005-01-01,16,13,FALSE,TRUE,32,1,Disability,Incomplete Highschool,High,TRUE
+732,80,Female,FALSE,TRUE,FALSE,2003-01-01,49,145,FALSE,TRUE,79,5,Disability,Incomplete Highschool,High,TRUE
+733,43,Female,TRUE,FALSE,FALSE,2005-01-01,21,15,TRUE,TRUE,24,1,Disability,Completed College,High,TRUE
+734,51,Female,FALSE,FALSE,TRUE,2011-01-01,16,265,FALSE,FALSE,53,5,Foster System,Incomplete Highschool,Low,FALSE
+735,53,Nonbinary,FALSE,FALSE,FALSE,2005-01-01,41,58,FALSE,TRUE,12,5,Disability,Incomplete Highschool,High,TRUE
+736,30,Female,FALSE,FALSE,FALSE,2005-01-01,6,134,FALSE,FALSE,78,2,Disability,Incomplete Highschool,Low,FALSE
+737,39,Female,FALSE,TRUE,TRUE,2015-01-01,77,215,FALSE,TRUE,71,2,Disability,Incomplete Highschool,High,TRUE
+738,61,Female,FALSE,TRUE,FALSE,2009-01-01,1,137,FALSE,TRUE,18,2,Disability,Incomplete Highschool,High,TRUE
+739,68,Female,FALSE,TRUE,TRUE,2011-01-01,32,145,TRUE,FALSE,77,2,Veteran,Completed Highschool,High,TRUE
+740,49,Female,FALSE,FALSE,TRUE,2019-01-01,80,108,FALSE,FALSE,11,2,Domestic Abuse,Completed College,Low,FALSE
+741,40,Female,FALSE,FALSE,TRUE,2010-01-01,18,59,FALSE,FALSE,39,4,Domestic Abuse,Completed Highschool,Low,FALSE
+742,70,Male,FALSE,FALSE,TRUE,2016-01-01,75,367,FALSE,TRUE,75,3,Veteran,Incomplete Highschool,Medium,FALSE
+743,51,Female,FALSE,FALSE,TRUE,2016-01-01,96,88,TRUE,TRUE,96,1,Veteran,Incomplete Highschool,Medium,FALSE
+744,18,Female,FALSE,FALSE,TRUE,2014-01-01,14,2,FALSE,TRUE,60,1,Foster System,Incomplete Highschool,High,TRUE
+745,36,Nonbinary,TRUE,TRUE,FALSE,2016-01-01,10,166,TRUE,TRUE,36,3,Domestic Abuse,Incomplete Highschool,High,TRUE
+746,50,Male,FALSE,FALSE,FALSE,2004-01-01,31,139,FALSE,TRUE,41,4,Foster System,Incomplete Highschool,Medium,FALSE
+747,26,Female,FALSE,FALSE,TRUE,2009-01-01,97,345,FALSE,TRUE,99,5,Disability,Incomplete Highschool,Medium,FALSE
+748,43,Female,FALSE,FALSE,TRUE,2020-01-01,57,260,TRUE,FALSE,52,4,Veteran,Incomplete Highschool,Medium,FALSE
+749,59,Male,FALSE,TRUE,TRUE,2007-01-01,50,283,FALSE,FALSE,62,5,Disability,Completed College,Low,FALSE
+750,47,Female,FALSE,FALSE,FALSE,2015-01-01,46,99,FALSE,FALSE,62,1,Disability,Completed Highschool,Low,FALSE
+751,64,Female,FALSE,FALSE,TRUE,2013-01-01,72,81,FALSE,FALSE,65,2,Veteran,Incomplete Highschool,Medium,FALSE
+752,56,Male,FALSE,TRUE,TRUE,2000-01-01,74,139,FALSE,TRUE,35,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+753,20,Male,FALSE,TRUE,FALSE,2013-01-01,29,11,FALSE,TRUE,9,2,Foster System,Incomplete Highschool,Medium,FALSE
+754,76,Male,TRUE,FALSE,TRUE,2019-01-01,31,309,FALSE,TRUE,75,2,Veteran,Incomplete Highschool,High,TRUE
+755,53,Female,FALSE,FALSE,TRUE,2014-01-01,80,377,TRUE,TRUE,81,1,Domestic Abuse,Incomplete Highschool,Low,FALSE
+756,75,Female,FALSE,FALSE,FALSE,2019-01-01,50,150,FALSE,FALSE,72,3,Foster System,Incomplete Highschool,Low,FALSE
+757,80,Nonbinary,FALSE,TRUE,FALSE,2021-01-01,97,247,TRUE,TRUE,23,5,Foster System,Some College,Medium,FALSE
+758,63,Female,FALSE,TRUE,TRUE,2011-01-01,49,382,FALSE,FALSE,67,5,Foster System,Completed College,Low,FALSE
+759,27,Male,FALSE,FALSE,FALSE,2009-01-01,41,324,FALSE,FALSE,14,5,Veteran,Incomplete Highschool,Medium,FALSE
+760,76,Male,FALSE,TRUE,FALSE,2016-01-01,61,70,TRUE,FALSE,20,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+761,68,Male,FALSE,TRUE,TRUE,2009-01-01,31,123,TRUE,TRUE,36,3,Foster System,Incomplete Highschool,High,TRUE
+762,65,Female,FALSE,TRUE,FALSE,2018-01-01,34,479,FALSE,TRUE,4,2,Veteran,Incomplete Highschool,High,TRUE
+763,69,Female,TRUE,TRUE,FALSE,2009-01-01,83,86,TRUE,TRUE,76,1,Foster System,Completed Highschool,Medium,FALSE
+764,75,Female,FALSE,TRUE,FALSE,2019-01-01,86,109,FALSE,TRUE,40,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+765,21,Male,FALSE,FALSE,TRUE,2009-01-01,10,284,FALSE,FALSE,35,1,Veteran,Incomplete Highschool,Low,FALSE
+766,21,Male,FALSE,FALSE,FALSE,2004-01-01,26,492,FALSE,FALSE,62,2,Foster System,Incomplete Highschool,Low,FALSE
+767,34,Nonbinary,FALSE,TRUE,TRUE,2013-01-01,65,117,FALSE,TRUE,91,5,Domestic Abuse,Completed College,Low,FALSE
+768,62,Male,FALSE,TRUE,FALSE,2019-01-01,56,298,FALSE,FALSE,26,5,Disability,Incomplete Highschool,High,TRUE
+769,57,Female,FALSE,TRUE,TRUE,2010-01-01,4,31,TRUE,FALSE,4,5,Disability,Incomplete Highschool,High,TRUE
+770,26,Male,TRUE,FALSE,FALSE,2019-01-01,78,75,FALSE,TRUE,16,3,Veteran,Incomplete Highschool,High,TRUE
+771,52,Female,TRUE,FALSE,TRUE,2013-01-01,77,438,FALSE,TRUE,53,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+772,55,Male,FALSE,TRUE,TRUE,2012-01-01,20,401,FALSE,TRUE,85,1,Veteran,Completed College,Low,FALSE
+773,65,Female,FALSE,TRUE,FALSE,2000-01-01,85,336,TRUE,FALSE,65,4,Veteran,Incomplete Highschool,Medium,FALSE
+774,53,Male,FALSE,TRUE,TRUE,2000-01-01,76,268,FALSE,TRUE,40,1,Disability,Incomplete Highschool,Low,FALSE
+775,38,Female,FALSE,TRUE,FALSE,2012-01-01,89,271,FALSE,TRUE,45,2,Foster System,Completed Highschool,Low,FALSE
+776,61,Female,FALSE,TRUE,FALSE,2013-01-01,57,467,FALSE,TRUE,76,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+777,65,Female,FALSE,FALSE,FALSE,2015-01-01,27,260,FALSE,FALSE,32,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+778,64,Male,FALSE,FALSE,TRUE,2005-01-01,30,6,FALSE,FALSE,83,5,Veteran,Incomplete Highschool,Medium,FALSE
+779,77,Female,FALSE,TRUE,TRUE,2015-01-01,95,233,TRUE,FALSE,85,2,Veteran,Incomplete Highschool,High,TRUE
+780,34,Female,FALSE,TRUE,TRUE,2003-01-01,97,369,FALSE,TRUE,45,2,Disability,Incomplete Highschool,High,TRUE
+781,22,Male,FALSE,TRUE,TRUE,2002-01-01,89,253,TRUE,FALSE,98,3,Veteran,Incomplete Highschool,High,TRUE
+782,18,Female,FALSE,TRUE,TRUE,2008-01-01,49,296,FALSE,FALSE,64,4,Domestic Abuse,Some College,Low,FALSE
+783,37,Male,TRUE,TRUE,FALSE,2019-01-01,55,332,FALSE,TRUE,56,2,Foster System,Incomplete Highschool,High,TRUE
+784,19,Male,FALSE,FALSE,TRUE,2002-01-01,57,379,FALSE,FALSE,5,5,Veteran,Incomplete Highschool,Medium,FALSE
+785,51,Female,FALSE,FALSE,TRUE,2015-01-01,55,383,FALSE,FALSE,78,1,Domestic Abuse,Incomplete Highschool,Low,FALSE
+786,58,Male,FALSE,FALSE,TRUE,2013-01-01,93,405,FALSE,TRUE,90,4,Domestic Abuse,Some College,Low,FALSE
+787,62,Male,FALSE,TRUE,FALSE,2000-01-01,88,94,FALSE,TRUE,65,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+788,37,Male,TRUE,FALSE,TRUE,2007-01-01,20,256,FALSE,TRUE,50,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+789,65,Female,FALSE,TRUE,TRUE,2003-01-01,20,429,TRUE,FALSE,78,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+790,65,Female,FALSE,FALSE,TRUE,2002-01-01,84,246,TRUE,FALSE,10,1,Foster System,Incomplete Highschool,Medium,FALSE
+791,75,Female,FALSE,FALSE,FALSE,2017-01-01,4,142,TRUE,FALSE,73,4,Disability,Incomplete Highschool,Medium,FALSE
+792,59,Female,FALSE,TRUE,TRUE,2018-01-01,38,355,FALSE,FALSE,17,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+793,54,Male,FALSE,TRUE,FALSE,2005-01-01,75,298,FALSE,FALSE,64,3,Veteran,Incomplete Highschool,High,TRUE
+794,36,Nonbinary,TRUE,TRUE,FALSE,2005-01-01,97,324,FALSE,FALSE,48,3,Foster System,Incomplete Highschool,High,TRUE
+795,33,Male,FALSE,FALSE,TRUE,2010-01-01,57,72,FALSE,FALSE,26,3,Disability,Incomplete Highschool,Low,FALSE
+796,41,Male,FALSE,TRUE,FALSE,2010-01-01,61,157,FALSE,TRUE,6,5,Disability,Incomplete Highschool,High,TRUE
+797,60,Female,TRUE,FALSE,FALSE,2017-01-01,9,194,TRUE,FALSE,52,1,Veteran,Completed Highschool,Medium,FALSE
+798,47,Female,FALSE,TRUE,FALSE,2008-01-01,29,352,FALSE,FALSE,23,4,Domestic Abuse,Completed College,Low,FALSE
+799,38,Male,FALSE,FALSE,FALSE,2008-01-01,6,249,FALSE,FALSE,53,1,Foster System,Incomplete Highschool,Low,FALSE
+800,46,Male,FALSE,TRUE,TRUE,2008-01-01,44,163,TRUE,TRUE,47,5,Foster System,Incomplete Highschool,High,TRUE
+801,63,Male,FALSE,TRUE,TRUE,2007-01-01,30,143,FALSE,TRUE,74,5,Foster System,Incomplete Highschool,Medium,FALSE
+802,34,Male,TRUE,TRUE,TRUE,2005-01-01,45,78,TRUE,TRUE,26,3,Foster System,Incomplete Highschool,High,TRUE
+803,29,Female,FALSE,FALSE,TRUE,2016-01-01,5,154,FALSE,FALSE,87,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+804,75,Female,FALSE,FALSE,FALSE,2016-01-01,88,244,FALSE,TRUE,34,2,Disability,Incomplete Highschool,Medium,FALSE
+805,26,Female,FALSE,TRUE,FALSE,2011-01-01,46,394,FALSE,TRUE,64,4,Disability,Incomplete Highschool,High,TRUE
+806,56,Male,TRUE,TRUE,TRUE,2018-01-01,91,402,FALSE,TRUE,88,4,Disability,Incomplete Highschool,High,TRUE
+807,39,Nonbinary,TRUE,FALSE,TRUE,2009-01-01,10,481,FALSE,FALSE,2,3,Disability,Some College,Medium,FALSE
+808,38,Female,FALSE,TRUE,TRUE,2015-01-01,11,319,TRUE,TRUE,77,2,Veteran,Incomplete Highschool,High,TRUE
+809,52,Female,FALSE,TRUE,FALSE,2009-01-01,6,317,TRUE,FALSE,50,3,Foster System,Completed Highschool,Low,FALSE
+810,49,Male,FALSE,FALSE,TRUE,2006-01-01,46,400,FALSE,FALSE,19,4,Domestic Abuse,Completed Highschool,Low,FALSE
+811,28,Male,FALSE,TRUE,FALSE,2012-01-01,55,311,FALSE,TRUE,43,1,Disability,Incomplete Highschool,High,TRUE
+812,73,Female,FALSE,FALSE,TRUE,2004-01-01,80,74,FALSE,TRUE,16,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+813,66,Female,TRUE,FALSE,FALSE,2002-01-01,49,491,TRUE,FALSE,87,1,Disability,Incomplete Highschool,High,TRUE
+814,42,Female,TRUE,TRUE,FALSE,2001-01-01,29,440,TRUE,TRUE,92,5,Veteran,Incomplete Highschool,High,TRUE
+815,35,Male,FALSE,FALSE,FALSE,2012-01-01,87,418,FALSE,FALSE,21,4,Domestic Abuse,Completed Highschool,Low,FALSE
+816,36,Female,FALSE,TRUE,FALSE,2000-01-01,9,44,FALSE,FALSE,21,4,Disability,Incomplete Highschool,High,TRUE
+817,34,Female,FALSE,TRUE,TRUE,2000-01-01,4,308,FALSE,FALSE,83,5,Disability,Incomplete Highschool,High,TRUE
+818,73,Female,FALSE,TRUE,TRUE,2021-01-01,29,302,FALSE,FALSE,13,4,Veteran,Incomplete Highschool,High,TRUE
+819,44,Male,FALSE,FALSE,TRUE,2021-01-01,26,190,FALSE,TRUE,17,4,Foster System,Incomplete Highschool,Low,FALSE
+820,18,Male,FALSE,TRUE,FALSE,2014-01-01,77,298,TRUE,TRUE,8,4,Veteran,Completed Highschool,High,TRUE
+821,30,Female,FALSE,TRUE,FALSE,2018-01-01,88,133,FALSE,FALSE,95,5,Disability,Incomplete Highschool,High,TRUE
+822,57,Female,FALSE,TRUE,TRUE,2009-01-01,57,496,FALSE,TRUE,19,3,Disability,Completed Highschool,Low,FALSE
+823,54,Female,FALSE,FALSE,TRUE,2013-01-01,11,325,FALSE,FALSE,91,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+824,47,Nonbinary,FALSE,TRUE,TRUE,2018-01-01,74,53,TRUE,TRUE,38,1,Veteran,Incomplete Highschool,High,TRUE
+825,47,Male,FALSE,TRUE,TRUE,2013-01-01,30,283,FALSE,FALSE,52,1,Domestic Abuse,Some College,Low,FALSE
+826,40,Female,FALSE,FALSE,TRUE,2016-01-01,100,394,TRUE,TRUE,84,3,Veteran,Incomplete Highschool,Medium,FALSE
+827,37,Male,FALSE,FALSE,TRUE,2019-01-01,16,250,FALSE,FALSE,57,4,Disability,Completed College,Low,FALSE
+828,67,Female,FALSE,FALSE,FALSE,2019-01-01,89,476,TRUE,FALSE,96,3,Veteran,Incomplete Highschool,High,TRUE
+829,46,Nonbinary,FALSE,FALSE,FALSE,2013-01-01,35,62,FALSE,FALSE,10,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+830,70,Female,FALSE,TRUE,FALSE,2018-01-01,35,402,TRUE,TRUE,55,1,Veteran,Completed Highschool,High,TRUE
+831,57,Male,TRUE,TRUE,TRUE,2012-01-01,51,484,FALSE,FALSE,18,5,Foster System,Incomplete Highschool,High,TRUE
+832,43,Male,FALSE,TRUE,FALSE,2009-01-01,53,183,TRUE,FALSE,23,1,Veteran,Completed Highschool,Medium,FALSE
+833,35,Female,FALSE,FALSE,FALSE,2016-01-01,84,12,TRUE,FALSE,18,3,Foster System,Incomplete Highschool,Medium,FALSE
+834,66,Male,FALSE,FALSE,TRUE,2014-01-01,92,244,FALSE,FALSE,56,4,Foster System,Incomplete Highschool,Low,FALSE
+835,55,Male,FALSE,TRUE,TRUE,2011-01-01,96,331,FALSE,FALSE,95,4,Foster System,Incomplete Highschool,Medium,FALSE
+836,20,Female,FALSE,FALSE,FALSE,2007-01-01,55,348,FALSE,TRUE,12,3,Disability,Completed Highschool,Low,FALSE
+837,37,Male,FALSE,TRUE,FALSE,2017-01-01,91,483,FALSE,TRUE,29,3,Veteran,Incomplete Highschool,High,TRUE
+838,27,Female,FALSE,TRUE,FALSE,2019-01-01,83,417,FALSE,FALSE,22,2,Veteran,Incomplete Highschool,High,TRUE
+839,65,Nonbinary,FALSE,FALSE,FALSE,2012-01-01,86,181,FALSE,FALSE,27,2,Foster System,Incomplete Highschool,Medium,FALSE
+840,69,Female,FALSE,FALSE,TRUE,2019-01-01,78,285,FALSE,FALSE,27,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+841,27,Female,FALSE,FALSE,FALSE,2012-01-01,17,12,TRUE,TRUE,92,5,Veteran,Incomplete Highschool,Medium,FALSE
+842,66,Male,FALSE,TRUE,FALSE,2018-01-01,90,461,FALSE,TRUE,62,2,Disability,Incomplete Highschool,High,TRUE
+843,21,Female,FALSE,TRUE,TRUE,2001-01-01,61,250,FALSE,TRUE,74,5,Disability,Incomplete Highschool,High,TRUE
+844,42,Male,FALSE,TRUE,TRUE,2018-01-01,99,294,FALSE,FALSE,38,1,Disability,Completed College,Low,FALSE
+845,51,Male,FALSE,TRUE,FALSE,2002-01-01,18,155,TRUE,FALSE,45,1,Veteran,Some College,Medium,FALSE
+846,69,Nonbinary,FALSE,FALSE,FALSE,2020-01-01,49,494,TRUE,FALSE,26,1,Veteran,Incomplete Highschool,High,TRUE
+847,19,Male,TRUE,FALSE,FALSE,2016-01-01,23,175,TRUE,FALSE,92,2,Disability,Incomplete Highschool,High,TRUE
+848,53,Female,FALSE,TRUE,FALSE,2014-01-01,58,196,FALSE,FALSE,18,3,Veteran,Incomplete Highschool,High,TRUE
+849,43,Male,FALSE,FALSE,TRUE,2018-01-01,31,164,FALSE,TRUE,34,2,Foster System,Incomplete Highschool,Low,FALSE
+850,33,Nonbinary,FALSE,FALSE,TRUE,2013-01-01,7,482,FALSE,TRUE,47,3,Veteran,Completed Highschool,Low,FALSE
+851,29,Female,FALSE,TRUE,FALSE,2002-01-01,77,45,FALSE,FALSE,20,3,Disability,Incomplete Highschool,Low,FALSE
+852,43,Male,FALSE,FALSE,TRUE,2006-01-01,43,45,TRUE,FALSE,45,1,Foster System,Incomplete Highschool,Medium,FALSE
+853,54,Male,FALSE,TRUE,FALSE,2008-01-01,34,414,FALSE,TRUE,41,1,Domestic Abuse,Completed College,Low,FALSE
+854,36,Female,FALSE,FALSE,TRUE,2017-01-01,8,308,FALSE,TRUE,55,4,Veteran,Incomplete Highschool,Medium,FALSE
+855,33,Male,FALSE,FALSE,TRUE,2014-01-01,64,495,FALSE,TRUE,22,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+856,41,Male,FALSE,TRUE,FALSE,2020-01-01,40,342,FALSE,TRUE,21,4,Domestic Abuse,Completed Highschool,Low,FALSE
+857,47,Female,FALSE,TRUE,FALSE,2016-01-01,95,487,FALSE,TRUE,27,2,Foster System,Incomplete Highschool,High,TRUE
+858,66,Female,FALSE,FALSE,FALSE,2019-01-01,83,72,TRUE,TRUE,100,1,Foster System,Completed College,Low,FALSE
+859,41,Male,FALSE,FALSE,FALSE,2012-01-01,18,284,FALSE,TRUE,7,2,Veteran,Some College,Low,FALSE
+860,27,Female,FALSE,FALSE,TRUE,2004-01-01,69,101,FALSE,FALSE,15,2,Veteran,Incomplete Highschool,Low,FALSE
+861,45,Male,FALSE,FALSE,FALSE,2009-01-01,1,204,FALSE,TRUE,30,3,Veteran,Incomplete Highschool,Medium,FALSE
+862,49,Male,FALSE,TRUE,TRUE,2019-01-01,32,314,TRUE,TRUE,42,1,Foster System,Incomplete Highschool,High,TRUE
+863,36,Nonbinary,FALSE,FALSE,FALSE,2021-01-01,75,154,FALSE,FALSE,47,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+864,35,Male,FALSE,TRUE,FALSE,2018-01-01,96,308,FALSE,FALSE,68,5,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+865,22,Male,TRUE,FALSE,FALSE,2000-01-01,40,339,TRUE,FALSE,37,3,Veteran,Incomplete Highschool,High,TRUE
+866,37,Male,FALSE,FALSE,TRUE,2015-01-01,37,316,FALSE,TRUE,28,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+867,52,Female,TRUE,FALSE,FALSE,2012-01-01,100,41,FALSE,TRUE,53,5,Foster System,Incomplete Highschool,Medium,FALSE
+868,54,Female,FALSE,TRUE,TRUE,2009-01-01,76,319,FALSE,TRUE,90,1,Foster System,Incomplete Highschool,High,TRUE
+869,56,Male,FALSE,FALSE,TRUE,2006-01-01,80,271,FALSE,FALSE,83,1,Disability,Incomplete Highschool,Medium,FALSE
+870,66,Male,FALSE,TRUE,TRUE,2008-01-01,9,459,FALSE,TRUE,27,4,Veteran,Incomplete Highschool,High,TRUE
+871,68,Nonbinary,FALSE,FALSE,TRUE,2005-01-01,26,133,FALSE,TRUE,53,5,Veteran,Incomplete Highschool,High,TRUE
+872,45,Female,FALSE,FALSE,FALSE,2021-01-01,45,242,FALSE,FALSE,32,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+873,68,Female,FALSE,FALSE,FALSE,2018-01-01,37,100,FALSE,TRUE,57,5,Veteran,Incomplete Highschool,Medium,FALSE
+874,56,Male,FALSE,FALSE,FALSE,2018-01-01,88,189,FALSE,TRUE,36,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+875,27,Female,FALSE,FALSE,FALSE,2004-01-01,91,499,FALSE,TRUE,79,2,Domestic Abuse,Completed Highschool,Low,FALSE
+876,26,Male,FALSE,FALSE,TRUE,2012-01-01,46,270,FALSE,TRUE,19,1,Domestic Abuse,Incomplete Highschool,Low,FALSE
+877,50,Female,FALSE,FALSE,TRUE,2011-01-01,65,299,FALSE,FALSE,64,5,Disability,Completed College,Low,FALSE
+878,72,Male,FALSE,FALSE,TRUE,2008-01-01,70,383,FALSE,FALSE,86,4,Veteran,Incomplete Highschool,Medium,FALSE
+879,72,Male,TRUE,TRUE,FALSE,2019-01-01,50,221,FALSE,FALSE,45,2,Veteran,Incomplete Highschool,High,TRUE
+880,70,Male,FALSE,FALSE,FALSE,2002-01-01,80,191,FALSE,TRUE,28,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+881,57,Female,FALSE,TRUE,TRUE,2020-01-01,64,162,FALSE,FALSE,49,4,Foster System,Some College,Low,FALSE
+882,21,Female,TRUE,FALSE,TRUE,2000-01-01,52,325,TRUE,FALSE,31,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+883,23,Male,FALSE,TRUE,FALSE,2010-01-01,10,420,FALSE,TRUE,1,3,Disability,Incomplete Highschool,High,TRUE
+884,77,Female,FALSE,FALSE,TRUE,2005-01-01,53,121,FALSE,FALSE,76,5,Disability,Incomplete Highschool,Low,FALSE
+885,29,Male,FALSE,FALSE,TRUE,2010-01-01,19,211,FALSE,TRUE,70,2,Veteran,Incomplete Highschool,Medium,FALSE
+886,58,Female,FALSE,TRUE,FALSE,2020-01-01,24,451,TRUE,FALSE,45,4,Veteran,Incomplete Highschool,High,TRUE
+887,65,Female,TRUE,TRUE,TRUE,2004-01-01,64,285,FALSE,FALSE,29,1,Foster System,Completed Highschool,Medium,FALSE
+888,41,Male,FALSE,FALSE,TRUE,2017-01-01,31,412,FALSE,TRUE,46,3,Foster System,Incomplete Highschool,Low,FALSE
+889,77,Female,FALSE,FALSE,FALSE,2002-01-01,56,445,TRUE,TRUE,70,4,Veteran,Incomplete Highschool,Medium,FALSE
+890,43,Nonbinary,FALSE,TRUE,FALSE,2007-01-01,30,463,TRUE,TRUE,33,4,Disability,Incomplete Highschool,High,TRUE
+891,36,Male,FALSE,FALSE,TRUE,2017-01-01,68,116,TRUE,FALSE,20,1,Disability,Incomplete Highschool,High,TRUE
+892,77,Female,FALSE,TRUE,FALSE,2002-01-01,15,384,FALSE,TRUE,20,2,Disability,Incomplete Highschool,High,TRUE
+893,51,Female,FALSE,TRUE,TRUE,2005-01-01,78,230,TRUE,TRUE,32,1,Veteran,Incomplete Highschool,High,TRUE
+894,38,Male,FALSE,FALSE,TRUE,2010-01-01,55,182,FALSE,FALSE,28,3,Foster System,Completed Highschool,Low,FALSE
+895,48,Male,FALSE,FALSE,FALSE,2009-01-01,34,163,FALSE,FALSE,6,5,Veteran,Incomplete Highschool,Low,FALSE
+896,74,Male,FALSE,FALSE,FALSE,2021-01-01,57,93,TRUE,FALSE,13,2,Disability,Incomplete Highschool,High,TRUE
+897,46,Male,FALSE,FALSE,TRUE,2017-01-01,99,163,TRUE,FALSE,26,3,Foster System,Incomplete Highschool,Medium,FALSE
+898,64,Female,FALSE,TRUE,FALSE,2020-01-01,14,433,FALSE,FALSE,5,1,Veteran,Incomplete Highschool,High,TRUE
+899,20,Male,FALSE,TRUE,FALSE,2007-01-01,35,349,FALSE,FALSE,30,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+900,74,Male,FALSE,TRUE,TRUE,2001-01-01,17,204,TRUE,FALSE,8,2,Domestic Abuse,Some College,Low,FALSE
+901,47,Male,FALSE,TRUE,TRUE,2020-01-01,1,307,FALSE,FALSE,55,2,Veteran,Incomplete Highschool,High,TRUE
+902,58,Female,FALSE,TRUE,FALSE,2016-01-01,7,344,FALSE,FALSE,57,4,Foster System,Some College,Low,FALSE
+903,54,Female,FALSE,FALSE,TRUE,2005-01-01,39,3,FALSE,TRUE,47,1,Veteran,Completed Highschool,Low,FALSE
+904,30,Nonbinary,FALSE,FALSE,TRUE,2000-01-01,44,1,TRUE,TRUE,2,1,Veteran,Incomplete Highschool,High,TRUE
+905,23,Female,FALSE,FALSE,FALSE,2011-01-01,90,58,FALSE,FALSE,89,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+906,27,Female,FALSE,FALSE,FALSE,2013-01-01,38,97,FALSE,FALSE,49,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+907,43,Male,FALSE,FALSE,TRUE,2016-01-01,60,163,FALSE,TRUE,33,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+908,51,Female,FALSE,TRUE,FALSE,2012-01-01,40,89,TRUE,FALSE,91,2,Veteran,Completed College,Medium,FALSE
+909,30,Male,FALSE,TRUE,TRUE,2004-01-01,31,247,FALSE,FALSE,4,2,Foster System,Incomplete Highschool,Medium,FALSE
+910,55,Male,FALSE,FALSE,FALSE,2007-01-01,12,453,FALSE,FALSE,10,3,Domestic Abuse,Some College,Low,FALSE
+911,72,Male,FALSE,TRUE,FALSE,2020-01-01,74,433,FALSE,FALSE,75,5,Veteran,Incomplete Highschool,High,TRUE
+912,39,Nonbinary,FALSE,FALSE,FALSE,2001-01-01,49,476,TRUE,FALSE,42,3,Veteran,Some College,Medium,FALSE
+913,75,Male,FALSE,TRUE,FALSE,2010-01-01,61,98,TRUE,FALSE,74,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+914,76,Nonbinary,FALSE,TRUE,TRUE,2011-01-01,34,312,FALSE,TRUE,16,5,Domestic Abuse,Incomplete Highschool,High,TRUE
+915,31,Male,FALSE,TRUE,TRUE,2003-01-01,89,485,TRUE,TRUE,57,4,Foster System,Incomplete Highschool,High,TRUE
+916,34,Nonbinary,FALSE,FALSE,TRUE,2008-01-01,30,468,FALSE,TRUE,86,4,Veteran,Incomplete Highschool,High,TRUE
+917,26,Female,FALSE,TRUE,TRUE,2008-01-01,46,106,FALSE,TRUE,65,3,Veteran,Incomplete Highschool,High,TRUE
+918,50,Female,FALSE,TRUE,TRUE,2003-01-01,90,499,TRUE,TRUE,50,1,Foster System,Incomplete Highschool,High,TRUE
+919,69,Female,FALSE,TRUE,FALSE,2017-01-01,52,351,FALSE,FALSE,67,5,Disability,Incomplete Highschool,High,TRUE
+920,73,Female,FALSE,FALSE,TRUE,2000-01-01,56,237,FALSE,FALSE,78,3,Domestic Abuse,Incomplete Highschool,Low,FALSE
+921,55,Female,FALSE,FALSE,TRUE,2009-01-01,15,115,TRUE,TRUE,14,3,Veteran,Completed Highschool,Low,FALSE
+922,54,Female,FALSE,TRUE,FALSE,2007-01-01,45,84,FALSE,FALSE,28,1,Disability,Incomplete Highschool,High,TRUE
+923,69,Male,FALSE,TRUE,TRUE,2018-01-01,50,100,FALSE,FALSE,29,1,Foster System,Incomplete Highschool,Medium,FALSE
+924,74,Male,FALSE,FALSE,FALSE,2009-01-01,42,3,FALSE,FALSE,93,5,Veteran,Completed Highschool,Low,FALSE
+925,19,Male,FALSE,FALSE,TRUE,2017-01-01,40,21,FALSE,FALSE,90,3,Foster System,Incomplete Highschool,Low,FALSE
+926,26,Female,FALSE,FALSE,TRUE,2011-01-01,23,341,FALSE,TRUE,12,3,Veteran,Incomplete Highschool,Medium,FALSE
+927,39,Female,FALSE,FALSE,TRUE,2014-01-01,57,350,FALSE,TRUE,33,2,Veteran,Incomplete Highschool,Medium,FALSE
+928,49,Male,FALSE,FALSE,FALSE,2004-01-01,92,81,FALSE,FALSE,13,3,Disability,Incomplete Highschool,Low,FALSE
+929,80,Nonbinary,FALSE,TRUE,TRUE,2010-01-01,50,301,FALSE,TRUE,39,2,Domestic Abuse,Incomplete Highschool,High,TRUE
+930,54,Nonbinary,FALSE,FALSE,FALSE,2010-01-01,11,45,FALSE,FALSE,90,2,Foster System,Completed College,Low,FALSE
+931,52,Female,FALSE,TRUE,TRUE,2019-01-01,77,387,TRUE,TRUE,56,3,Veteran,Incomplete Highschool,High,TRUE
+932,50,Nonbinary,FALSE,FALSE,TRUE,2020-01-01,42,197,FALSE,FALSE,23,5,Foster System,Incomplete Highschool,Medium,FALSE
+933,69,Male,FALSE,FALSE,TRUE,2012-01-01,15,252,TRUE,TRUE,83,2,Foster System,Incomplete Highschool,Medium,FALSE
+934,63,Male,FALSE,FALSE,TRUE,2014-01-01,76,19,TRUE,TRUE,28,2,Foster System,Incomplete Highschool,Medium,FALSE
+935,52,Male,FALSE,TRUE,FALSE,2008-01-01,61,229,FALSE,TRUE,44,4,Veteran,Incomplete Highschool,High,TRUE
+936,52,Female,FALSE,FALSE,TRUE,2009-01-01,89,451,FALSE,FALSE,24,2,Foster System,Incomplete Highschool,Low,FALSE
+937,38,Female,FALSE,FALSE,TRUE,2001-01-01,21,205,FALSE,TRUE,33,5,Disability,Incomplete Highschool,Medium,FALSE
+938,46,Female,FALSE,TRUE,FALSE,2003-01-01,20,10,FALSE,FALSE,78,2,Disability,Incomplete Highschool,High,TRUE
+939,41,Nonbinary,TRUE,TRUE,TRUE,2005-01-01,93,479,FALSE,FALSE,37,1,Foster System,Completed College,High,TRUE
+940,47,Male,FALSE,TRUE,TRUE,2015-01-01,45,352,FALSE,FALSE,83,2,Veteran,Incomplete Highschool,High,TRUE
+941,21,Female,FALSE,FALSE,TRUE,2020-01-01,58,95,FALSE,FALSE,56,5,Domestic Abuse,Incomplete Highschool,Low,FALSE
+942,43,Nonbinary,FALSE,TRUE,FALSE,2004-01-01,39,431,FALSE,TRUE,20,2,Domestic Abuse,Incomplete Highschool,High,TRUE
+943,70,Female,FALSE,TRUE,FALSE,2020-01-01,50,285,FALSE,FALSE,6,5,Veteran,Incomplete Highschool,High,TRUE
+944,54,Male,FALSE,TRUE,TRUE,2018-01-01,29,279,FALSE,TRUE,91,2,Foster System,Incomplete Highschool,Medium,FALSE
+945,21,Nonbinary,FALSE,FALSE,FALSE,2006-01-01,100,118,FALSE,FALSE,13,3,Veteran,Incomplete Highschool,High,TRUE
+946,19,Male,FALSE,FALSE,FALSE,2010-01-01,34,393,FALSE,TRUE,59,3,Disability,Completed Highschool,Low,FALSE
+947,37,Female,FALSE,TRUE,TRUE,2020-01-01,50,338,FALSE,FALSE,36,5,Veteran,Incomplete Highschool,High,TRUE
+948,25,Male,FALSE,TRUE,FALSE,2018-01-01,93,352,FALSE,FALSE,25,1,Veteran,Completed Highschool,Low,FALSE
+949,23,Female,FALSE,TRUE,TRUE,2010-01-01,57,280,FALSE,TRUE,84,4,Foster System,Completed Highschool,Low,FALSE
+950,78,Female,FALSE,FALSE,FALSE,2006-01-01,29,369,TRUE,FALSE,28,3,Disability,Incomplete Highschool,Medium,FALSE
+951,38,Male,FALSE,TRUE,FALSE,2019-01-01,13,422,FALSE,TRUE,25,1,Foster System,Incomplete Highschool,Medium,FALSE
+952,30,Male,FALSE,TRUE,FALSE,2004-01-01,75,348,FALSE,TRUE,100,4,Foster System,Some College,Low,FALSE
+953,23,Male,FALSE,TRUE,TRUE,2016-01-01,88,434,FALSE,FALSE,70,4,Foster System,Incomplete Highschool,High,TRUE
+954,73,Male,FALSE,TRUE,TRUE,2006-01-01,79,432,FALSE,FALSE,62,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+955,74,Female,FALSE,TRUE,FALSE,2003-01-01,18,237,TRUE,TRUE,68,3,Foster System,Incomplete Highschool,High,TRUE
+956,51,Female,TRUE,FALSE,FALSE,2008-01-01,16,116,FALSE,FALSE,67,4,Foster System,Incomplete Highschool,Medium,FALSE
+957,23,Female,FALSE,TRUE,TRUE,2003-01-01,29,344,TRUE,FALSE,71,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+958,51,Female,FALSE,TRUE,TRUE,2008-01-01,54,201,TRUE,FALSE,86,3,Veteran,Incomplete Highschool,High,TRUE
+959,69,Male,FALSE,TRUE,FALSE,2004-01-01,89,488,TRUE,TRUE,55,3,Disability,Incomplete Highschool,High,TRUE
+960,77,Female,FALSE,TRUE,FALSE,2020-01-01,60,326,FALSE,FALSE,73,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+961,72,Female,FALSE,FALSE,TRUE,2018-01-01,50,125,TRUE,TRUE,54,4,Disability,Incomplete Highschool,Medium,FALSE
+962,47,Male,FALSE,TRUE,TRUE,2008-01-01,94,170,FALSE,FALSE,27,3,Veteran,Incomplete Highschool,High,TRUE
+963,26,Nonbinary,TRUE,TRUE,FALSE,2020-01-01,33,408,FALSE,FALSE,89,4,Veteran,Completed College,High,TRUE
+964,78,Male,FALSE,TRUE,FALSE,2012-01-01,20,293,FALSE,FALSE,27,5,Foster System,Incomplete Highschool,Medium,FALSE
+965,68,Female,FALSE,TRUE,TRUE,2020-01-01,38,357,FALSE,TRUE,15,4,Disability,Incomplete Highschool,High,TRUE
+966,63,Male,FALSE,FALSE,TRUE,2012-01-01,74,278,FALSE,FALSE,11,2,Veteran,Completed College,Low,FALSE
+967,36,Female,FALSE,FALSE,TRUE,2019-01-01,4,161,FALSE,FALSE,90,5,Disability,Incomplete Highschool,Medium,FALSE
+968,46,Female,FALSE,FALSE,TRUE,2020-01-01,25,97,FALSE,TRUE,47,4,Disability,Completed Highschool,Low,FALSE
+969,20,Female,FALSE,TRUE,FALSE,2013-01-01,25,358,FALSE,TRUE,16,3,Domestic Abuse,Completed Highschool,Low,FALSE
+970,43,Female,FALSE,FALSE,FALSE,2012-01-01,18,309,FALSE,FALSE,98,3,Foster System,Incomplete Highschool,Low,FALSE
+971,53,Male,FALSE,TRUE,TRUE,2007-01-01,75,298,FALSE,TRUE,20,4,Foster System,Some College,Low,FALSE
+972,65,Female,FALSE,TRUE,FALSE,2011-01-01,3,285,TRUE,FALSE,91,2,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+973,62,Male,FALSE,TRUE,FALSE,2019-01-01,74,298,TRUE,FALSE,35,2,Veteran,Incomplete Highschool,High,TRUE
+974,41,Female,FALSE,FALSE,TRUE,2003-01-01,15,124,FALSE,TRUE,99,4,Foster System,Incomplete Highschool,Low,FALSE
+975,59,Nonbinary,FALSE,FALSE,FALSE,2007-01-01,5,479,FALSE,TRUE,9,1,Foster System,Incomplete Highschool,High,TRUE
+976,38,Female,FALSE,FALSE,TRUE,2005-01-01,82,113,FALSE,TRUE,53,2,Domestic Abuse,Incomplete Highschool,Low,FALSE
+977,29,Female,FALSE,FALSE,TRUE,2007-01-01,4,109,FALSE,TRUE,85,3,Veteran,Completed Highschool,Low,FALSE
+978,77,Nonbinary,FALSE,TRUE,FALSE,2008-01-01,12,489,TRUE,TRUE,34,4,Domestic Abuse,Completed Highschool,High,TRUE
+979,70,Female,FALSE,TRUE,FALSE,2019-01-01,88,361,FALSE,TRUE,46,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+980,73,Female,FALSE,TRUE,TRUE,2014-01-01,73,316,FALSE,TRUE,36,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+981,34,Male,FALSE,TRUE,FALSE,2003-01-01,59,249,FALSE,FALSE,75,2,Foster System,Incomplete Highschool,Medium,FALSE
+982,26,Female,FALSE,TRUE,FALSE,2021-01-01,41,233,FALSE,FALSE,15,3,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+983,77,Male,FALSE,TRUE,TRUE,2017-01-01,7,308,FALSE,FALSE,15,4,Veteran,Incomplete Highschool,High,TRUE
+984,52,Male,FALSE,TRUE,TRUE,2013-01-01,25,256,TRUE,FALSE,88,2,Foster System,Incomplete Highschool,High,TRUE
+985,75,Male,FALSE,TRUE,FALSE,2013-01-01,35,133,FALSE,FALSE,93,1,Veteran,Incomplete Highschool,High,TRUE
+986,49,Female,TRUE,FALSE,FALSE,2008-01-01,5,322,FALSE,TRUE,88,4,Foster System,Incomplete Highschool,Medium,FALSE
+987,39,Female,FALSE,FALSE,FALSE,2020-01-01,37,129,FALSE,FALSE,93,2,Disability,Incomplete Highschool,Medium,FALSE
+988,38,Male,FALSE,TRUE,TRUE,2009-01-01,62,287,FALSE,TRUE,5,1,Veteran,Completed Highschool,Low,FALSE
+989,62,Male,FALSE,FALSE,FALSE,2010-01-01,22,8,FALSE,FALSE,42,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+990,67,Female,FALSE,TRUE,TRUE,2008-01-01,14,260,FALSE,TRUE,15,1,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+991,26,Male,FALSE,TRUE,TRUE,2002-01-01,45,82,FALSE,FALSE,49,4,Domestic Abuse,Incomplete Highschool,Medium,FALSE
+992,78,Male,FALSE,TRUE,FALSE,2000-01-01,46,465,FALSE,TRUE,46,3,Veteran,Incomplete Highschool,High,TRUE
+993,63,Female,FALSE,TRUE,FALSE,2004-01-01,5,322,TRUE,FALSE,74,2,Veteran,Incomplete Highschool,High,TRUE
+994,70,Male,TRUE,FALSE,FALSE,2008-01-01,6,201,FALSE,TRUE,5,3,Veteran,Incomplete Highschool,Low,FALSE
+995,76,Nonbinary,FALSE,FALSE,TRUE,2016-01-01,40,62,FALSE,TRUE,53,5,Foster System,Incomplete Highschool,Medium,FALSE
+996,72,Male,FALSE,FALSE,FALSE,2004-01-01,28,5,TRUE,TRUE,60,4,Domestic Abuse,Incomplete Highschool,Low,FALSE
+997,26,Male,FALSE,FALSE,FALSE,2016-01-01,90,453,FALSE,TRUE,15,3,Domestic Abuse,Completed Highschool,Low,FALSE
+998,31,Male,FALSE,TRUE,TRUE,2019-01-01,33,239,FALSE,FALSE,44,5,Veteran,Incomplete Highschool,High,TRUE
+999,64,Female,FALSE,TRUE,TRUE,2004-01-01,30,450,FALSE,TRUE,28,2,Veteran,Completed Highschool,Low,FALSE
+1000,45,Female,FALSE,FALSE,FALSE,2015-01-01,83,414,FALSE,FALSE,89,5,Domestic Abuse,Incomplete Highschool,High,TRUE
